@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>アニメ視聴検討表</title>
+<meta name="description" content="今期アニメを1行ずつ、原作・制作・放送局のポイントとPV・Wikipediaへのリンクでまとめた視聴検討表。観る／様子見／割愛の投票つき。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap">
+<style>
+/* 1作品1行のリスト。広い画面は「タイトル+ポイント｜リンク｜投票」の3列、狭い画面は縦積み */
+:root{
+  --bg:#f5f6f8; --surface:#ffffff; --fg:#1c2230; --muted:#677089; --line:#dde1e9;
+  --accent:#2c5ccc; --accent-soft:#e7edfb;
+  --watch:#2f7d4f; --watch-soft:#e3f2e8; --maybe:#a06b12; --maybe-soft:#f8eedb; --skip:#8a8f9e; --skip-soft:#eceef2;
+  --font:"Zen Kaku Gothic New","Hiragino Sans","Noto Sans JP",system-ui,sans-serif;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#13161c; --surface:#1b1f28; --fg:#e5e8f0; --muted:#97a0b5; --line:#2b3140;
+  --accent:#8eaff4; --accent-soft:#222b42;
+  --watch:#79cf98; --watch-soft:#1a2d22; --maybe:#e3b35d; --maybe-soft:#30281a; --skip:#a3a9b8; --skip-soft:#262a33;
+  color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#13161c; --surface:#1b1f28; --fg:#e5e8f0; --muted:#97a0b5; --line:#2b3140;
+  --accent:#8eaff4; --accent-soft:#222b42;
+  --watch:#79cf98; --watch-soft:#1a2d22; --maybe:#e3b35d; --maybe-soft:#30281a; --skip:#a3a9b8; --skip-soft:#262a33;
+  color-scheme:dark}
+*{box-sizing:border-box}
+html{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--font);font-size:15px;line-height:1.55;padding-inline:16px;padding-block:24px 48px}
+.wrap{max-width:980px;margin:0 auto}
+header h1{font-size:1.45rem;margin:0;font-weight:700;text-wrap:balance}
+header .season{color:var(--accent);font-weight:500;font-size:.85rem;letter-spacing:.06em}
+header p{margin:6px 0 0;color:var(--muted);font-size:.85rem;max-width:62ch}
+.controls{display:flex;flex-wrap:wrap;gap:10px 14px;align-items:center;margin:18px 0 10px}
+.controls input,.controls select{font:inherit;color:var(--fg);background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:8px 10px}
+.controls input{flex:1 1 220px;min-width:0}
+.status{font-size:.82rem;color:var(--muted);font-variant-numeric:tabular-nums}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+ol{list-style:none;margin:0;padding:0;background:var(--surface);border:1px solid var(--line);border-radius:10px}
+li.row{display:grid;grid-template-columns:2.4em minmax(0,1fr) auto auto;gap:6px 16px;align-items:start;padding:12px 14px;border-top:1px solid var(--line)}
+li.row:first-child{border-top:0}
+.no{color:var(--muted);font-variant-numeric:tabular-nums;font-size:.85rem;padding-top:2px}
+.main{min-width:0}
+.title{font-weight:700;overflow-wrap:anywhere}
+.point{color:var(--muted);font-size:.84rem;margin-top:2px;overflow-wrap:anywhere}
+.tags{display:inline-flex;gap:4px;margin-left:6px;vertical-align:2px}
+.tag{font-size:.7rem;padding:1px 6px;border-radius:4px;background:var(--accent-soft);color:var(--accent);font-weight:500;white-space:nowrap}
+.links{display:flex;gap:12px;white-space:nowrap;font-size:.88rem;padding-top:2px}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+.vote{display:flex;flex-direction:column;gap:5px;min-width:15.5em}
+.btns{display:flex;gap:4px}
+.btns button{flex:1;font:inherit;font-size:.8rem;cursor:pointer;border:1px solid var(--line);background:var(--surface);color:var(--fg);border-radius:6px;padding:4px 6px;display:flex;justify-content:center;gap:5px;white-space:nowrap}
+.btns button .n{font-variant-numeric:tabular-nums;color:var(--muted)}
+.btns button:hover:not(:disabled){border-color:var(--muted)}
+.btns button:disabled{cursor:default;opacity:.55}
+.btns button[aria-pressed="true"].watch{background:var(--watch-soft);border-color:var(--watch);color:var(--watch)}
+.btns button[aria-pressed="true"].maybe{background:var(--maybe-soft);border-color:var(--maybe);color:var(--maybe)}
+.btns button[aria-pressed="true"].skip{background:var(--skip-soft);border-color:var(--skip);color:var(--fg)}
+.btns button[aria-pressed="true"] .n{color:inherit}
+.bar{display:flex;height:4px;border-radius:2px;overflow:hidden;background:var(--skip-soft)}
+.bar span{display:block;height:100%}
+.bar .w{background:var(--watch)}.bar .m{background:var(--maybe)}.bar .s{background:var(--skip)}
+.empty{padding:24px;text-align:center;color:var(--muted)}
+footer{margin-top:22px;color:var(--muted);font-size:.78rem;display:grid;gap:4px}
+@media (max-width:720px){
+  li.row{grid-template-columns:2em minmax(0,1fr)}
+  .links,.vote{grid-column:2}
+  .vote{min-width:0}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="season" id="season"></div>
+    <h1>アニメ視聴検討表</h1>
+    <p>今期の作品を1行ずつ、原作・制作・放送局のポイントと、PV・Wikipediaへのリンクでまとめています。気になる作品に「観る／様子見／割愛」で投票すると、みんなの判断が集計されます。</p>
+  </header>
+
+  <div class="controls">
+    <input id="q" type="search" placeholder="タイトル・ポイントで絞り込み" aria-label="タイトル・ポイントで絞り込み">
+    <select id="sort" aria-label="並び順">
+      <option value="list">一覧順</option>
+      <option value="watch">「観る」が多い順</option>
+      <option value="rate">「観る」の割合が高い順</option>
+      <option value="mine">自分が「観る」にした作品を上に</option>
+    </select>
+    <span class="status" id="status"></span>
+  </div>
+
+  <ol id="list" aria-live="polite"></ol>
+
+  <footer>
+    <span id="vote-note"></span>
+    <span>作品リストは <a id="src" href="#" target="_blank" rel="noopener">アニメイトタイムズの今期アニメ一覧</a> をもとに作成しています。PVはYouTube検索、Wikipediaは記事検索へのリンクです。</span>
+    <span>投票は匿名です。このブラウザに保存したランダムなIDで1作品1票として数え、名前などの個人情報は集めていません。</span>
+  </footer>
+</div>
+
+<script src="config.js"></script>
+<script>
+(function(){
+  var C = window.SITE_CONFIG || {};
+  var SEASON = C.season;
+  var API = (C.supabaseUrl || "").replace(/\/+$/,"");
+  var KEY = C.supabaseKey || "";
+  var ONLINE = !!(API && KEY);
+  var LABEL = {watch:"観る", maybe:"様子見", skip:"割愛"};
+
+  var $list = document.getElementById("list"), $q = document.getElementById("q"),
+      $sort = document.getElementById("sort"), $status = document.getElementById("status");
+
+  var items = [], counts = {}, mine = {}, rowEls = {};
+
+  function store(k, v){ try{ if(v===undefined) return localStorage.getItem(k); localStorage.setItem(k, v); }catch(e){ return null; } }
+  function voterId(){
+    var id = store("anime-voter");
+    if(!id){
+      id = (crypto.randomUUID ? crypto.randomUUID() :
+        "xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g,function(c){var r=Math.random()*16|0;return (c=="x"?r:(r&3|8)).toString(16)}));
+      store("anime-voter", id);
+    }
+    return id;
+  }
+  try{ mine = JSON.parse(store("anime-mine-"+SEASON) || "{}") || {}; }catch(e){ mine = {}; }
+  function saveMine(){ store("anime-mine-"+SEASON, JSON.stringify(mine)); }
+
+  function rpc(fn, body){
+    var h = {"Content-Type":"application/json", "apikey":KEY};
+    if(KEY.indexOf("eyJ")===0) h.Authorization = "Bearer "+KEY;
+    return fetch(API+"/rest/v1/rpc/"+fn, {method:"POST", headers:h, body:JSON.stringify(body)})
+      .then(function(r){ if(!r.ok) throw new Error(r.status); return r.status===204 ? null : r.json(); });
+  }
+
+  function esc(s){ return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;"); }
+  function c(id){ return counts[id] || {watch:0, maybe:0, skip:0}; }
+
+  function build(){
+    var e = encodeURIComponent;
+    $list.innerHTML = "";
+    items.forEach(function(it){
+      var li = document.createElement("li");
+      li.className = "row";
+      li.innerHTML =
+        '<span class="no">'+it.id+'</span>'+
+        '<div class="main"><span class="title">'+esc(it.title)+'</span>'+
+          (it.tags.length ? '<span class="tags">'+it.tags.map(function(t){return '<span class="tag">'+esc(t)+'</span>'}).join("")+'</span>' : '')+
+          (it.point ? '<div class="point">'+esc(it.point)+'</div>' : '')+'</div>'+
+        '<div class="links">'+
+          '<a target="_blank" rel="noopener" href="https://www.youtube.com/results?search_query='+e(it.title+" アニメ PV")+'">PV</a>'+
+          '<a target="_blank" rel="noopener" href="https://ja.wikipedia.org/w/index.php?go=Go&search='+e(it.title)+'">Wikipedia</a></div>'+
+        '<div class="vote"><div class="btns">'+
+          ["watch","maybe","skip"].map(function(k){
+            return '<button type="button" class="'+k+'" data-k="'+k+'" aria-pressed="false">'+LABEL[k]+' <span class="n">0</span></button>';
+          }).join("")+
+        '</div><div class="bar" aria-hidden="true"><span class="w"></span><span class="m"></span><span class="s"></span></div></div>';
+      li.querySelectorAll("button").forEach(function(b){
+        b.disabled = !ONLINE;
+        b.setAttribute("aria-label", it.title+" に「"+LABEL[b.dataset.k]+"」で投票");
+        b.addEventListener("click", function(){ vote(it.id, b.dataset.k); });
+      });
+      rowEls[it.id] = li;
+      it._search = (it.title+" "+it.point+" "+it.tags.join(" ")).toLowerCase();
+      $list.appendChild(li);
+      paint(it.id);
+    });
+  }
+
+  function paint(id){
+    var li = rowEls[id], n = c(id), tot = n.watch+n.maybe+n.skip;
+    li.querySelectorAll("button").forEach(function(b){
+      var k = b.dataset.k;
+      b.querySelector(".n").textContent = n[k];
+      b.setAttribute("aria-pressed", mine[id]===k ? "true" : "false");
+    });
+    var bar = li.querySelector(".bar");
+    ["w","m","s"].forEach(function(cls, i){
+      var k = ["watch","maybe","skip"][i];
+      bar.querySelector("."+cls).style.width = tot ? (n[k]/tot*100)+"%" : "0";
+    });
+  }
+
+  function vote(id, k){
+    var prev = mine[id], next = prev===k ? null : k, n = c(id);
+    // 先に画面へ反映し、失敗したら元に戻す
+    if(prev) n[prev] = Math.max(0, n[prev]-1);
+    if(next) n[next] += 1;
+    counts[id] = n;
+    if(next) mine[id] = next; else delete mine[id];
+    saveMine(); paint(id); summary();
+    rpc("cast_vote", {p_season:SEASON, p_title:id, p_voter:voterId(), p_choice:next}).catch(function(){
+      if(next) n[next] -= 1;
+      if(prev) n[prev] += 1;
+      if(prev) mine[id] = prev; else delete mine[id];
+      saveMine(); paint(id); summary();
+      $status.textContent = "投票を保存できませんでした。通信状態を確認して、もう一度押してください。";
+    });
+  }
+
+  function apply(){
+    var q = $q.value.trim().toLowerCase(), mode = $sort.value;
+    var arr = items.slice();
+    function score(it){
+      var n = c(it.id), t = n.watch+n.maybe+n.skip;
+      if(mode==="watch") return n.watch;
+      if(mode==="rate") return t ? n.watch/t + t*1e-6 : -1;
+      if(mode==="mine") return mine[it.id]==="watch" ? 2 : mine[it.id]==="maybe" ? 1 : 0;
+      return 0;
+    }
+    if(mode!=="list") arr.sort(function(a,b){ return score(b)-score(a) || a.id-b.id; });
+    var shown = 0;
+    arr.forEach(function(it){
+      var li = rowEls[it.id], ok = !q || it._search.indexOf(q) > -1;
+      li.hidden = !ok; if(ok) shown++;
+      $list.appendChild(li);
+    });
+    var empty = document.getElementById("empty");
+    if(!shown && !empty){ empty = document.createElement("li"); empty.id="empty"; empty.className="empty"; empty.textContent="該当する作品がありません。"; $list.appendChild(empty); }
+    if(shown && empty) empty.remove();
+    summary(shown);
+  }
+
+  var lastShown = 0;
+  function summary(shown){
+    if(shown !== undefined) lastShown = shown;
+    var my = Object.keys(mine).length, w = 0;
+    Object.keys(mine).forEach(function(k){ if(mine[k]==="watch") w++; });
+    $status.textContent = lastShown+"作品を表示 ／ あなたの投票 "+my+"作品（観る "+w+"）";
+  }
+
+  function loadCounts(){
+    if(!ONLINE) return Promise.resolve();
+    return rpc("vote_counts", {p_season:SEASON}).then(function(rows){
+      counts = {};
+      (rows||[]).forEach(function(r){ counts[r.title_id] = {watch:+r.watch, maybe:+r.maybe, skip:+r.skip}; });
+      items.forEach(function(it){ paint(it.id); });
+    }).catch(function(){
+      document.getElementById("vote-note").textContent = "集計を読み込めませんでした。時間をおいて再読み込みしてください。";
+    });
+  }
+
+  document.getElementById("vote-note").textContent = ONLINE
+    ? "投票はもう一度押すと取り消せます。別の選択肢を押すと付け替えられます。"
+    : "投票機能は準備中です。";
+
+  fetch("data/"+SEASON+".json").then(function(r){ return r.json(); }).then(function(d){
+    items = d.items;
+    document.getElementById("season").textContent = d.label;
+    document.getElementById("src").href = d.source;
+    build(); apply();
+    return loadCounts();
+  }).then(apply).catch(function(){
+    $list.innerHTML = '<li class="empty">作品データを読み込めませんでした。</li>';
+  });
+
+  $q.addEventListener("input", apply);
+  $sort.addEventListener("change", apply);
+})();
+</script>
+</body>
+</html>
