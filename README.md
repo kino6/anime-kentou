@@ -4,8 +4,8 @@
 
 ## ファイル
 - `index.html` … サイト本体
-- `config.js` … 表示するシーズンと Supabase の接続先
-- `data/YYYY-MM.json` … シーズンごとの作品データ
+- `config.js` … 表示するシーズン、Supabase の接続先、注目ワード（声優・キーワード）の初期値
+- `data/YYYY-MM.json` … シーズンごとの作品データ（ポイント、公式サイト・公式X・公式YouTube、キャスト、主なスタッフ）
 - `supabase.sql` … 投票用のテーブルと関数（Supabase の SQL Editor で1回実行）
 
 ## 毎期の更新

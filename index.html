@@ -4,15 +4,16 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>アニメ視聴検討表</title>
-<meta name="description" content="今期アニメを1行ずつ、原作・制作・放送局のポイントとPV・Wikipediaへのリンクでまとめた視聴検討表。観る／様子見／割愛の投票つき。">
+<meta name="description" content="今期アニメを1行ずつ、原作・制作・放送局のポイントと公式サイト・公式X・PVへのリンクでまとめた視聴検討表。注目の声優・キーワード表示と、観る／様子見／割愛の投票つき。">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap">
 <style>
-/* 1作品1行のリスト。広い画面は「タイトル+ポイント｜リンク｜投票」の3列、狭い画面は縦積み */
+/* 1作品1行のリスト。広い画面は「#｜タイトル+ポイント｜注目｜リンク｜投票」、狭い画面は縦積み */
 :root{
   --bg:#f5f6f8; --surface:#ffffff; --fg:#1c2230; --muted:#677089; --line:#dde1e9;
   --accent:#2c5ccc; --accent-soft:#e7edfb;
+  --va:#7a3fb8; --va-soft:#f1e9fa; --kw:#0f7a80; --kw-soft:#e1f3f3;
   --watch:#2f7d4f; --watch-soft:#e3f2e8; --maybe:#a06b12; --maybe-soft:#f8eedb; --skip:#8a8f9e; --skip-soft:#eceef2;
   --font:"Zen Kaku Gothic New","Hiragino Sans","Noto Sans JP",system-ui,sans-serif;
   color-scheme:light;
@@ -20,27 +21,50 @@
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
   --bg:#13161c; --surface:#1b1f28; --fg:#e5e8f0; --muted:#97a0b5; --line:#2b3140;
   --accent:#8eaff4; --accent-soft:#222b42;
+  --va:#c9a2f2; --va-soft:#2c2340; --kw:#6fd0d4; --kw-soft:#183034;
   --watch:#79cf98; --watch-soft:#1a2d22; --maybe:#e3b35d; --maybe-soft:#30281a; --skip:#a3a9b8; --skip-soft:#262a33;
   color-scheme:dark}}
 :root[data-theme="dark"]{
   --bg:#13161c; --surface:#1b1f28; --fg:#e5e8f0; --muted:#97a0b5; --line:#2b3140;
   --accent:#8eaff4; --accent-soft:#222b42;
+  --va:#c9a2f2; --va-soft:#2c2340; --kw:#6fd0d4; --kw-soft:#183034;
   --watch:#79cf98; --watch-soft:#1a2d22; --maybe:#e3b35d; --maybe-soft:#30281a; --skip:#a3a9b8; --skip-soft:#262a33;
   color-scheme:dark}
 *{box-sizing:border-box}
 html{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
 body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--font);font-size:15px;line-height:1.55;padding-inline:16px;padding-block:24px 48px}
-.wrap{max-width:980px;margin:0 auto}
+.wrap{max-width:1080px;margin:0 auto}
 header h1{font-size:1.45rem;margin:0;font-weight:700;text-wrap:balance}
 header .season{color:var(--accent);font-weight:500;font-size:.85rem;letter-spacing:.06em}
 header p{margin:6px 0 0;color:var(--muted);font-size:.85rem;max-width:62ch}
-.controls{display:flex;flex-wrap:wrap;gap:10px 14px;align-items:center;margin:18px 0 10px}
-.controls input,.controls select{font:inherit;color:var(--fg);background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:8px 10px}
-.controls input{flex:1 1 220px;min-width:0}
+.controls{display:flex;flex-wrap:wrap;gap:10px 14px;align-items:center;margin:12px 0 10px}
+.controls input[type=search],.controls select{font:inherit;color:var(--fg);background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:8px 10px}
+.controls input[type=search]{flex:1 1 220px;min-width:0}
+.check{display:inline-flex;gap:6px;align-items:center;font-size:.88rem;white-space:nowrap;cursor:pointer}
 .status{font-size:.82rem;color:var(--muted);font-variant-numeric:tabular-nums}
 :focus-visible{outline:2px solid var(--accent);outline-offset:2px}
-ol{list-style:none;margin:0;padding:0;background:var(--surface);border:1px solid var(--line);border-radius:10px}
-li.row{display:grid;grid-template-columns:2.4em minmax(0,1fr) auto auto;gap:6px 16px;align-items:start;padding:12px 14px;border-top:1px solid var(--line)}
+
+/* 注目ワード設定 */
+details.watchset{background:var(--surface);border:1px solid var(--line);border-radius:10px;margin:16px 0 0}
+details.watchset summary{cursor:pointer;padding:10px 14px;font-size:.88rem;font-weight:500;list-style:none;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+details.watchset summary::-webkit-details-marker{display:none}
+details.watchset summary::before{content:"▸";color:var(--muted);transition:transform .15s}
+details.watchset[open] summary::before{transform:rotate(90deg)}
+summary .sum{color:var(--muted);font-weight:400;font-size:.8rem}
+.ws-body{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px 18px;padding:0 14px 14px}
+.ws-body label{display:grid;gap:4px;font-size:.8rem;color:var(--muted)}
+.ws-body label b{font-weight:500;display:inline-flex;align-items:center;gap:6px}
+.ws-body textarea{font:inherit;font-size:.88rem;color:var(--fg);background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:8px;min-height:6.5em;resize:vertical;width:100%}
+.ws-actions{grid-column:1/-1;display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.btn{font:inherit;font-size:.82rem;cursor:pointer;border:1px solid var(--line);background:var(--surface);color:var(--fg);border-radius:6px;padding:5px 12px}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:var(--surface)}
+.ws-msg{font-size:.8rem;color:var(--muted)}
+
+/* 一覧 */
+.list{background:var(--surface);border:1px solid var(--line);border-radius:10px}
+.cols{display:grid;grid-template-columns:2.25rem minmax(0,1fr) 9.5rem 10rem 14.5rem;gap:6px 16px;padding:8px 14px;border-bottom:1px solid var(--line);font-size:.72rem;letter-spacing:.06em;color:var(--muted)}
+ol{list-style:none;margin:0;padding:0}
+li.row{display:grid;grid-template-columns:2.25rem minmax(0,1fr) 9.5rem 10rem 14.5rem;gap:6px 16px;align-items:start;padding:12px 14px;border-top:1px solid var(--line)}
 li.row:first-child{border-top:0}
 .no{color:var(--muted);font-variant-numeric:tabular-nums;font-size:.85rem;padding-top:2px}
 .main{min-width:0}
@@ -48,10 +72,24 @@ li.row:first-child{border-top:0}
 .point{color:var(--muted);font-size:.84rem;margin-top:2px;overflow-wrap:anywhere}
 .tags{display:inline-flex;gap:4px;margin-left:6px;vertical-align:2px}
 .tag{font-size:.7rem;padding:1px 6px;border-radius:4px;background:var(--accent-soft);color:var(--accent);font-weight:500;white-space:nowrap}
-.links{display:flex;gap:12px;white-space:nowrap;font-size:.88rem;padding-top:2px}
-a{color:var(--accent);text-decoration:none}
-a:hover{text-decoration:underline}
-.vote{display:flex;flex-direction:column;gap:5px;min-width:15.5em}
+.watch{display:flex;flex-wrap:wrap;gap:4px;min-width:0;padding-top:1px}
+.chip{font-size:.72rem;line-height:1.5;padding:1px 7px;border-radius:999px;white-space:nowrap;max-width:100%;overflow:hidden;text-overflow:ellipsis}
+.chip.va{background:var(--va-soft);color:var(--va)}
+.chip.kw{background:var(--kw-soft);color:var(--kw)}
+.dot{display:inline-block;width:8px;height:8px;border-radius:50%}
+.dot.va{background:var(--va)}.dot.kw{background:var(--kw)}
+
+/* リンクアイコン：公式（濃い色）→ 検索（薄い色） */
+.links{display:flex;align-items:center;gap:2px}
+.ic{display:inline-grid;place-items:center;width:28px;height:28px;border-radius:6px;color:var(--accent);text-decoration:none}
+.ic:hover{background:var(--accent-soft)}
+.ic svg{width:17px;height:17px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.ic .t{font-weight:700;font-size:.9rem;line-height:1;font-family:system-ui,sans-serif}
+.ic.search{color:var(--muted)}
+.ic.none{visibility:hidden}
+.sep{width:1px;height:16px;background:var(--line);margin:0 4px}
+
+.vote{display:flex;flex-direction:column;gap:5px;min-width:0}
 .btns{display:flex;gap:4px}
 .btns button{flex:1;font:inherit;font-size:.8rem;cursor:pointer;border:1px solid var(--line);background:var(--surface);color:var(--fg);border-radius:6px;padding:4px 6px;display:flex;justify-content:center;gap:5px;white-space:nowrap}
 .btns button .n{font-variant-numeric:tabular-nums;color:var(--muted)}
@@ -66,10 +104,11 @@ a:hover{text-decoration:underline}
 .bar .w{background:var(--watch)}.bar .m{background:var(--maybe)}.bar .s{background:var(--skip)}
 .empty{padding:24px;text-align:center;color:var(--muted)}
 footer{margin-top:22px;color:var(--muted);font-size:.78rem;display:grid;gap:4px}
-@media (max-width:720px){
+@media (max-width:860px){
+  .cols{display:none}
   li.row{grid-template-columns:2em minmax(0,1fr)}
-  .links,.vote{grid-column:2}
-  .vote{min-width:0}
+  .watch,.links,.vote{grid-column:2}
+  .watch:empty{display:none}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
@@ -79,25 +118,46 @@ footer{margin-top:22px;color:var(--muted);font-size:.78rem;display:grid;gap:4px}
   <header>
     <div class="season" id="season"></div>
     <h1>アニメ視聴検討表</h1>
-    <p>今期の作品を1行ずつ、原作・制作・放送局のポイントと、PV・Wikipediaへのリンクでまとめています。気になる作品に「観る／様子見／割愛」で投票すると、みんなの判断が集計されます。</p>
+    <p>今期の作品を1行ずつ、原作・制作・放送局のポイントと、公式サイト・公式X・PVへのリンクでまとめています。気になる声優やキーワードを登録すると「注目」列に表示されます。「観る／様子見／割愛」で投票すると、みんなの判断が集計されます。</p>
   </header>
 
+  <details class="watchset" id="ws">
+    <summary>注目ワード <span class="sum" id="ws-sum"></span></summary>
+    <div class="ws-body">
+      <label for="ws-va"><b><span class="dot va"></span>声優</b>キャストに含まれていたら表示。1行に1人、または読点区切り
+        <textarea id="ws-va" spellcheck="false"></textarea></label>
+      <label for="ws-kw"><b><span class="dot kw"></span>キーワード</b>タイトル・ポイント・監督・シリーズ構成・制作会社に含まれていたら表示
+        <textarea id="ws-kw" spellcheck="false"></textarea></label>
+      <div class="ws-actions">
+        <button type="button" class="btn primary" id="ws-save">保存して反映</button>
+        <button type="button" class="btn" id="ws-reset">初期値に戻す</button>
+        <span class="ws-msg" id="ws-msg">設定はこのブラウザにだけ保存されます。</span>
+      </div>
+    </div>
+  </details>
+
   <div class="controls">
-    <input id="q" type="search" placeholder="タイトル・ポイントで絞り込み" aria-label="タイトル・ポイントで絞り込み">
+    <input id="q" type="search" placeholder="タイトル・ポイント・声優で絞り込み" aria-label="タイトル・ポイント・声優で絞り込み">
     <select id="sort" aria-label="並び順">
       <option value="list">一覧順</option>
+      <option value="hits">注目が多い順</option>
       <option value="watch">「観る」が多い順</option>
       <option value="rate">「観る」の割合が高い順</option>
       <option value="mine">自分が「観る」にした作品を上に</option>
     </select>
+    <label class="check" for="only"><input type="checkbox" id="only">注目のみ</label>
     <span class="status" id="status"></span>
   </div>
 
-  <ol id="list" aria-live="polite"></ol>
+  <div class="list">
+    <div class="cols" aria-hidden="true"><span>#</span><span>タイトル・ポイント</span><span>注目</span><span>リンク</span><span>投票</span></div>
+    <ol id="list" aria-live="polite"></ol>
+  </div>
 
   <footer>
+    <span>リンクは左から 公式サイト／公式X／公式YouTube（あるもののみ）、区切りの右が PV検索／Wikipedia検索です。</span>
     <span id="vote-note"></span>
-    <span>作品リストは <a id="src" href="#" target="_blank" rel="noopener">アニメイトタイムズの今期アニメ一覧</a> をもとに作成しています。PVはYouTube検索、Wikipediaは記事検索へのリンクです。</span>
+    <span>作品リスト・公式リンク・キャストは <a id="src" href="#" target="_blank" rel="noopener">アニメイトタイムズの今期アニメ一覧</a> をもとに作成しています。</span>
     <span>投票は匿名です。このブラウザに保存したランダムなIDで1作品1票として数え、名前などの個人情報は集めていません。</span>
   </footer>
 </div>
@@ -110,14 +170,16 @@ footer{margin-top:22px;color:var(--muted);font-size:.78rem;display:grid;gap:4px}
   var API = (C.supabaseUrl || "").replace(/\/+$/,"");
   var KEY = C.supabaseKey || "";
   var ONLINE = !!(API && KEY);
+  var DEF = C.watch || {voiceActors:[], keywords:[]};
   var LABEL = {watch:"観る", maybe:"様子見", skip:"割愛"};
 
   var $list = document.getElementById("list"), $q = document.getElementById("q"),
-      $sort = document.getElementById("sort"), $status = document.getElementById("status");
+      $sort = document.getElementById("sort"), $status = document.getElementById("status"),
+      $only = document.getElementById("only");
 
-  var items = [], counts = {}, mine = {}, rowEls = {};
+  var items = [], counts = {}, mine = {}, rowEls = {}, watch = {va:[], kw:[]};
 
-  function store(k, v){ try{ if(v===undefined) return localStorage.getItem(k); localStorage.setItem(k, v); }catch(e){ return null; } }
+  function store(k, v){ try{ if(v===undefined) return localStorage.getItem(k); if(v===null) localStorage.removeItem(k); else localStorage.setItem(k, v); }catch(e){ return null; } }
   function voterId(){
     var id = store("anime-voter");
     if(!id){
@@ -138,12 +200,71 @@ footer{margin-top:22px;color:var(--muted);font-size:.78rem;display:grid;gap:4px}
   }
 
   function esc(s){ return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;"); }
+  // 照合用：全角半角・大小文字・空白の違いを無視
+  function norm(s){ return String(s||"").normalize("NFKC").toLowerCase().replace(/\s+/g,""); }
+  // 検索用：「-」「～」などの記号は除外指定などに解釈されるので空白に置き換える
+  function sq(s){ return String(s).normalize("NFKC").replace(/[-‐‑‒–—―─~〜～:;・!?#【】「」『』()\[\]［］〈〉《》<>&★☆♡♪\/\\|.,。、"'“”‘’*+=^@%$]/g," ").replace(/\s+/g," ").trim(); }
   function c(id){ return counts[id] || {watch:0, maybe:0, skip:0}; }
+
+  /* ---- 注目ワード ---- */
+  function parseList(s){ return String(s||"").split(/[\n,、，]+/).map(function(x){return x.trim()}).filter(Boolean); }
+  function loadWatch(){
+    var saved = null;
+    try{ saved = JSON.parse(store("anime-watch") || "null"); }catch(e){ saved = null; }
+    watch.va = saved ? saved.va : (DEF.voiceActors||[]).slice();
+    watch.kw = saved ? saved.kw : (DEF.keywords||[]).slice();
+    document.getElementById("ws-va").value = watch.va.join("\n");
+    document.getElementById("ws-kw").value = watch.kw.join("\n");
+  }
+  function hitsOf(it){
+    var castN = it._castN, out = [];
+    watch.va.forEach(function(v){ var n = norm(v); if(n && castN.some(function(c){ return c===n || c.indexOf(n)===0; })) out.push({t:"va", w:v}); });
+    watch.kw.forEach(function(k){ var n = norm(k); if(n && it._kwN.indexOf(n) > -1) out.push({t:"kw", w:k}); });
+    return out;
+  }
+  function paintWatch(){
+    var total = 0;
+    items.forEach(function(it){
+      it._hits = hitsOf(it);
+      if(it._hits.length) total++;
+      rowEls[it.id].querySelector(".watch").innerHTML = it._hits.map(function(h){
+        return '<span class="chip '+h.t+'" title="'+(h.t==="va"?"声優":"キーワード")+'：'+esc(h.w)+'">'+esc(h.w)+'</span>';
+      }).join("");
+    });
+    document.getElementById("ws-sum").textContent = "声優 "+watch.va.length+"人・キーワード "+watch.kw.length+"件 → "+total+"作品が該当";
+  }
+  document.getElementById("ws-save").addEventListener("click", function(){
+    watch.va = parseList(document.getElementById("ws-va").value);
+    watch.kw = parseList(document.getElementById("ws-kw").value);
+    store("anime-watch", JSON.stringify(watch));
+    document.getElementById("ws-va").value = watch.va.join("\n");
+    document.getElementById("ws-kw").value = watch.kw.join("\n");
+    paintWatch(); apply();
+    document.getElementById("ws-msg").textContent = "保存しました。設定はこのブラウザにだけ保存されます。";
+  });
+  document.getElementById("ws-reset").addEventListener("click", function(){
+    store("anime-watch", null); loadWatch(); paintWatch(); apply();
+    document.getElementById("ws-msg").textContent = "初期値に戻しました。";
+  });
+
+  /* ---- 一覧 ---- */
+  var IC = {
+    site:'<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 10.5 12 3.5l8.5 7"/><path d="M5.5 9v11h13V9"/><path d="M10 20v-5.5h4V20"/></svg>',
+    x:'<span class="t" aria-hidden="true">X</span>',
+    yt:'<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M10 8.6v6.8l5.6-3.4z" fill="currentColor" stroke="none"/></svg>',
+    pv:'<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5 21 21"/><path d="M9 8.2v4.6l3.8-2.3z" fill="currentColor" stroke="none"/></svg>',
+    wiki:'<span class="t" aria-hidden="true">W</span>'
+  };
+  function link(href, cls, label, icon){
+    if(!href) return '<span class="ic none" aria-hidden="true"></span>';
+    return '<a class="ic '+cls+'" href="'+esc(href)+'" target="_blank" rel="noopener" title="'+label+'" aria-label="'+label+'">'+icon+'</a>';
+  }
 
   function build(){
     var e = encodeURIComponent;
     $list.innerHTML = "";
     items.forEach(function(it){
+      var L = it.links || {}, s = sq(it.title);
       var li = document.createElement("li");
       li.className = "row";
       li.innerHTML =
@@ -151,29 +272,39 @@ footer{margin-top:22px;color:var(--muted);font-size:.78rem;display:grid;gap:4px}
         '<div class="main"><span class="title">'+esc(it.title)+'</span>'+
           (it.tags.length ? '<span class="tags">'+it.tags.map(function(t){return '<span class="tag">'+esc(t)+'</span>'}).join("")+'</span>' : '')+
           (it.point ? '<div class="point">'+esc(it.point)+'</div>' : '')+'</div>'+
+        '<div class="watch"></div>'+
         '<div class="links">'+
-          '<a target="_blank" rel="noopener" href="https://www.youtube.com/results?search_query='+e(it.title+" アニメ PV")+'">PV</a>'+
-          '<a target="_blank" rel="noopener" href="https://ja.wikipedia.org/w/index.php?go=Go&search='+e(it.title)+'">Wikipedia</a></div>'+
+          link(L.site, "", "公式サイト", IC.site)+
+          link(L.x, "", "公式X", IC.x)+
+          link(L.youtube, "", "公式YouTube", IC.yt)+
+          '<span class="sep" aria-hidden="true"></span>'+
+          link("https://www.youtube.com/results?search_query="+e(s+" アニメ PV"), "search", "PVを検索", IC.pv)+
+          link("https://ja.wikipedia.org/w/index.php?go=Go&search="+e(s), "search", "Wikipediaを検索", IC.wiki)+
+        '</div>'+
         '<div class="vote"><div class="btns">'+
           ["watch","maybe","skip"].map(function(k){
             return '<button type="button" class="'+k+'" data-k="'+k+'" aria-pressed="false">'+LABEL[k]+' <span class="n">0</span></button>';
           }).join("")+
         '</div><div class="bar" aria-hidden="true"><span class="w"></span><span class="m"></span><span class="s"></span></div></div>';
-      li.querySelectorAll("button").forEach(function(b){
+      li.querySelectorAll(".btns button").forEach(function(b){
         b.disabled = !ONLINE;
         b.setAttribute("aria-label", it.title+" に「"+LABEL[b.dataset.k]+"」で投票");
         b.addEventListener("click", function(){ vote(it.id, b.dataset.k); });
       });
       rowEls[it.id] = li;
-      it._search = (it.title+" "+it.point+" "+it.tags.join(" ")).toLowerCase();
+      var staff = it.staff || {};
+      it._castN = (it.cast||[]).map(norm);
+      it._kwN = norm([it.title, it.point, it.tags.join(" "), staff["監督"], staff["シリーズ構成"], staff["制作"]].join(" "));
+      it._search = norm([it.title, it.point, it.tags.join(" "), (it.cast||[]).join(" ")].join(" "));
       $list.appendChild(li);
       paint(it.id);
     });
+    paintWatch();
   }
 
   function paint(id){
     var li = rowEls[id], n = c(id), tot = n.watch+n.maybe+n.skip;
-    li.querySelectorAll("button").forEach(function(b){
+    li.querySelectorAll(".btns button").forEach(function(b){
       var k = b.dataset.k;
       b.querySelector(".n").textContent = n[k];
       b.setAttribute("aria-pressed", mine[id]===k ? "true" : "false");
@@ -187,7 +318,6 @@ footer{margin-top:22px;color:var(--muted);font-size:.78rem;display:grid;gap:4px}
 
   function vote(id, k){
     var prev = mine[id], next = prev===k ? null : k, n = c(id);
-    // 先に画面へ反映し、失敗したら元に戻す
     if(prev) n[prev] = Math.max(0, n[prev]-1);
     if(next) n[next] += 1;
     counts[id] = n;
@@ -203,10 +333,11 @@ footer{margin-top:22px;color:var(--muted);font-size:.78rem;display:grid;gap:4px}
   }
 
   function apply(){
-    var q = $q.value.trim().toLowerCase(), mode = $sort.value;
+    var q = norm($q.value), mode = $sort.value, only = $only.checked;
     var arr = items.slice();
     function score(it){
       var n = c(it.id), t = n.watch+n.maybe+n.skip;
+      if(mode==="hits") return it._hits.length;
       if(mode==="watch") return n.watch;
       if(mode==="rate") return t ? n.watch/t + t*1e-6 : -1;
       if(mode==="mine") return mine[it.id]==="watch" ? 2 : mine[it.id]==="maybe" ? 1 : 0;
@@ -215,7 +346,7 @@ footer{margin-top:22px;color:var(--muted);font-size:.78rem;display:grid;gap:4px}
     if(mode!=="list") arr.sort(function(a,b){ return score(b)-score(a) || a.id-b.id; });
     var shown = 0;
     arr.forEach(function(it){
-      var li = rowEls[it.id], ok = !q || it._search.indexOf(q) > -1;
+      var li = rowEls[it.id], ok = (!q || it._search.indexOf(q) > -1) && (!only || it._hits.length);
       li.hidden = !ok; if(ok) shown++;
       $list.appendChild(li);
     });
@@ -248,6 +379,7 @@ footer{margin-top:22px;color:var(--muted);font-size:.78rem;display:grid;gap:4px}
     ? "投票はもう一度押すと取り消せます。別の選択肢を押すと付け替えられます。"
     : "投票機能は準備中です。";
 
+  loadWatch();
   fetch("data/"+SEASON+".json").then(function(r){ return r.json(); }).then(function(d){
     items = d.items;
     document.getElementById("season").textContent = d.label;
@@ -260,6 +392,7 @@ footer{margin-top:22px;color:var(--muted);font-size:.78rem;display:grid;gap:4px}
 
   $q.addEventListener("input", apply);
   $sort.addEventListener("change", apply);
+  $only.addEventListener("change", apply);
 })();
 </script>
 </body>
