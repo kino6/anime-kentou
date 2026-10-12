@@ -70,6 +70,8 @@ li.row:first-child{border-top:0}
 .main{min-width:0}
 .title{font-weight:700;overflow-wrap:anywhere}
 .point{color:var(--muted);font-size:.84rem;margin-top:2px;overflow-wrap:anywhere}
+.point .src{color:var(--fg)}
+mark.todo{background:var(--maybe-soft);color:var(--maybe);border-radius:3px;padding:0 3px}
 .tags{display:inline-flex;gap:4px;margin-left:6px;vertical-align:2px}
 .tag{font-size:.7rem;padding:1px 6px;border-radius:4px;background:var(--accent-soft);color:var(--accent);font-weight:500;white-space:nowrap}
 .watch{display:flex;flex-wrap:wrap;gap:4px;min-width:0;padding-top:1px}
@@ -260,6 +262,13 @@ footer{margin-top:22px;color:var(--muted);font-size:.78rem;display:grid;gap:4px}
     return '<a class="ic '+cls+'" href="'+esc(href)+'" target="_blank" rel="noopener" title="'+label+'" aria-label="'+label+'">'+icon+'</a>';
   }
 
+  // ポイント：先頭の原作情報（掲載先・掲載年数）を強調し、「要確認」に印を付ける
+  function pointHtml(p){
+    var i = p.indexOf("。"), head = i > -1 ? p.slice(0, i+1) : p, rest = i > -1 ? p.slice(i+1) : "";
+    var h = esc(head).replace(/要確認/g, '<mark class="todo">要確認</mark>');
+    return /^原作/.test(p) ? '<span class="src">'+h+'</span>'+esc(rest) : esc(p);
+  }
+
   function build(){
     var e = encodeURIComponent;
     $list.innerHTML = "";
@@ -271,7 +280,7 @@ footer{margin-top:22px;color:var(--muted);font-size:.78rem;display:grid;gap:4px}
         '<span class="no">'+it.id+'</span>'+
         '<div class="main"><span class="title">'+esc(it.title)+'</span>'+
           (it.tags.length ? '<span class="tags">'+it.tags.map(function(t){return '<span class="tag">'+esc(t)+'</span>'}).join("")+'</span>' : '')+
-          (it.point ? '<div class="point">'+esc(it.point)+'</div>' : '')+'</div>'+
+          (it.point ? '<div class="point">'+pointHtml(it.point)+'</div>' : '')+'</div>'+
         '<div class="watch"></div>'+
         '<div class="links">'+
           link(L.site, "", "公式サイト", IC.site)+

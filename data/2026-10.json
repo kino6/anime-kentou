@@ -7,7 +7,7 @@
    "id": 1,
    "title": "アイカツ！ アンコール放送",
    "tags": [],
-   "point": "アイカツ！（2012年版）。アンコール放送、新OP/ED。サンライズ（BN Pictures）、テレ東系 金18:25",
+   "point": "原作：アーケードゲーム『データカードダス アイカツ!』（バンダイ）、2012〜2016年 完結（4年）。アニメ2012年版のアンコール放送、新OP/ED。サンライズ（BN Pictures）、テレ東系 金18:25",
    "links": {
     "site": "https://www.aikatsu.net/01/index.html",
     "x": "https://x.com/aikatsu_anime"
@@ -30,13 +30,22 @@
     "監督": "木村隆一",
     "シリーズ構成": "加藤陽一",
     "制作": "サンライズ（BN Pictures）"
-   }
+   },
+   "source": {
+    "kind": "アーケードゲーム",
+    "venue": "データカードダス アイカツ!",
+    "publisher": "バンダイ",
+    "start": 2012,
+    "end": 2016,
+    "note": ""
+   },
+   "point_extra": "アニメ2012年版のアンコール放送、新OP/ED。サンライズ（BN Pictures）、テレ東系 金18:25"
   },
   {
    "id": 2,
    "title": "アオアシ Season2",
    "tags": [],
-   "point": "週刊ビッグコミックスピリッツ（小学館）。トムス・エンタテインメント、NHK Eテレ 日17:00、全24話",
+   "point": "原作：漫画『週刊ビッグコミックスピリッツ』（小学館）、2015〜2025年 完結（10年）。トムス・エンタテインメント、NHK Eテレ 日17:00、全24話",
    "links": {
     "site": "https://aoashi-pr.com/",
     "x": "https://x.com/aoashi_pr"
@@ -70,7 +79,16 @@
     "監督": "横山和基",
     "シリーズ構成": "横谷昌宏",
     "制作": "トムス・エンタテインメント"
-   }
+   },
+   "source": {
+    "kind": "漫画",
+    "venue": "週刊ビッグコミックスピリッツ",
+    "publisher": "小学館",
+    "start": 2015,
+    "end": 2025,
+    "note": ""
+   },
+   "point_extra": "トムス・エンタテインメント、NHK Eテレ 日17:00、全24話"
   },
   {
    "id": 3,
@@ -78,7 +96,7 @@
    "tags": [
     "TOKYO MX"
    ],
-   "point": "Ankama原作（日本語版）。スタジオマスケット、OP=影山ヒロノブ＆奥井雅美",
+   "point": "原作なし（Ankama（仏、MMORPG『DOFUS』の会社）のオリジナル企画、原作・脚本はTot）。スタジオマスケット、OP=影山ヒロノブ＆奥井雅美",
    "links": {
     "site": "https://welshandshedar-anime.com/",
     "x": "https://x.com/WelshAndShedar"
@@ -97,13 +115,22 @@
     "監督": "堀内直樹",
     "シリーズ構成": "山下憲一",
     "制作": "スタジオマスケット"
-   }
+   },
+   "source": {
+    "kind": "オリジナル",
+    "venue": "",
+    "publisher": "Ankama（仏、MMORPG『DOFUS』の会社）のオリジナル企画、原作・脚本はTot",
+    "start": 2026,
+    "end": "single",
+    "note": ""
+   },
+   "point_extra": "スタジオマスケット、OP=影山ヒロノブ＆奥井雅美"
   },
   {
    "id": 4,
    "title": "アオのハコ Season2",
    "tags": [],
-   "point": "週刊少年ジャンプ。エレクトリックサーカス、TBS系 日16:30、OP=aiko",
+   "point": "原作：漫画『週刊少年ジャンプ』（集英社）、2021〜2026年 完結（5年）。エレクトリックサーカス、TBS系 日16:30、OP=aiko",
    "links": {
     "site": "https://aonohako-anime.com/",
     "x": "https://x.com/aonohako_PR"
@@ -122,13 +149,22 @@
     "監督": "酒向大輔",
     "シリーズ構成": "柿原優子",
     "制作": "エレクトリックサーカス"
-   }
+   },
+   "source": {
+    "kind": "漫画",
+    "venue": "週刊少年ジャンプ",
+    "publisher": "集英社",
+    "start": 2021,
+    "end": 2026,
+    "note": ""
+   },
+   "point_extra": "エレクトリックサーカス、TBS系 日16:30、OP=aiko"
   },
   {
    "id": 5,
    "title": "うまゆる ふるげ～と！",
    "tags": [],
-   "point": "ウマ娘（Cygames）。配信（ぱかチューブっ！）、全26話、3分枠、AtoriE",
+   "point": "原作：ゲーム『ウマ娘 プリティーダービー』（Cygames）、2016年〜継続中（10年）。企画発表2016年、アプリ配信2021年。配信（ぱかチューブっ！）、全26話、3分枠、AtoriE",
    "links": {
     "site": "https://umamusume.jp/contents/anime/umayuru-fullgate/",
     "x": "https://x.com/uma_musu"
@@ -146,7 +182,16 @@
     "監督": "宮嶋星矢",
     "シリーズ構成": "市川十億衛門",
     "制作": "AtoriE"
-   }
+   },
+   "source": {
+    "kind": "ゲーム",
+    "venue": "ウマ娘 プリティーダービー",
+    "publisher": "Cygames",
+    "start": 2016,
+    "end": null,
+    "note": "企画発表2016年、アプリ配信2021年"
+   },
+   "point_extra": "配信（ぱかチューブっ！）、全26話、3分枠、AtoriE"
   },
   {
    "id": 6,
@@ -154,7 +199,7 @@
    "tags": [
     "TOKYO MX"
    ],
-   "point": "コミック（KADOKAWA、でむにゃん・炭酸だいすき）。パッショーネ、FX題材",
+   "point": "原作：漫画『コミックフラッパー』（KADOKAWA）、2021年〜継続中（5年）。新都社発のWeb漫画をリメイク。パッショーネ、FX題材",
    "links": {
     "site": "https://fxkurumi-info.com/",
     "x": "https://x.com/fxkurumi_info"
@@ -169,7 +214,16 @@
     "監督": "小川優樹",
     "シリーズ構成": "猪原健太",
     "制作": "パッショーネ"
-   }
+   },
+   "source": {
+    "kind": "漫画",
+    "venue": "コミックフラッパー",
+    "publisher": "KADOKAWA",
+    "start": 2021,
+    "end": null,
+    "note": "新都社発のWeb漫画をリメイク"
+   },
+   "point_extra": "パッショーネ、FX題材"
   },
   {
    "id": 7,
@@ -177,7 +231,7 @@
    "tags": [
     "TOKYO MX"
    ],
-   "point": "COMICポラリス（フレックスコミックス）。ライデンフィルム、OP=八木勇征",
+   "point": "原作：Web漫画『COMICポラリス』（フレックスコミックス）、2017年〜継続中（9年）。ライデンフィルム、OP=八木勇征",
    "links": {
     "site": "https://ojikawa.com/",
     "x": "https://x.com/ojikawa_comic"
@@ -201,13 +255,22 @@
     "監督": "牧野友映",
     "シリーズ構成": "佐藤裕",
     "制作": "ライデンフィルム"
-   }
+   },
+   "source": {
+    "kind": "Web漫画",
+    "venue": "COMICポラリス",
+    "publisher": "フレックスコミックス",
+    "start": 2017,
+    "end": null,
+    "note": ""
+   },
+   "point_extra": "ライデンフィルム、OP=八木勇征"
   },
   {
    "id": 8,
    "title": "おはスタ第五学園",
    "tags": [],
-   "point": "IdentityV 第五人格。おはスタ内、全4話、11月末～、TypeZERO",
+   "point": "原作：ゲーム『IdentityV 第五人格』（NetEase Games）、2018年〜継続中（8年）。おはスタ内、全4話、11月末～、TypeZERO",
    "links": {
     "x": "https://x.com/IdentityVJP"
    },
@@ -216,13 +279,22 @@
    ],
    "staff": {
     "制作": "TypeZERO"
-   }
+   },
+   "source": {
+    "kind": "ゲーム",
+    "venue": "IdentityV 第五人格",
+    "publisher": "NetEase Games",
+    "start": 2018,
+    "end": null,
+    "note": ""
+   },
+   "point_extra": "おはスタ内、全4話、11月末～、TypeZERO"
   },
   {
    "id": 9,
    "title": "カードファイト!! ヴァンガード Divinez 運命星戦編",
    "tags": [],
-   "point": "ヴァンガード。全3話（11/7～、劇場先行10/2）、キネマシトラス他、主題歌=Kis-My-Ft2",
+   "point": "原作：カードゲーム『カードファイト!! ヴァンガード』（ブシロード）、2011年〜継続中（15年）。アニメはオリジナル展開。全3話（11/7～、劇場先行10/2）、キネマシトラス他、主題歌=Kis-My-Ft2",
    "links": {
     "site": "https://anime.cf-vanguard.com/vgd/",
     "x": "https://x.com/cfvanguard_PR"
@@ -237,7 +309,16 @@
     "監督": "山田卓",
     "シリーズ構成": "校條春、大西雄仁",
     "制作": "キネマシトラス、ぎふとアニメーション、STUDIO JEMI"
-   }
+   },
+   "source": {
+    "kind": "カードゲーム",
+    "venue": "カードファイト!! ヴァンガード",
+    "publisher": "ブシロード",
+    "start": 2011,
+    "end": null,
+    "note": "アニメはオリジナル展開"
+   },
+   "point_extra": "全3話（11/7～、劇場先行10/2）、キネマシトラス他、主題歌=Kis-My-Ft2"
   },
   {
    "id": 10,
@@ -245,7 +326,7 @@
    "tags": [
     "TOKYO MX"
    ],
-   "point": "ガルパン。MFコミックス アライブ（弐尉マルコ）。P.A.WORKS×アクタス、監督=下田正美",
+   "point": "原作：漫画『月刊コミックアライブ』（KADOKAWA）、2013年〜継続中（13年）。元はオリジナルアニメ『ガールズ&パンツァー』（2012年）。作画：弐尉マルコ。P.A.WORKS×アクタス、監督=下田正美",
    "links": {
     "site": "https://gup-mottolovelove.jp/",
     "x": "https://x.com/garupan_love2"
@@ -305,13 +386,22 @@
     "監督": "下田正美",
     "シリーズ構成": "木村暢",
     "制作": "P.A.WORKS×アクタス"
-   }
+   },
+   "source": {
+    "kind": "漫画",
+    "venue": "月刊コミックアライブ",
+    "publisher": "KADOKAWA",
+    "start": 2013,
+    "end": null,
+    "note": "元はオリジナルアニメ『ガールズ&パンツァー』（2012年）"
+   },
+   "point_extra": "作画：弐尉マルコ。P.A.WORKS×アクタス、監督=下田正美"
   },
   {
    "id": 11,
    "title": "貸した魔力は【リボ払い】で強制徴収",
    "tags": [],
-   "point": "フレックスコミックス（原作=まさキチ、漫画=飯島しんごう）。SynergySP、テレ朝系 土25:30",
+   "point": "原作：Web小説『小説家になろう・カクヨム』（漫画：COMICアーク（フレックスコミックス））、2021年〜継続中（5年）。SynergySP、テレ朝系 土25:30",
    "links": {
     "site": "https://revo-anime.com/",
     "x": "https://x.com/revo_anime"
@@ -329,7 +419,16 @@
     "監督": "球野たかひろ",
     "シリーズ構成": "森龍介",
     "制作": "SynergySP"
-   }
+   },
+   "source": {
+    "kind": "Web小説",
+    "venue": "小説家になろう・カクヨム",
+    "publisher": "漫画：COMICアーク（フレックスコミックス）",
+    "start": 2021,
+    "end": null,
+    "note": ""
+   },
+   "point_extra": "SynergySP、テレ朝系 土25:30"
   },
   {
    "id": 12,
@@ -337,7 +436,7 @@
    "tags": [
     "TOKYO MX"
    ],
-   "point": "漫画（ひかわきょうこ、白泉社）。スタジオディーン、OP=原因は自分にある。",
+   "point": "原作：漫画『LaLa』（白泉社）、1991〜2002年 完結（11年）。スタジオディーン、OP=原因は自分にある",
    "links": {
     "site": "https://kanatakara-anime.com/",
     "x": "https://x.com/kanatakara_anm"
@@ -356,7 +455,16 @@
     "監督": "阿部記之",
     "シリーズ構成": "たかすぎ梨香",
     "制作": "スタジオディーン"
-   }
+   },
+   "source": {
+    "kind": "漫画",
+    "venue": "LaLa",
+    "publisher": "白泉社",
+    "start": 1991,
+    "end": 2002,
+    "note": ""
+   },
+   "point_extra": "スタジオディーン、OP=原因は自分にある"
   },
   {
    "id": 13,
@@ -364,7 +472,7 @@
    "tags": [
     "TOKYO MX"
    ],
-   "point": "ヤンマガWeb（講談社）。Quad",
+   "point": "原作：Web漫画『ヤンマガWeb』（講談社）、2021年〜継続中（5年）。Quad",
    "links": {
     "site": "https://kanojo-no-tomodachi.deregula.com/",
     "x": "https://x.com/kanotomo_anime"
@@ -380,13 +488,22 @@
     "監督": "安ドウタカシ",
     "シリーズ構成": "白樹伍鋼",
     "制作": "Quad"
-   }
+   },
+   "source": {
+    "kind": "Web漫画",
+    "venue": "ヤンマガWeb",
+    "publisher": "講談社",
+    "start": 2021,
+    "end": null,
+    "note": ""
+   },
+   "point_extra": "Quad"
   },
   {
    "id": 14,
    "title": "仮面ライダーマイス",
    "tags": [],
-   "point": "特撮（アニメではない）。テレ朝系、9/6～",
+   "point": "原作：特撮『仮面ライダーシリーズ』（石ノ森章太郎・東映）、1971年〜継続中（55年）。アニメではなく特撮。テレ朝系、9/6～",
    "links": {
     "site": "https://www.tv-asahi.co.jp/my-th/",
     "x": "https://x.com/my_th_toei"
@@ -409,13 +526,22 @@
    ],
    "staff": {
     "監督": "中澤祥次郎"
-   }
+   },
+   "source": {
+    "kind": "特撮",
+    "venue": "仮面ライダーシリーズ",
+    "publisher": "石ノ森章太郎・東映",
+    "start": 1971,
+    "end": null,
+    "note": "アニメではなく特撮"
+   },
+   "point_extra": "テレ朝系、9/6～"
   },
   {
    "id": 15,
    "title": "帰還者の魔法は特別です 第2期",
    "tags": [],
-   "point": "WEBTOON。アルボアニメーション、フジテレビ＋Ultra 水24:45、OP=FLOW",
+   "point": "原作：Web小説『カカオページ（韓国）』（WEBTOON版2018年〜、日本はピッコマ）、2016〜2019年 完結（3年）。アルボアニメーション、フジテレビ＋Ultra 水24:45、OP=FLOW",
    "links": {
     "site": "https://returners-magic.com/",
     "x": "https://x.com/returners_magic"
@@ -430,13 +556,22 @@
     "監督": "川口太詩",
     "シリーズ構成": "鴻野貴光",
     "制作": "アルボアニメーション"
-   }
+   },
+   "source": {
+    "kind": "Web小説",
+    "venue": "カカオページ（韓国）",
+    "publisher": "WEBTOON版2018年〜、日本はピッコマ",
+    "start": 2016,
+    "end": 2019,
+    "note": ""
+   },
+   "point_extra": "アルボアニメーション、フジテレビ＋Ultra 水24:45、OP=FLOW"
   },
   {
    "id": 16,
    "title": "傷だらけ聖女より報復をこめて Season2",
    "tags": [],
-   "point": "原案=編乃肌。Imagica Infos／Imageworks Studio、tvk 木24:00、OP=Juice=Juice",
+   "point": "原作：Web漫画『SORAJIMA（縦読み漫画）』（原案：編乃肌）、開始年は要確認。Imagica Infos／Imageworks Studio、tvk 木24:00、OP=Juice=Juice",
    "links": {
     "site": "https://animationid.com/kizudarakeseijo2/",
     "x": "https://x.com/animekizudarake"
@@ -455,13 +590,22 @@
    "staff": {
     "監督": "深瀬沙哉",
     "制作": "Imagica Infos、Imageworks Studio"
-   }
+   },
+   "source": {
+    "kind": "Web漫画",
+    "venue": "SORAJIMA（縦読み漫画）",
+    "publisher": "原案：編乃肌",
+    "start": null,
+    "end": null,
+    "note": ""
+   },
+   "point_extra": "Imagica Infos／Imageworks Studio、tvk 木24:00、OP=Juice=Juice"
   },
   {
    "id": 17,
    "title": "恐怖コレクター",
    "tags": [],
-   "point": "角川つばさ文庫。studioぱれっと、NHK総合 土23:45、全12話、OP=スガシカオ",
+   "point": "原作：児童書『角川つばさ文庫』（KADOKAWA）、2015年〜継続中（11年）。studioぱれっと、NHK総合 土23:45、全12話、OP=スガシカオ",
    "links": {
     "site": "https://www.nhk-character.com/chara/kyoufucollector/",
     "x": "https://x.com/nep_horcol"
@@ -479,7 +623,16 @@
     "監督": "稲葉友紀",
     "シリーズ構成": "稲葉友紀",
     "制作": "studioぱれっと"
-   }
+   },
+   "source": {
+    "kind": "児童書",
+    "venue": "角川つばさ文庫",
+    "publisher": "KADOKAWA",
+    "start": 2015,
+    "end": null,
+    "note": ""
+   },
+   "point_extra": "studioぱれっと、NHK総合 土23:45、全12話、OP=スガシカオ"
   },
   {
    "id": 18,
@@ -487,7 +640,7 @@
    "tags": [
     "TOKYO MX"
    ],
-   "point": "小説家になろう、HJ文庫（ホビージャパン）。KONAMI animation、OP=角巻わため",
+   "point": "原作：Web小説『小説家になろう』（書籍：HJ文庫（ホビージャパン）2022年〜）、2019〜2021年 完結（2年）。KONAMI animation、OP=角巻わため",
    "links": {
     "site": "https://kyoranreijo-pr.com/",
     "x": "https://x.com/kyoranreijo_pr"
@@ -515,13 +668,22 @@
     "監督": "中西基樹",
     "シリーズ構成": "市川十億衛門",
     "制作": "KONAMI animation"
-   }
+   },
+   "source": {
+    "kind": "Web小説",
+    "venue": "小説家になろう",
+    "publisher": "書籍：HJ文庫（ホビージャパン）2022年〜",
+    "start": 2019,
+    "end": 2021,
+    "note": ""
+   },
+   "point_extra": "KONAMI animation、OP=角巻わため"
   },
   {
    "id": 19,
    "title": "薬屋のひとりごと 第3期",
    "tags": [],
-   "point": "日向夏。OLM、日テレ系 金23:00、第1クール10/2～・第2クール2027年4月、OP=ヨルシカ、ED=Eve",
+   "point": "原作：Web小説『小説家になろう』（書籍：ヒーロー文庫（イマジカインフォス）2014年〜）、2011年〜継続中（15年）。OLM、日テレ系 金23:00、第1クール10/2～・第2クール2027年4月、OP=ヨルシカ、ED=Eve",
    "links": {
     "site": "https://kusuriyanohitorigoto.jp/season3/",
     "x": "https://x.com/kusuriya_PR"
@@ -545,7 +707,16 @@
     "監督": "筆坂明規",
     "シリーズ構成": "長沼範裕",
     "制作": "OLM"
-   }
+   },
+   "source": {
+    "kind": "Web小説",
+    "venue": "小説家になろう",
+    "publisher": "書籍：ヒーロー文庫（イマジカインフォス）2014年〜",
+    "start": 2011,
+    "end": null,
+    "note": ""
+   },
+   "point_extra": "OLM、日テレ系 金23:00、第1クール10/2～・第2クール2027年4月、OP=ヨルシカ、ED=Eve"
   },
   {
    "id": 20,
@@ -553,7 +724,7 @@
    "tags": [
     "TOKYO MX"
    ],
-   "point": "ゲルぴよ。タイカ、10/21～、OP=SILENT SIREN",
+   "point": "原作：キャラクター『ゲルぴよ（SNS漫画）』（タイカ）、開始年は要確認。タイカ、10/21～、OP=SILENT SIREN",
    "links": {
     "site": "https://s.mxtv.jp/anime/gelpiyo2/",
     "x": "https://x.com/taica_gel_piyo"
@@ -569,13 +740,22 @@
     "パク・ユチョン",
     "SU"
    ],
-   "staff": {}
+   "staff": {},
+   "source": {
+    "kind": "キャラクター",
+    "venue": "ゲルぴよ（SNS漫画）",
+    "publisher": "タイカ",
+    "start": null,
+    "end": null,
+    "note": ""
+   },
+   "point_extra": "タイカ、10/21～、OP=SILENT SIREN"
   },
   {
    "id": 21,
    "title": "ケロロ軍曹☆",
    "tags": [],
-   "point": "角川コミックス・エース（吉崎観音）。BN Pictures、テレ東系 土9:30、OP=あの",
+   "point": "原作：漫画『月刊少年エース』（KADOKAWA）、1999年〜継続中（27年）。BN Pictures、テレ東系 土9:30、OP=あの",
    "links": {
     "site": "https://www.bn-pictures.co.jp/keroro-anime/tv/",
     "x": "https://x.com/keroro_anime"
@@ -596,7 +776,16 @@
     "監督": "近藤信宏",
     "シリーズ構成": "竹内利光",
     "制作": "BN Pictures"
-   }
+   },
+   "source": {
+    "kind": "漫画",
+    "venue": "月刊少年エース",
+    "publisher": "KADOKAWA",
+    "start": 1999,
+    "end": null,
+    "note": ""
+   },
+   "point_extra": "BN Pictures、テレ東系 土9:30、OP=あの"
   },
   {
    "id": 22,
@@ -604,7 +793,7 @@
    "tags": [
     "TOKYO MX"
    ],
-   "point": "ゲーム（コナミ）。KONAMI animation、OP=amazarashi",
+   "point": "原作：ゲーム『幻想水滸伝II（PlayStation）』（コナミ）、1998年発売・発表（28年前）。KONAMI animation、OP=amazarashi",
    "links": {
     "site": "https://www.suikoden-anime.com/",
     "x": "https://x.com/Suikoden_anime"
@@ -639,13 +828,22 @@
     "監督": "サトウユーゾー",
     "シリーズ構成": "土屋理敬",
     "制作": "KONAMI animation"
-   }
+   },
+   "source": {
+    "kind": "ゲーム",
+    "venue": "幻想水滸伝II（PlayStation）",
+    "publisher": "コナミ",
+    "start": 1998,
+    "end": "single",
+    "note": ""
+   },
+   "point_extra": "KONAMI animation、OP=amazarashi"
   },
   {
    "id": 23,
    "title": "ごーすと・みーつ・ぎゃる！",
    "tags": [],
-   "point": "ヴァンガード（ブシロード）。AtoriE、テレ東系",
+   "point": "原作：カードゲーム『カードファイト!! ヴァンガード』（ブシロード）、2011年〜継続中（15年）。アニメはオリジナル展開。AtoriE、テレ東系",
    "links": {
     "site": "https://cf-vanguard.com/anime-ghost_meets_gal/"
    },
@@ -657,13 +855,22 @@
    "staff": {
     "監督": "森井ケンシロウ",
     "制作": "AtoriE"
-   }
+   },
+   "source": {
+    "kind": "カードゲーム",
+    "venue": "カードファイト!! ヴァンガード",
+    "publisher": "ブシロード",
+    "start": 2011,
+    "end": null,
+    "note": "アニメはオリジナル展開"
+   },
+   "point_extra": "AtoriE、テレ東系"
   },
   {
    "id": 24,
    "title": "氷の城壁 第2期",
    "tags": [],
-   "point": "ジャンプコミックス（阿賀沢紅茶、集英社）。スタジオKAI、TBS系 木23:56、OP=THE BEAT GARDEN、ED=Superfly",
+   "point": "原作：Web漫画『LINEマンガ（XOYで連載開始）』（集英社）、2017〜2022年 完結（5年）。スタジオKAI、TBS系 木23:56、OP=THE BEAT GARDEN、ED=Superfly",
    "links": {
     "site": "https://korinojoheki-pr.com/",
     "x": "https://x.com/korinojoheki_pr"
@@ -683,7 +890,16 @@
     "監督": "まんきゅう",
     "シリーズ構成": "中西やすひろ",
     "制作": "スタジオKAI"
-   }
+   },
+   "source": {
+    "kind": "Web漫画",
+    "venue": "LINEマンガ（XOYで連載開始）",
+    "publisher": "集英社",
+    "start": 2017,
+    "end": 2022,
+    "note": ""
+   },
+   "point_extra": "スタジオKAI、TBS系 木23:56、OP=THE BEAT GARDEN、ED=Superfly"
   },
   {
    "id": 25,
@@ -691,7 +907,7 @@
    "tags": [
     "Netflix"
    ],
-   "point": "ゲーム原案（CD PROJEKT RED）。TRIGGER、全10話、10/20～",
+   "point": "原作：ゲーム『サイバーパンク2077』（CD PROJEKT RED）、2020年発売・発表（6年前）。TRIGGER、全10話、10/20～",
    "links": {
     "site": "https://www.cyberpunk.net/ja/edgerunners2",
     "x": "https://x.com/CDPRJP"
@@ -708,7 +924,16 @@
    "staff": {
     "監督": "五十嵐海",
     "制作": "TRIGGER"
-   }
+   },
+   "source": {
+    "kind": "ゲーム",
+    "venue": "サイバーパンク2077",
+    "publisher": "CD PROJEKT RED",
+    "start": 2020,
+    "end": "single",
+    "note": ""
+   },
+   "point_extra": "TRIGGER、全10話、10/20～"
   },
   {
    "id": 26,
@@ -716,7 +941,7 @@
    "tags": [
     "TOKYO MX"
    ],
-   "point": "ジャンプコミックス（岩代俊明、集英社）。サテライト、OP=CLAN QUEEN",
+   "point": "原作：漫画『週刊少年ジャンプ』（集英社）、2008〜2010年 完結（2年）。サテライト、OP=CLAN QUEEN",
    "links": {
     "site": "https://psyren-anime.com/",
     "x": "https://x.com/PSYREN_official"
@@ -734,7 +959,16 @@
     "監督": "小野勝巳",
     "シリーズ構成": "吉田伸",
     "制作": "サテライト"
-   }
+   },
+   "source": {
+    "kind": "漫画",
+    "venue": "週刊少年ジャンプ",
+    "publisher": "集英社",
+    "start": 2008,
+    "end": 2010,
+    "note": ""
+   },
+   "point_extra": "サテライト、OP=CLAN QUEEN"
   },
   {
    "id": 27,
@@ -742,7 +976,7 @@
    "tags": [
     "TOKYO MX"
    ],
-   "point": "SILVER LINK.、水23:00",
+   "point": "原作：Web小説『カクヨム・小説家になろう』（書籍：MF文庫J（KADOKAWA）2021年〜）、2018年〜継続中（8年）。SILVER LINK.、水23:00",
    "links": {
     "site": "https://sasapi-anime.com/",
     "x": "https://x.com/sasaki_pichan"
@@ -765,7 +999,16 @@
     "監督": "伊部勇志",
     "シリーズ構成": "赤尾でこ",
     "制作": "SILVER LINK."
-   }
+   },
+   "source": {
+    "kind": "Web小説",
+    "venue": "カクヨム・小説家になろう",
+    "publisher": "書籍：MF文庫J（KADOKAWA）2021年〜",
+    "start": 2018,
+    "end": null,
+    "note": ""
+   },
+   "point_extra": "SILVER LINK.、水23:00"
   },
   {
    "id": 28,
@@ -773,7 +1016,7 @@
    "tags": [
     "TOKYO MX"
    ],
-   "point": "手塚プロダクション、火22:00",
+   "point": "原作：Web小説『小説家になろう』（書籍：ガガガ文庫（小学館）2019年〜）、2019〜2021年 完結（2年）。手塚プロダクション、火22:00",
    "links": {
     "site": "https://shioama-anime.com/",
     "x": "https://x.com/shioamaofficial"
@@ -792,7 +1035,16 @@
     "監督": "吉村文宏",
     "シリーズ構成": "あおしまたかし",
     "制作": "手塚プロダクション"
-   }
+   },
+   "source": {
+    "kind": "Web小説",
+    "venue": "小説家になろう",
+    "publisher": "書籍：ガガガ文庫（小学館）2019年〜",
+    "start": 2019,
+    "end": 2021,
+    "note": ""
+   },
+   "point_extra": "手塚プロダクション、火22:00"
   },
   {
    "id": 29,
@@ -800,7 +1052,7 @@
    "tags": [
     "TOKYO MX"
    ],
-   "point": "制作会社未確認、土20:00",
+   "point": "原作：漫画（中国）『快看漫画』（原作：阿喃・呆兔）、開始年は要確認。中国制作アニメの日本語吹替版。制作会社未確認、土20:00",
    "links": {
     "site": "https://nekokeibishitsu-anime.com/",
     "x": "https://x.com/nekokeibishitsu"
@@ -822,13 +1074,22 @@
    ],
    "staff": {
     "監督": "邓志巍"
-   }
+   },
+   "source": {
+    "kind": "漫画（中国）",
+    "venue": "快看漫画",
+    "publisher": "原作：阿喃・呆兔",
+    "start": null,
+    "end": null,
+    "note": "中国制作アニメの日本語吹替版"
+   },
+   "point_extra": "制作会社未確認、土20:00"
   },
   {
    "id": 30,
    "title": "死亡遊戯で飯を食う。44:CLOUDY BEACH 地上波放送",
    "tags": [],
-   "point": "地上波放送（配信済み作品の地上波）",
+   "point": "原作：ライトノベル『MF文庫J』（KADOKAWA）、2022年〜継続中（4年）",
    "links": {
     "site": "https://shiboyugi-anime.com/",
     "x": "https://x.com/shibouyugi_"
@@ -847,13 +1108,22 @@
     "監督": "上野壮大",
     "シリーズ構成": "池田臨太郎",
     "制作": "スタジオディーン"
-   }
+   },
+   "source": {
+    "kind": "ライトノベル",
+    "venue": "MF文庫J",
+    "publisher": "KADOKAWA",
+    "start": 2022,
+    "end": null,
+    "note": ""
+   },
+   "point_extra": ""
   },
   {
    "id": 31,
    "title": "朱色の仮面",
    "tags": [],
-   "point": "100studio、日テレ系 土17:30",
+   "point": "原作：漫画『ヤングキングアワーズ』（少年画報社）、2021年〜継続中（5年）。100studio、日テレ系 土17:30",
    "links": {
     "site": "https://the-vermilion-mask.com/",
     "x": "https://x.com/vermilion_PR"
@@ -878,7 +1148,16 @@
     "監督": "渡邉徹明",
     "シリーズ構成": "大東大介",
     "制作": "100studio"
-   }
+   },
+   "source": {
+    "kind": "漫画",
+    "venue": "ヤングキングアワーズ",
+    "publisher": "少年画報社",
+    "start": 2021,
+    "end": null,
+    "note": ""
+   },
+   "point_extra": "100studio、日テレ系 土17:30"
   },
   {
    "id": 32,
@@ -886,7 +1165,7 @@
    "tags": [
     "TOKYO MX"
    ],
-   "point": "ライデンフィルム、カヤックアニメーション、水24:30",
+   "point": "原作なし（グッドスマイルカンパニー「合体神」シリーズ）。ライデンフィルム、カヤックアニメーション、水24:30",
    "links": {
     "site": "https://gattaishin.com/dandivine/",
     "x": "https://x.com/gattaishin"
@@ -908,7 +1187,16 @@
     "監督": "曹毅",
     "シリーズ構成": "井上敏樹",
     "制作": "ライデンフィルム、カヤックアニメーション"
-   }
+   },
+   "source": {
+    "kind": "オリジナル",
+    "venue": "",
+    "publisher": "グッドスマイルカンパニー「合体神」シリーズ",
+    "start": 2026,
+    "end": "single",
+    "note": ""
+   },
+   "point_extra": "ライデンフィルム、カヤックアニメーション、水24:30"
   },
   {
    "id": 33,
@@ -916,7 +1204,7 @@
    "tags": [
     "TOKYO MX"
    ],
-   "point": "シルバニアファミリー（エポック社）。木19:19～",
+   "point": "原作：玩具『シルバニアファミリー』（エポック社）、1985年〜継続中（41年）。木19:19～",
    "links": {
     "site": "https://www.sylvanianfamilies.com/ja-jp/special/tv/",
     "x": "https://x.com/SylvanianJP"
@@ -934,13 +1222,22 @@
    "staff": {
     "監督": "河原真明",
     "シリーズ構成": "河原真明"
-   }
+   },
+   "source": {
+    "kind": "玩具",
+    "venue": "シルバニアファミリー",
+    "publisher": "エポック社",
+    "start": 1985,
+    "end": null,
+    "note": ""
+   },
+   "point_extra": "木19:19～"
   },
   {
    "id": 34,
    "title": "しろたん",
    "tags": [],
-   "point": "レスプリ、テレ朝系 土16:29",
+   "point": "原作：キャラクター『しろたん』（クリエイティブ・ヨーコ）、1999年〜継続中（27年）。レスプリ、テレ朝系 土16:29",
    "links": {
     "site": "https://www.tv-asahi.co.jp/sirotan/",
     "x": "https://x.com/anime_sirotan"
@@ -955,13 +1252,22 @@
     "監督": "岡田ありさ",
     "シリーズ構成": "吉月生",
     "制作": "レスプリ"
-   }
+   },
+   "source": {
+    "kind": "キャラクター",
+    "venue": "しろたん",
+    "publisher": "クリエイティブ・ヨーコ",
+    "start": 1999,
+    "end": null,
+    "note": ""
+   },
+   "point_extra": "レスプリ、テレ朝系 土16:29"
   },
   {
    "id": 35,
    "title": "信者ゼロの女神サマと始める異世界攻略",
    "tags": [],
-   "point": "",
+   "point": "原作：Web小説『小説家になろう』（書籍：オーバーラップ文庫 2019年〜）、2018年〜継続中（8年）",
    "links": {
     "site": "https://zero-believers-anime.com/",
     "x": "https://x.com/zero_believers"
@@ -981,13 +1287,22 @@
     "監督": "福島利規",
     "シリーズ構成": "待田堂子",
     "制作": "HORNETS"
-   }
+   },
+   "source": {
+    "kind": "Web小説",
+    "venue": "小説家になろう",
+    "publisher": "書籍：オーバーラップ文庫 2019年〜",
+    "start": 2018,
+    "end": null,
+    "note": ""
+   },
+   "point_extra": ""
   },
   {
    "id": 36,
    "title": "新テニスの王子様 U-17 WORLD CUP 決勝メンバー決定戦",
    "tags": [],
-   "point": "M.S.C、テレ東系 水24:00、9/30～",
+   "point": "原作：漫画『ジャンプSQ.』（集英社）、2009年〜継続中（17年）。前作『テニスの王子様』は週刊少年ジャンプ 1999〜2008年。M.S.C、テレ東系 水24:00、9/30～",
    "links": {
     "site": "http://tenipuri.jp/u17/selection-match/",
     "x": "https://x.com/shintenianime"
@@ -1013,13 +1328,22 @@
     "監督": "徳本善信",
     "シリーズ構成": "広田光毅",
     "制作": "M.S.C"
-   }
+   },
+   "source": {
+    "kind": "漫画",
+    "venue": "ジャンプSQ.",
+    "publisher": "集英社",
+    "start": 2009,
+    "end": null,
+    "note": "前作『テニスの王子様』は週刊少年ジャンプ 1999〜2008年"
+   },
+   "point_extra": "M.S.C、テレ東系 水24:00、9/30～"
   },
   {
    "id": 37,
    "title": "スティール・ボール・ラン ジョジョの奇妙な冒険 2nd & 3rd STAGE",
    "tags": [],
-   "point": "",
+   "point": "原作：漫画『週刊少年ジャンプ→ウルトラジャンプ』（集英社）、2004〜2011年 完結（7年）",
    "links": {
     "site": "https://jojo-portal-anime.com/sbr/",
     "x": "https://x.com/anime_jojo"
@@ -1040,7 +1364,16 @@
     "監督": "木村泰大、髙橋秀弥",
     "シリーズ構成": "小林靖子",
     "制作": "david production"
-   }
+   },
+   "source": {
+    "kind": "漫画",
+    "venue": "週刊少年ジャンプ→ウルトラジャンプ",
+    "publisher": "集英社",
+    "start": 2004,
+    "end": 2011,
+    "note": ""
+   },
+   "point_extra": ""
   },
   {
    "id": 38,
@@ -1048,7 +1381,7 @@
    "tags": [
     "TOKYO MX"
    ],
-   "point": "パッショーネ、土24:30",
+   "point": "原作：漫画『週刊少年マガジン』（講談社）、2022年〜継続中（4年）。パッショーネ、土24:30",
    "links": {
     "site": "https://nama-anaru.com/",
     "x": "https://x.com/nama_anaru"
@@ -1065,7 +1398,16 @@
     "監督": "龍輪直征",
     "シリーズ構成": "横谷昌宏",
     "制作": "パッショーネ"
-   }
+   },
+   "source": {
+    "kind": "漫画",
+    "venue": "週刊少年マガジン",
+    "publisher": "講談社",
+    "start": 2022,
+    "end": null,
+    "note": ""
+   },
+   "point_extra": "パッショーネ、土24:30"
   },
   {
    "id": 39,
@@ -1073,7 +1415,7 @@
    "tags": [
     "TOKYO MX"
    ],
-   "point": "ブリッジ／アイル、水22:00",
+   "point": "原作：Web小説『小説家になろう・カクヨム』（書籍：SQEXノベル（スクウェア・エニックス）2022年〜）、2022〜2026年 完結（4年）。ブリッジ／アイル、水22:00",
    "links": {
     "site": "https://sekamajo-anime.com/",
     "x": "https://x.com/sekamajo_anime"
@@ -1090,13 +1432,22 @@
     "監督": "古田丈司",
     "シリーズ構成": "米村正二",
     "制作": "ブリッジ、アイル"
-   }
+   },
+   "source": {
+    "kind": "Web小説",
+    "venue": "小説家になろう・カクヨム",
+    "publisher": "書籍：SQEXノベル（スクウェア・エニックス）2022年〜",
+    "start": 2022,
+    "end": 2026,
+    "note": ""
+   },
+   "point_extra": "ブリッジ／アイル、水22:00"
   },
   {
    "id": 40,
    "title": "#ゾンビさがしてます",
    "tags": [],
-   "point": "スタジオコメット、テレ朝系 土22:30",
+   "point": "原作：漫画『コミック電撃だいおうじ』（KADOKAWA）、2022〜2023年 完結（1年）。スタジオコメット、テレ朝系 土22:30",
    "links": {
     "site": "https://zommasu.com/",
     "x": "https://x.com/zommasu_anime"
@@ -1117,7 +1468,16 @@
     "監督": "宇根信也",
     "シリーズ構成": "山下憲一、伊丹あき",
     "制作": "スタジオコメット"
-   }
+   },
+   "source": {
+    "kind": "漫画",
+    "venue": "コミック電撃だいおうじ",
+    "publisher": "KADOKAWA",
+    "start": 2022,
+    "end": 2023,
+    "note": ""
+   },
+   "point_extra": "スタジオコメット、テレ朝系 土22:30"
   },
   {
    "id": 41,
@@ -1125,7 +1485,7 @@
    "tags": [
     "TOKYO MX"
    ],
-   "point": "AtoriE、日25:20",
+   "point": "原作：Web漫画『ドラドラしゃーぷ#』（KADOKAWA）、2021年〜継続中（5年）。AtoriE、日25:20",
    "links": {
     "site": "https://darksummoner.deregula.com/",
     "x": "https://x.com/dksummon_anime"
@@ -1141,13 +1501,22 @@
     "監督": "宮嶋星矢",
     "シリーズ構成": "宮嶋星矢",
     "制作": "AtoriE"
-   }
+   },
+   "source": {
+    "kind": "Web漫画",
+    "venue": "ドラドラしゃーぷ#",
+    "publisher": "KADOKAWA",
+    "start": 2021,
+    "end": null,
+    "note": ""
+   },
+   "point_extra": "AtoriE、日25:20"
   },
   {
    "id": 42,
    "title": "DARK MACHINE THE ANIMATION",
    "tags": [],
-   "point": "Production +h.、フジテレビ系 火25:45、10/13～",
+   "point": "原作なし（Project Carbuncle（アニメ・ゲームのメディアミックス））。Production +h.、フジテレビ系 火25:45、10/13～",
    "links": {
     "site": "https://www.fujitv.co.jp/darkmachine_anime/",
     "x": "https://x.com/dark__machine"
@@ -1175,13 +1544,22 @@
     "監督": "寺田和生",
     "シリーズ構成": "チームカーバンクル",
     "制作": "Production +h."
-   }
+   },
+   "source": {
+    "kind": "オリジナル",
+    "venue": "",
+    "publisher": "Project Carbuncle（アニメ・ゲームのメディアミックス）",
+    "start": 2026,
+    "end": "single",
+    "note": ""
+   },
+   "point_extra": "Production +h.、フジテレビ系 火25:45、10/13～"
   },
   {
    "id": 43,
    "title": "ダイヤのA actⅡ -Second Season- 第2クール",
    "tags": [],
-   "point": "",
+   "point": "原作：漫画『週刊少年マガジン』（講談社）、2015〜2022年 完結（7年）。actIIの期間。第1部は2006〜2015年",
    "links": {
     "site": "https://diaace.com/",
     "x": "https://x.com/diaace_anime"
@@ -1237,13 +1615,22 @@
     "監督": "大庭秀昭",
     "シリーズ構成": "古怒田健志",
     "制作": "OLM"
-   }
+   },
+   "source": {
+    "kind": "漫画",
+    "venue": "週刊少年マガジン",
+    "publisher": "講談社",
+    "start": 2015,
+    "end": 2022,
+    "note": "actIIの期間。第1部は2006〜2015年"
+   },
+   "point_extra": ""
   },
   {
    "id": 44,
    "title": "タヌキとキツネ",
    "tags": [],
-   "point": "タヌキ役=久野美咲、キツネ役=東山奈央。アカツキメディアスタジオ、テレ東系 日7:00",
+   "point": "原作：Web漫画『Twitter』（書籍：リラクトコミックス（フロンティアワークス））、2016年〜継続中（10年）。アカツキメディアスタジオ、テレ東系 日7:00",
    "links": {
     "site": "https://tanukitsu-anime.jp/",
     "x": "https://x.com/tanu_kitsu"
@@ -1258,7 +1645,16 @@
    "staff": {
     "監督": "日野トミー",
     "制作": "アカツキメディアスタジオ"
-   }
+   },
+   "source": {
+    "kind": "Web漫画",
+    "venue": "Twitter",
+    "publisher": "書籍：リラクトコミックス（フロンティアワークス）",
+    "start": 2016,
+    "end": null,
+    "note": ""
+   },
+   "point_extra": "アカツキメディアスタジオ、テレ東系 日7:00"
   },
   {
    "id": 45,
@@ -1266,7 +1662,7 @@
    "tags": [
     "TOKYO MX"
    ],
-   "point": "ポリゴン・ピクチュアズ、日23:00",
+   "point": "原作：漫画『マガジンポケット→月刊少年シリウス』（講談社）、2021年〜継続中（5年）。ポリゴン・ピクチュアズ、日23:00",
    "links": {
     "site": "https://www.tankchair-anime.com/",
     "x": "https://x.com/anime_tankchair"
@@ -1286,7 +1682,16 @@
    "staff": {
     "シリーズ構成": "吉平直弘",
     "制作": "ポリゴン・ピクチュアズ"
-   }
+   },
+   "source": {
+    "kind": "漫画",
+    "venue": "マガジンポケット→月刊少年シリウス",
+    "publisher": "講談社",
+    "start": 2021,
+    "end": null,
+    "note": ""
+   },
+   "point_extra": "ポリゴン・ピクチュアズ、日23:00"
   },
   {
    "id": 46,
@@ -1294,7 +1699,7 @@
    "tags": [
     "TOKYO MX"
    ],
-   "point": "ENGI、水22:30",
+   "point": "原作：ライトノベル『MF文庫J』（KADOKAWA）、2019年〜継続中（7年）。ENGI、水22:30",
    "links": {
     "site": "https://tanmoshi-anime.jp/Season2/",
     "x": "https://x.com/tanteiwamou_"
@@ -1316,7 +1721,16 @@
     "監督": "栗原学",
     "シリーズ構成": "赤尾でこ",
     "制作": "ENGI"
-   }
+   },
+   "source": {
+    "kind": "ライトノベル",
+    "venue": "MF文庫J",
+    "publisher": "KADOKAWA",
+    "start": 2019,
+    "end": null,
+    "note": ""
+   },
+   "point_extra": "ENGI、水22:30"
   },
   {
    "id": 47,
@@ -1324,7 +1738,7 @@
    "tags": [
     "TOKYO MX"
    ],
-   "point": "feel.、火23:00、10/13～",
+   "point": "原作：ライトノベル『ガガガ文庫』（小学館）、2019年〜継続中（7年）。feel.、火23:00、10/13～",
    "links": {
     "site": "https://chiramune.com/",
     "x": "https://x.com/anime_chiramune"
@@ -1345,13 +1759,22 @@
     "監督": "德野雄士",
     "シリーズ構成": "荒川稔久",
     "制作": "feel."
-   }
+   },
+   "source": {
+    "kind": "ライトノベル",
+    "venue": "ガガガ文庫",
+    "publisher": "小学館",
+    "start": 2019,
+    "end": null,
+    "note": ""
+   },
+   "point_extra": "feel.、火23:00、10/13～"
   },
   {
    "id": 48,
    "title": "超巡！超条先輩",
    "tags": [],
-   "point": "アルボアニメーション、フジテレビ系 火23:00",
+   "point": "原作：漫画『週刊少年ジャンプ』（集英社）、2024〜2025年 完結（1年）。アルボアニメーション、フジテレビ系 火23:00",
    "links": {
     "site": "https://chojun-anime.com/",
     "x": "https://x.com/Chojun_Anime"
@@ -1370,13 +1793,22 @@
     "監督": "山元隼一",
     "シリーズ構成": "森ハヤシ",
     "制作": "アルボアニメーション"
-   }
+   },
+   "source": {
+    "kind": "漫画",
+    "venue": "週刊少年ジャンプ",
+    "publisher": "集英社",
+    "start": 2024,
+    "end": 2025,
+    "note": ""
+   },
+   "point_extra": "アルボアニメーション、フジテレビ系 火23:00"
   },
   {
    "id": 49,
    "title": "ちょこっとヤバシティ",
    "tags": [],
-   "point": "ショートギャグ。YouTube配信、10/1～",
+   "point": "原作：YouTube『まじめにヤバシティ（ゲーム実況グループ）』、開始年は要確認。YouTube配信、10/1～",
    "links": {
     "site": "https://chocoyaba.com/",
     "x": "https://x.com/chocoyaba",
@@ -1394,13 +1826,22 @@
    "staff": {
     "監督": "月見里智弘",
     "制作": "レスプリ"
-   }
+   },
+   "source": {
+    "kind": "YouTube",
+    "venue": "まじめにヤバシティ（ゲーム実況グループ）",
+    "publisher": "",
+    "start": null,
+    "end": null,
+    "note": ""
+   },
+   "point_extra": "YouTube配信、10/1～"
   },
   {
    "id": 50,
    "title": "追放されたチート付与魔術師は気ままなセカンドライフを謳歌する。",
    "tags": [],
-   "point": "小説・漫画（原作=六志麻あさ）。P.A.WORKS、テレ東系 火23:30",
+   "point": "原作：Web小説『小説投稿サイト』（書籍：Kラノベブックス（講談社）2022年〜／漫画：月マガ基地）、2021年〜継続中（5年）。P.A.WORKS、テレ東系 火23:30",
    "links": {
     "site": "https://sh-anime.shochiku.co.jp/chiifuyo-anime/",
     "x": "https://x.com/chi_fuyo"
@@ -1423,7 +1864,16 @@
     "監督": "本間修",
     "シリーズ構成": "米内山陽子",
     "制作": "P.A.WORKS"
-   }
+   },
+   "source": {
+    "kind": "Web小説",
+    "venue": "小説投稿サイト",
+    "publisher": "書籍：Kラノベブックス（講談社）2022年〜／漫画：月マガ基地",
+    "start": 2021,
+    "end": null,
+    "note": ""
+   },
+   "point_extra": "P.A.WORKS、テレ東系 火23:30"
   },
   {
    "id": 51,
@@ -1431,7 +1881,7 @@
    "tags": [
     "TOKYO MX"
    ],
-   "point": "鉄道むすめ（20周年）。イーストフィッシュスタジオ、木24:00",
+   "point": "原作：キャラクター『鉄道むすめ（フィギュア）』（トミーテック）、2005年〜継続中（21年）。イーストフィッシュスタジオ、木24:00",
    "links": {
     "site": "https://tetsuryo-anime.com/",
     "x": "https://x.com/tetsuryo_anime"
@@ -1465,7 +1915,16 @@
     "監督": "星野美鈴",
     "シリーズ構成": "皐月彩",
     "制作": "イーストフィッシュスタジオ"
-   }
+   },
+   "source": {
+    "kind": "キャラクター",
+    "venue": "鉄道むすめ（フィギュア）",
+    "publisher": "トミーテック",
+    "start": 2005,
+    "end": null,
+    "note": ""
+   },
+   "point_extra": "イーストフィッシュスタジオ、木24:00"
   },
   {
    "id": 52,
@@ -1473,7 +1932,7 @@
    "tags": [
     "TOKYO MX"
    ],
-   "point": "J.C.STAFF、金23:30",
+   "point": "原作：Web小説（韓国）『KakaoPage』（原作：Saenal、WEBTOON版2020年〜、日本はピッコマ）、2014〜2024年 完結（10年）。J.C.STAFF、金23:30",
    "links": {
     "site": "https://tempal-anime.net/",
     "x": "https://x.com/tempal_anime"
@@ -1496,13 +1955,22 @@
     "監督": "河野亜矢子",
     "シリーズ構成": "猪原健太",
     "制作": "J.C.STAFF"
-   }
+   },
+   "source": {
+    "kind": "Web小説（韓国）",
+    "venue": "KakaoPage",
+    "publisher": "原作：Saenal、WEBTOON版2020年〜、日本はピッコマ",
+    "start": 2014,
+    "end": 2024,
+    "note": ""
+   },
+   "point_extra": "J.C.STAFF、金23:30"
   },
   {
    "id": 53,
    "title": "デモンズ・クレスト",
    "tags": [],
-   "point": "Production I.G、Prime Video配信、11/6～",
+   "point": "原作：ライトノベル『電撃文庫』（KADOKAWA）、2022年〜継続中（4年）。著者：川原礫。Production I.G、Prime Video配信、11/6～",
    "links": {
     "site": "https://demonscrest-anime.com/",
     "x": "https://x.com/demonscrestPR"
@@ -1523,13 +1991,22 @@
     "監督": "ウシロシンジ",
     "シリーズ構成": "梅原英司",
     "制作": "Production I.G"
-   }
+   },
+   "source": {
+    "kind": "ライトノベル",
+    "venue": "電撃文庫",
+    "publisher": "KADOKAWA",
+    "start": 2022,
+    "end": null,
+    "note": "著者：川原礫"
+   },
+   "point_extra": "Production I.G、Prime Video配信、11/6～"
   },
   {
    "id": 54,
    "title": "Duel Masters LOST ～断罪の少年～",
    "tags": [],
-   "point": "J.C.STAFF／SMDE、10/9～",
+   "point": "原作：漫画『月刊コロコロコミック』（小学館）、1999年〜継続中（27年）。同名カードゲームが題材。J.C.STAFF／SMDE、10/9～",
    "links": {
     "site": "https://www.shopro.co.jp/anime/duelmasters_lost/",
     "x": "https://x.com/duema_anime"
@@ -1547,13 +2024,22 @@
     "監督": "福島利規",
     "シリーズ構成": "加藤陽一",
     "制作": "J.C.STAFF、SMDE"
-   }
+   },
+   "source": {
+    "kind": "漫画",
+    "venue": "月刊コロコロコミック",
+    "publisher": "小学館",
+    "start": 1999,
+    "end": null,
+    "note": "同名カードゲームが題材"
+   },
+   "point_extra": "J.C.STAFF／SMDE、10/9～"
   },
   {
    "id": 55,
    "title": "転生貴族、鑑定スキルで成り上がる 第3期",
    "tags": [],
-   "point": "GeyeG Pictures、CBC/TBS系 日24:00（9/27～）",
+   "point": "原作：Web小説『小説家になろう』（書籍：Kラノベブックス（講談社）2020年〜）、2019年〜継続中（7年）。GeyeG Pictures、CBC/TBS系 日24:00（9/27～）",
    "links": {
     "site": "https://kanteiskill.com/",
     "x": "https://x.com/kanteiskill"
@@ -1575,7 +2061,16 @@
     "監督": "加戸誉夫",
     "シリーズ構成": "大東大介",
     "制作": "GeyeG Pictures"
-   }
+   },
+   "source": {
+    "kind": "Web小説",
+    "venue": "小説家になろう",
+    "publisher": "書籍：Kラノベブックス（講談社）2020年〜",
+    "start": 2019,
+    "end": null,
+    "note": ""
+   },
+   "point_extra": "GeyeG Pictures、CBC/TBS系 日24:00（9/27～）"
   },
   {
    "id": 56,
@@ -1583,7 +2078,7 @@
    "tags": [
     "TOKYO MX"
    ],
-   "point": "BAKKKA、月22:00",
+   "point": "原作：Web漫画『となりのヤングジャンプ』（集英社）、2020年〜継続中（6年）。BAKKKA、月22:00",
    "links": {
     "site": "https://tengobu-anime.com/",
     "x": "https://x.com/tengobu_anime"
@@ -1618,7 +2113,16 @@
     "監督": "河原龍太",
     "シリーズ構成": "百瀬祐一郎",
     "制作": "BAKKKA"
-   }
+   },
+   "source": {
+    "kind": "Web漫画",
+    "venue": "となりのヤングジャンプ",
+    "publisher": "集英社",
+    "start": 2020,
+    "end": null,
+    "note": ""
+   },
+   "point_extra": "BAKKKA、月22:00"
   },
   {
    "id": 57,
@@ -1626,7 +2130,7 @@
    "tags": [
     "TOKYO MX"
    ],
-   "point": "Felix Film、土22:00",
+   "point": "原作：Web小説『小説家になろう』（書籍：アース・スターノベル 2019年〜）、2019年〜継続中（7年）。Felix Film、土22:00",
    "links": {
     "site": "https://daiseijo-anime.com/",
     "x": "https://x.com/daiseijo_anime"
@@ -1649,7 +2153,16 @@
     "監督": "牧野友映",
     "シリーズ構成": "赤尾でこ",
     "制作": "Felix Film"
-   }
+   },
+   "source": {
+    "kind": "Web小説",
+    "venue": "小説家になろう",
+    "publisher": "書籍：アース・スターノベル 2019年〜",
+    "start": 2019,
+    "end": null,
+    "note": ""
+   },
+   "point_extra": "Felix Film、土22:00"
   },
   {
    "id": 58,
@@ -1657,7 +2170,7 @@
    "tags": [
     "TOKYO MX"
    ],
-   "point": "C2C、水24:00",
+   "point": "原作：Web小説『小説家になろう』（書籍：GCノベルズ（マイクロマガジン社）2016年〜）、2015年〜継続中（11年）。C2C、水24:00",
    "links": {
     "site": "https://tenken-anime.com/",
     "x": "https://x.com/tenken_official"
@@ -1674,7 +2187,16 @@
     "監督": "石平信司",
     "シリーズ構成": "永野たかひろ",
     "制作": "C2C"
-   }
+   },
+   "source": {
+    "kind": "Web小説",
+    "venue": "小説家になろう",
+    "publisher": "書籍：GCノベルズ（マイクロマガジン社）2016年〜",
+    "start": 2015,
+    "end": null,
+    "note": ""
+   },
+   "point_extra": "C2C、水24:00"
   },
   {
    "id": 59,
@@ -1682,7 +2204,7 @@
    "tags": [
     "TOKYO MX"
    ],
-   "point": "J.C.STAFF、金24:30",
+   "point": "原作：ライトノベル『電撃文庫』（KADOKAWA）、2023年〜継続中（3年）。『とある魔術の禁書目録』のスピンオフ。J.C.STAFF、金24:30",
    "links": {
     "site": "https://toaru-project.com/item/",
     "x": "https://x.com/toaru_project"
@@ -1698,13 +2220,22 @@
     "監督": "長井龍雪",
     "シリーズ構成": "ヤスカワショウゴ",
     "制作": "J.C.STAFF"
-   }
+   },
+   "source": {
+    "kind": "ライトノベル",
+    "venue": "電撃文庫",
+    "publisher": "KADOKAWA",
+    "start": 2023,
+    "end": null,
+    "note": "『とある魔術の禁書目録』のスピンオフ"
+   },
+   "point_extra": "J.C.STAFF、金24:30"
   },
   {
    "id": 60,
    "title": "東京リベンジャーズ 三天戦争編",
    "tags": [],
-   "point": "ライデンフィルム、TBS系 金25:23",
+   "point": "原作：漫画『週刊少年マガジン』（講談社）、2017〜2022年 完結（5年）。ライデンフィルム、TBS系 金25:23",
    "links": {
     "site": "https://tokyo-revengers-anime.com/",
     "x": "https://x.com/anime_toman"
@@ -1745,13 +2276,22 @@
     "監督": "小平麻紀",
     "シリーズ構成": "むとうやすゆき",
     "制作": "ライデンフィルム"
-   }
+   },
+   "source": {
+    "kind": "漫画",
+    "venue": "週刊少年マガジン",
+    "publisher": "講談社",
+    "start": 2017,
+    "end": 2022,
+    "note": ""
+   },
+   "point_extra": "ライデンフィルム、TBS系 金25:23"
   },
   {
    "id": 61,
    "title": "桃源暗鬼 ～日光・華厳の滝編～",
    "tags": [],
-   "point": "スタジオ雲雀、日テレ系 金23:30",
+   "point": "原作：漫画『週刊少年チャンピオン』（秋田書店）、2020年〜継続中（6年）。スタジオ雲雀、日テレ系 金23:30",
    "links": {
     "site": "https://tougenanki-anime.com/",
     "x": "https://x.com/tougenanki_anm"
@@ -1784,7 +2324,16 @@
     "監督": "野中阿斗",
     "シリーズ構成": "菅原雪絵",
     "制作": "スタジオ雲雀"
-   }
+   },
+   "source": {
+    "kind": "漫画",
+    "venue": "週刊少年チャンピオン",
+    "publisher": "秋田書店",
+    "start": 2020,
+    "end": null,
+    "note": ""
+   },
+   "point_extra": "スタジオ雲雀、日テレ系 金23:30"
   },
   {
    "id": 62,
@@ -1792,7 +2341,7 @@
    "tags": [
     "TOKYO MX"
    ],
-   "point": "ディオメディア、AT-X・TOKYO MX、月21:30",
+   "point": "原作：Web小説『小説家になろう』（書籍：Mノベルスf（双葉社）2019〜2020年）、2019〜2020年 完結（1年）。ディオメディア、AT-X・TOKYO MX、月21:30",
    "links": {
     "site": "https://horemajo-anime.com/",
     "x": "https://x.com/horemajo_anime"
@@ -1807,13 +2356,22 @@
     "監督": "草川啓造",
     "シリーズ構成": "渡航",
     "制作": "ディオメディア"
-   }
+   },
+   "source": {
+    "kind": "Web小説",
+    "venue": "小説家になろう",
+    "publisher": "書籍：Mノベルスf（双葉社）2019〜2020年",
+    "start": 2019,
+    "end": 2020,
+    "note": ""
+   },
+   "point_extra": "ディオメディア、AT-X・TOKYO MX、月21:30"
   },
   {
    "id": 63,
    "title": "ドラゴンボール超 ビルス",
    "tags": [],
-   "point": "",
+   "point": "原作：漫画『Vジャンプ』（集英社）、2015年〜継続中（11年）",
    "links": {
     "site": "https://dragonball-super.com/",
     "x": "https://x.com/DB_anime_info"
@@ -1822,13 +2380,22 @@
     "野沢雅子",
     "山寺宏一"
    ],
-   "staff": {}
+   "staff": {},
+   "source": {
+    "kind": "漫画",
+    "venue": "Vジャンプ",
+    "publisher": "集英社",
+    "start": 2015,
+    "end": null,
+    "note": ""
+   },
+   "point_extra": ""
   },
   {
    "id": 64,
    "title": "dreamland",
    "tags": [],
-   "point": "Ellipse & La Chouette Compagnie、テレ朝系 10/17～",
+   "point": "原作：漫画（仏）『DreamLand』（Pika Édition、作：Reno Lemaire）、2006年〜継続中（20年）。Ellipse & La Chouette Compagnie、テレ朝系 10/17～",
    "links": {
     "site": "https://www.dreamland-anime.com/",
     "x": "https://x.com/dreamland_anime"
@@ -1849,13 +2416,22 @@
     "監督": "Juan Pablo Machado、Joe Celse",
     "シリーズ構成": "Jean-Luc Cano、Antoine Maurel",
     "制作": "Ellipse & La Chouette Compagnie"
-   }
+   },
+   "source": {
+    "kind": "漫画（仏）",
+    "venue": "DreamLand",
+    "publisher": "Pika Édition、作：Reno Lemaire",
+    "start": 2006,
+    "end": null,
+    "note": ""
+   },
+   "point_extra": "Ellipse & La Chouette Compagnie、テレ朝系 10/17～"
   },
   {
    "id": 65,
    "title": "鳴海の平日",
    "tags": [],
-   "point": "",
+   "point": "原作なし（『怪獣8号』（少年ジャンプ+ 2020〜2025年）のオリジナルショート）",
    "links": {
     "site": "https://kaiju-no8.net/",
     "x": "https://x.com/KaijuNo8_O"
@@ -1866,13 +2442,22 @@
    "staff": {
     "監督": "宮繁之",
     "制作": "Production I.G"
-   }
+   },
+   "source": {
+    "kind": "オリジナル",
+    "venue": "",
+    "publisher": "『怪獣8号』（少年ジャンプ+ 2020〜2025年）のオリジナルショート",
+    "start": 2026,
+    "end": "single",
+    "note": ""
+   },
+   "point_extra": ""
   },
   {
    "id": 66,
    "title": "ねずみくんのチョッキ 2期",
    "tags": [],
-   "point": "NHK Eテレ 土9:30",
+   "point": "原作：絵本『ねずみくんの絵本』（ポプラ社）、1974年〜継続中（52年）。NHK Eテレ 土9:30",
    "links": {
     "site": "https://www.poplar.co.jp/pr/anime-nezumikun/",
     "x": "https://x.com/nezumikun_anime"
@@ -1883,7 +2468,16 @@
    ],
    "staff": {
     "監督": "はばらのぶよし"
-   }
+   },
+   "source": {
+    "kind": "絵本",
+    "venue": "ねずみくんの絵本",
+    "publisher": "ポプラ社",
+    "start": 1974,
+    "end": null,
+    "note": ""
+   },
+   "point_extra": "NHK Eテレ 土9:30"
   },
   {
    "id": 67,
@@ -1891,7 +2485,7 @@
    "tags": [
     "TOKYO MX"
    ],
-   "point": "SMDE、土23:30",
+   "point": "原作なし（SMDE制作のオリジナルアニメ）。SMDE、土23:30",
    "links": {
     "site": "https://vertexforce.jp/",
     "x": "https://x.com/vertexforce"
@@ -1908,7 +2502,16 @@
    "staff": {
     "シリーズ構成": "高村和宏、鈴木雅詞",
     "制作": "SMDE"
-   }
+   },
+   "source": {
+    "kind": "オリジナル",
+    "venue": "",
+    "publisher": "SMDE制作のオリジナルアニメ",
+    "start": 2026,
+    "end": "single",
+    "note": ""
+   },
+   "point_extra": "SMDE、土23:30"
   },
   {
    "id": 68,
@@ -1916,12 +2519,21 @@
    "tags": [
     "Netflix"
    ],
-   "point": "スタジオミール、11/3～配信",
+   "point": "原作なし（Netflixオリジナル）。スタジオミール、11/3～配信",
    "links": {},
    "cast": [],
    "staff": {
     "制作": "スタジオミール"
-   }
+   },
+   "source": {
+    "kind": "オリジナル",
+    "venue": "",
+    "publisher": "Netflixオリジナル",
+    "start": 2026,
+    "end": "single",
+    "note": ""
+   },
+   "point_extra": "スタジオミール、11/3～配信"
   },
   {
    "id": 69,
@@ -1929,7 +2541,7 @@
    "tags": [
     "TOKYO MX"
    ],
-   "point": "BN Pictures、火23:00",
+   "point": "原作：カードゲーム『バトルスピリッツ』（バンダイ）、2008年〜継続中（18年）。BN Pictures、火23:00",
    "links": {
     "site": "https://www.bn-pictures.co.jp/battlespirits/",
     "x": "https://x.com/bs_animation"
@@ -1952,13 +2564,22 @@
    "staff": {
     "シリーズ構成": "根元歳三",
     "制作": "BN Pictures"
-   }
+   },
+   "source": {
+    "kind": "カードゲーム",
+    "venue": "バトルスピリッツ",
+    "publisher": "バンダイ",
+    "start": 2008,
+    "end": null,
+    "note": ""
+   },
+   "point_extra": "BN Pictures、火23:00"
   },
   {
    "id": 70,
    "title": "パンどろぼう",
    "tags": [],
-   "point": "絵本。シンエイ動画、NHK Eテレ 金18:40",
+   "point": "原作：絵本『パンどろぼう』（KADOKAWA）、2020年〜継続中（6年）。シンエイ動画、NHK Eテレ 金18:40",
    "links": {
     "site": "https://pandorobo-anime.com/",
     "x": "https://x.com/pandorobo_anime",
@@ -1975,13 +2596,22 @@
     "監督": "京極尚彦",
     "シリーズ構成": "望月真里子",
     "制作": "シンエイ動画"
-   }
+   },
+   "source": {
+    "kind": "絵本",
+    "venue": "パンどろぼう",
+    "publisher": "KADOKAWA",
+    "start": 2020,
+    "end": null,
+    "note": ""
+   },
+   "point_extra": "シンエイ動画、NHK Eテレ 金18:40"
   },
   {
    "id": 71,
    "title": "人付き合いが苦手な未亡人の雪女さんと呪いの指輪",
    "tags": [],
-   "point": "彗星社、BS11ほか",
+   "point": "原作：漫画（電子・成人向け）『電子コミック』（原作：ぷぅ崎ぷぅ奈）、開始年は要確認。彗星社、BS11ほか",
    "links": {
     "site": "https://anime-yukionna.af-original.com/",
     "x": "https://x.com/anime_yukionna"
@@ -1995,13 +2625,22 @@
     "監督": "古賀一臣",
     "シリーズ構成": "黒崎エーヨ",
     "制作": "studio HōKIBOSHI"
-   }
+   },
+   "source": {
+    "kind": "漫画（電子・成人向け）",
+    "venue": "電子コミック",
+    "publisher": "原作：ぷぅ崎ぷぅ奈",
+    "start": null,
+    "end": null,
+    "note": ""
+   },
+   "point_extra": "彗星社、BS11ほか"
   },
   {
    "id": 72,
    "title": "百妖譜 第3期京師篇",
    "tags": [],
-   "point": "フジテレビ系 水25:15",
+   "point": "原作：小説（中国）『中国のWeb小説』（原作：沙羅双樹）、開始年は要確認。アニメはbilibiliで2020年〜。フジテレビ系 水25:15",
    "links": {
     "site": "https://b8station.tv/hyakuyoufu/",
     "x": "https://x.com/b8station"
@@ -2016,13 +2655,22 @@
    ],
    "staff": {
     "監督": "董易"
-   }
+   },
+   "source": {
+    "kind": "小説（中国）",
+    "venue": "中国のWeb小説",
+    "publisher": "原作：沙羅双樹",
+    "start": null,
+    "end": null,
+    "note": "アニメはbilibiliで2020年〜"
+   },
+   "point_extra": "フジテレビ系 水25:15"
   },
   {
    "id": 73,
    "title": "冰剣の魔術師が世界を統べるⅡ",
    "tags": [],
-   "point": "続編。ゼロジー、TBS系 木25:28",
+   "point": "原作：Web小説『小説家になろう』（書籍：講談社ラノベ文庫 2020年〜）、2019年〜継続中（7年）。ゼロジー、TBS系 木25:28",
    "links": {
     "site": "https://hyouken-anime.com/",
     "x": "https://x.com/hyouken_pr"
@@ -2051,7 +2699,16 @@
    "staff": {
     "シリーズ構成": "たかたまさひろ",
     "制作": "ゼロジー"
-   }
+   },
+   "source": {
+    "kind": "Web小説",
+    "venue": "小説家になろう",
+    "publisher": "書籍：講談社ラノベ文庫 2020年〜",
+    "start": 2019,
+    "end": null,
+    "note": ""
+   },
+   "point_extra": "ゼロジー、TBS系 木25:28"
   },
   {
    "id": 74,
@@ -2059,7 +2716,7 @@
    "tags": [
     "Netflix"
    ],
-   "point": "11/26～配信。サンライズ×シャフト、主演=内山昂輝",
+   "point": "原作：漫画『ビッグコミックスペリオール』（小学館）、2020年〜継続中（6年）。11/26～配信。サンライズ×シャフト、主演=内山昂輝",
    "links": {
     "site": "https://www.foolnight.com/",
     "x": "https://x.com/foolnight_anime"
@@ -2075,13 +2732,22 @@
     "監督": "湯川敦之",
     "シリーズ構成": "田中仁",
     "制作": "サンライズ×シャフト"
-   }
+   },
+   "source": {
+    "kind": "漫画",
+    "venue": "ビッグコミックスペリオール",
+    "publisher": "小学館",
+    "start": 2020,
+    "end": null,
+    "note": ""
+   },
+   "point_extra": "11/26～配信。サンライズ×シャフト、主演=内山昂輝"
   },
   {
    "id": 75,
    "title": "ぷにるんず ぷに４",
    "tags": [],
-   "point": "テレ東系 日9:15",
+   "point": "原作：玩具『ぷにるんず』（タカラトミー）、2021年〜継続中（5年）。テレ東系 日9:15",
    "links": {
     "site": "https://www.tv-tokyo.co.jp/anime/punirunes/",
     "x": "https://x.com/punirunes"
@@ -2100,13 +2766,22 @@
     "監督": "春日森春木",
     "シリーズ構成": "市川十億衛門",
     "制作": "OLM Digital"
-   }
+   },
+   "source": {
+    "kind": "玩具",
+    "venue": "ぷにるんず",
+    "publisher": "タカラトミー",
+    "start": 2021,
+    "end": null,
+    "note": ""
+   },
+   "point_extra": "テレ東系 日9:15"
   },
   {
    "id": 76,
    "title": "ブラッククローバー 2nd Season",
    "tags": [],
-   "point": "スタジオぴえろ、テレ東系 土23:00",
+   "point": "原作：漫画『週刊少年ジャンプ→ジャンプGIGA』（集英社）、2015〜2026年 完結（11年）。スタジオぴえろ、テレ東系 土23:00",
    "links": {
     "site": "https://bclover.jp/",
     "x": "https://x.com/bclover_PR"
@@ -2147,13 +2822,22 @@
     "監督": "種村綾隆",
     "シリーズ構成": "大知慶一郎",
     "制作": "スタジオぴえろ"
-   }
+   },
+   "source": {
+    "kind": "漫画",
+    "venue": "週刊少年ジャンプ→ジャンプGIGA",
+    "publisher": "集英社",
+    "start": 2015,
+    "end": 2026,
+    "note": ""
+   },
+   "point_extra": "スタジオぴえろ、テレ東系 土23:00"
   },
   {
    "id": 77,
    "title": "ふんばるず",
    "tags": [],
-   "point": "月21:54、放送局・制作未確認",
+   "point": "原作：グッズ『ふんばるず（ぬいぐるみ）』（ドリームズ）、2023年〜継続中（3年）。月21:54、放送局・制作未確認",
    "links": {
     "site": "https://funbarus.com/",
     "x": "https://x.com/funbarus_anime",
@@ -2181,13 +2865,22 @@
    "staff": {
     "監督": "のなかかずみ",
     "制作": "エムアイ"
-   }
+   },
+   "source": {
+    "kind": "グッズ",
+    "venue": "ふんばるず（ぬいぐるみ）",
+    "publisher": "ドリームズ",
+    "start": 2023,
+    "end": null,
+    "note": ""
+   },
+   "point_extra": "月21:54、放送局・制作未確認"
   },
   {
    "id": 78,
    "title": "BEYBLADE X ベイキングダム編",
    "tags": [],
-   "point": "オー・エル・エム、ベイチューブ・Prime Video配信、10/9～",
+   "point": "原作：漫画『月刊コロコロコミック』（小学館）、2023年〜継続中（3年）。タカラトミーの玩具が題材。オー・エル・エム、ベイチューブ・Prime Video配信、10/9～",
    "links": {
     "site": "https://beyblade.takaratomy.co.jp/anime/",
     "x": "https://x.com/beyblade_info"
@@ -2214,13 +2907,22 @@
     "監督": "寺田素都",
     "シリーズ構成": "萬代耕士",
     "制作": "OLM"
-   }
+   },
+   "source": {
+    "kind": "漫画",
+    "venue": "月刊コロコロコミック",
+    "publisher": "小学館",
+    "start": 2023,
+    "end": null,
+    "note": "タカラトミーの玩具が題材"
+   },
+   "point_extra": "オー・エル・エム、ベイチューブ・Prime Video配信、10/9～"
   },
   {
    "id": 79,
    "title": "僕らが選んだベストアドベンチャー",
    "tags": [],
-   "point": "東映アニメーション、フジテレビ系 日9:00。既存TVアニメの選抜エピソード",
+   "point": "原作：『デジモンアドベンチャー』（1999年放送）の選抜エピソード。東映アニメーション、フジテレビ系 日9:00",
    "links": {
     "site": "https://www.toei-anim.co.jp/tv/digimon_selection/",
     "x": "https://x.com/Digimon_Anime"
@@ -2246,13 +2948,22 @@
    "staff": {
     "シリーズ構成": "西園悟",
     "制作": "東映アニメーション"
-   }
+   },
+   "source": {
+    "kind": "アニメ再編集",
+    "venue": "",
+    "publisher": "『デジモンアドベンチャー』（1999年放送）の選抜エピソード",
+    "start": 1999,
+    "end": "single",
+    "note": ""
+   },
+   "point_extra": "東映アニメーション、フジテレビ系 日9:00"
   },
   {
    "id": 80,
    "title": "ホタルの嫁入り",
    "tags": [],
-   "point": "漫画。david production、フジテレビ系 金23:30",
+   "point": "原作：Web漫画『マンガワン』（小学館）、2023〜2026年 完結（3年）。david production、フジテレビ系 金23:30",
    "links": {
     "site": "https://hotaru-anime.com/",
     "x": "https://x.com/hotaru_anime_pr"
@@ -2267,13 +2978,22 @@
     "監督": "亀井隆広",
     "シリーズ構成": "柿原優子",
     "制作": "david production"
-   }
+   },
+   "source": {
+    "kind": "Web漫画",
+    "venue": "マンガワン",
+    "publisher": "小学館",
+    "start": 2023,
+    "end": 2026,
+    "note": ""
+   },
+   "point_extra": "david production、フジテレビ系 金23:30"
   },
   {
    "id": 81,
    "title": "ポップパップポルターズ",
    "tags": [],
-   "point": "シンエイ動画、テレ朝 日10:00",
+   "point": "原作なし（Mozuのコマ撮りアニメ）。シンエイ動画、テレ朝 日10:00",
    "links": {
     "site": "https://ppp-anime.jp/",
     "x": "https://x.com/ppp_anime_PR"
@@ -2286,13 +3006,22 @@
    "staff": {
     "監督": "Mozu",
     "制作": "MOZU STUDIOS"
-   }
+   },
+   "source": {
+    "kind": "オリジナル",
+    "venue": "",
+    "publisher": "Mozuのコマ撮りアニメ",
+    "start": 2026,
+    "end": "single",
+    "note": ""
+   },
+   "point_extra": "シンエイ動画、テレ朝 日10:00"
   },
   {
    "id": 82,
    "title": "ホテル・インヒューマンズ 第2期",
    "tags": [],
-   "point": "ブリッジ／アイル、テレ東系 日23:45",
+   "point": "原作：Web漫画『サンデーうぇぶり』（小学館）、2021〜2025年 完結（4年）。ブリッジ／アイル、テレ東系 日23:45",
    "links": {
     "site": "https://hotel-inhumans.com/",
     "x": "https://x.com/HIH_PR"
@@ -2306,7 +3035,16 @@
     "監督": "アミノテツロ",
     "シリーズ構成": "米村正二",
     "制作": "ブリッジ、アイル"
-   }
+   },
+   "source": {
+    "kind": "Web漫画",
+    "venue": "サンデーうぇぶり",
+    "publisher": "小学館",
+    "start": 2021,
+    "end": 2025,
+    "note": ""
+   },
+   "point_extra": "ブリッジ／アイル、テレ東系 日23:45"
   },
   {
    "id": 83,
@@ -2314,7 +3052,7 @@
    "tags": [
     "TOKYO MX"
    ],
-   "point": "彗星社、日25:00",
+   "point": "原作：Web漫画『COMICゴイチ』（wwwave comics）、開始年は要確認。フルカラー電子版は2025年〜。彗星社、日25:00",
    "links": {
     "site": "https://maukuri.af-original.com/",
     "x": "https://x.com/af_originalMT"
@@ -2329,7 +3067,16 @@
     "監督": "則座誠",
     "シリーズ構成": "黒崎エーヨ",
     "制作": "studio HōKIBOSHI"
-   }
+   },
+   "source": {
+    "kind": "Web漫画",
+    "venue": "COMICゴイチ",
+    "publisher": "wwwave comics",
+    "start": null,
+    "end": null,
+    "note": "フルカラー電子版は2025年〜"
+   },
+   "point_extra": "彗星社、日25:00"
   },
   {
    "id": 84,
@@ -2337,7 +3084,7 @@
    "tags": [
     "TOKYO MX"
    ],
-   "point": "WHITE FOX、土24:00",
+   "point": "原作：Web小説『小説家になろう』（書籍：角川スニーカー文庫 2019年〜）、2018〜2022年 完結（4年）。WHITE FOX、土24:00",
    "links": {
     "site": "https://majieku.com/",
     "x": "https://x.com/Majieku_anime"
@@ -2358,13 +3105,22 @@
    "staff": {
     "シリーズ構成": "関根聡子",
     "制作": "WHITE FOX"
-   }
+   },
+   "source": {
+    "kind": "Web小説",
+    "venue": "小説家になろう",
+    "publisher": "書籍：角川スニーカー文庫 2019年〜",
+    "start": 2018,
+    "end": 2022,
+    "note": ""
+   },
+   "point_extra": "WHITE FOX、土24:00"
   },
   {
    "id": 85,
    "title": "魔法騎士レイアース",
    "tags": [],
-   "point": "約30年ぶりの新アニメ化。E&H production、テレ朝系 水23:45",
+   "point": "原作：漫画『なかよし』（講談社）、1993〜1995年 完結（2年）。第1部の期間。約30年ぶりの新アニメ化。E&H production、テレ朝系 水23:45",
    "links": {
     "site": "https://rayearth-anime.com/",
     "x": "https://x.com/rayearth_info"
@@ -2384,13 +3140,22 @@
     "監督": "三浦唯",
     "シリーズ構成": "村越繁",
     "制作": "E&H production"
-   }
+   },
+   "source": {
+    "kind": "漫画",
+    "venue": "なかよし",
+    "publisher": "講談社",
+    "start": 1993,
+    "end": 1995,
+    "note": "第1部の期間"
+   },
+   "point_extra": "約30年ぶりの新アニメ化。E&H production、テレ朝系 水23:45"
   },
   {
    "id": 86,
    "title": "マゼンチュ",
    "tags": [],
-   "point": "",
+   "point": "原作：要確認（原作：エビ、関西テレビ「よ～いドン！」内のアニメ）",
    "links": {
     "site": "https://www.ktv.jp/mazenchu/",
     "x": "https://x.com/_mazenchu"
@@ -2405,13 +3170,22 @@
    "staff": {
     "監督": "高瀬裕介",
     "制作": "LIBERTY ANIMATION STUDIO"
-   }
+   },
+   "source": {
+    "kind": "不明",
+    "venue": "",
+    "publisher": "原作：エビ、関西テレビ「よ～いドン！」内のアニメ",
+    "start": null,
+    "end": null,
+    "note": ""
+   },
+   "point_extra": ""
   },
   {
    "id": 87,
    "title": "魔法少女育成計画restart",
    "tags": [],
-   "point": "前作の約10年後。SynergySP、テレ東ほか 月26:00",
+   "point": "原作：ライトノベル『このライトノベルがすごい!文庫』（宝島社）、2012年〜継続中（14年）。SynergySP、テレ東ほか 月26:00",
    "links": {
     "site": "https://mahoiku.com/anime/restart",
     "x": "https://x.com/MGRP_PrjRestart"
@@ -2441,7 +3215,16 @@
     "監督": "橋本裕之",
     "シリーズ構成": "吉岡たかを",
     "制作": "SynergySP"
-   }
+   },
+   "source": {
+    "kind": "ライトノベル",
+    "venue": "このライトノベルがすごい!文庫",
+    "publisher": "宝島社",
+    "start": 2012,
+    "end": null,
+    "note": ""
+   },
+   "point_extra": "SynergySP、テレ東ほか 月26:00"
   },
   {
    "id": 88,
@@ -2449,7 +3232,7 @@
    "tags": [
     "TOKYO MX"
    ],
-   "point": "スタジオぴえろ、日22:30",
+   "point": "原作なし（ぴえろ魔法少女シリーズ）。スタジオぴえろ、日22:30",
    "links": {
     "site": "https://www.luluttolilly.com/",
     "x": "https://x.com/luluttolilly"
@@ -2476,13 +3259,22 @@
    "staff": {
     "シリーズ構成": "柿原優子",
     "制作": "スタジオぴえろ"
-   }
+   },
+   "source": {
+    "kind": "オリジナル",
+    "venue": "",
+    "publisher": "ぴえろ魔法少女シリーズ",
+    "start": 2026,
+    "end": "single",
+    "note": ""
+   },
+   "point_extra": "スタジオぴえろ、日22:30"
   },
   {
    "id": 89,
    "title": "マロニエ王国の七人の騎士",
    "tags": [],
-   "point": "J.C.STAFF、NHK Eテレ 土18:25",
+   "point": "原作：漫画『月刊フラワーズ』（小学館）、2016年〜継続中（10年）。J.C.STAFF、NHK Eテレ 土18:25",
    "links": {
     "site": "https://www.nhk-character.com/chara/marronnier/",
     "x": "https://x.com/MarronnierAnime"
@@ -2513,7 +3305,16 @@
     "監督": "佐山聖子",
     "シリーズ構成": "藤田伸三",
     "制作": "J.C.STAFF"
-   }
+   },
+   "source": {
+    "kind": "漫画",
+    "venue": "月刊フラワーズ",
+    "publisher": "小学館",
+    "start": 2016,
+    "end": null,
+    "note": ""
+   },
+   "point_extra": "J.C.STAFF、NHK Eテレ 土18:25"
   },
   {
    "id": 90,
@@ -2521,7 +3322,7 @@
    "tags": [
     "TOKYO MX"
    ],
-   "point": "studio A-CAT、日21:30",
+   "point": "原作：Web小説『小説家になろう』（書籍：カドカワBOOKS 2019年〜）、2019年〜継続中（7年）。studio A-CAT、日21:30",
    "links": {
     "site": "https://saikyosoubi.com/",
     "x": "https://x.com/saikyosoubi"
@@ -2538,13 +3339,22 @@
     "監督": "ながはまのりひこ",
     "シリーズ構成": "鴻野貴光",
     "制作": "studio A-CAT"
-   }
+   },
+   "source": {
+    "kind": "Web小説",
+    "venue": "小説家になろう",
+    "publisher": "書籍：カドカワBOOKS 2019年〜",
+    "start": 2019,
+    "end": null,
+    "note": ""
+   },
+   "point_extra": "studio A-CAT、日21:30"
   },
   {
    "id": 91,
    "title": "メダリスト（再放送）",
    "tags": [],
-   "point": "再放送",
+   "point": "原作：漫画『月刊アフタヌーン』（講談社）、2020年〜継続中（6年）",
    "links": {
     "site": "https://medalist-pr.com/tv/",
     "x": "https://x.com/medalist_PR"
@@ -2569,7 +3379,16 @@
     "監督": "山本靖貴",
     "シリーズ構成": "花田十輝",
     "制作": "ENGI"
-   }
+   },
+   "source": {
+    "kind": "漫画",
+    "venue": "月刊アフタヌーン",
+    "publisher": "講談社",
+    "start": 2020,
+    "end": null,
+    "note": ""
+   },
+   "point_extra": ""
   },
   {
    "id": 92,
@@ -2577,7 +3396,7 @@
    "tags": [
     "TOKYO MX"
    ],
-   "point": "ワオワールド、土22:30",
+   "point": "原作：Web小説『小説家になろう』（書籍：アース・スターノベル 2016〜2019年）、2015〜2017年 完結（2年）。ワオワールド、土22:30",
    "links": {
     "site": "https://www.lastboss-anime.com/",
     "x": "https://x.com/lastboss_anime"
@@ -2613,13 +3432,22 @@
     "監督": "ほりうちゆうや",
     "シリーズ構成": "筆安一幸",
     "制作": "ワオワールド"
-   }
+   },
+   "source": {
+    "kind": "Web小説",
+    "venue": "小説家になろう",
+    "publisher": "書籍：アース・スターノベル 2016〜2019年",
+    "start": 2015,
+    "end": 2017,
+    "note": ""
+   },
+   "point_extra": "ワオワールド、土22:30"
   },
   {
    "id": 93,
    "title": "ゆうさんち！from 遊ハち",
    "tags": [],
-   "point": "オリジナル（SNS発キャラ）。ファンワークス、フジテレビ系 月11:00",
+   "point": "原作：SNS漫画『X（旧Twitter）など』（遊ハち）、2021年〜継続中（5年）。ファンワークス、フジテレビ系 月11:00",
    "links": {
     "site": "https://yusanchi-anime.jp/",
     "x": "https://x.com/yusanchi_anime"
@@ -2635,13 +3463,22 @@
     "監督": "ラレコ、きのしたがく",
     "シリーズ構成": "ラレコ、きのしたがく",
     "制作": "ファンワークス"
-   }
+   },
+   "source": {
+    "kind": "SNS漫画",
+    "venue": "X（旧Twitter）など",
+    "publisher": "遊ハち",
+    "start": 2021,
+    "end": null,
+    "note": ""
+   },
+   "point_extra": "ファンワークス、フジテレビ系 月11:00"
   },
   {
    "id": 94,
    "title": "ゆるゆる図鑑",
    "tags": [],
-   "point": "図鑑シリーズ（Gakken）。Imagica Infos／Imageworks Studio、テレ東系 日7:00",
+   "point": "原作：図鑑『ゆるゆる図鑑シリーズ』（Gakken）、2017年〜継続中（9年）。Imagica Infos／Imageworks Studio、テレ東系 日7:00",
    "links": {
     "site": "https://animationid.com/yuruyuruzukan/",
     "x": "https://x.com/yuruyuruzukan"
@@ -2657,13 +3494,22 @@
    "staff": {
     "監督": "阿部圭造",
     "制作": "Imagica Infos、Imageworks Studio"
-   }
+   },
+   "source": {
+    "kind": "図鑑",
+    "venue": "ゆるゆる図鑑シリーズ",
+    "publisher": "Gakken",
+    "start": 2017,
+    "end": null,
+    "note": ""
+   },
+   "point_extra": "Imagica Infos／Imageworks Studio、テレ東系 日7:00"
   },
   {
    "id": 95,
    "title": "夜桜さんちの大作戦 第2期 第2クール",
    "tags": [],
-   "point": "SILVER LINK.、MBS/TBS系 日17:00、10/11～",
+   "point": "原作：漫画『週刊少年ジャンプ』（集英社）、2019〜2025年 完結（6年）。SILVER LINK.、MBS/TBS系 日17:00、10/11～",
    "links": {
     "site": "https://mission-yozakura-family.com/",
     "x": "https://x.com/OfficialHitsuji"
@@ -2697,7 +3543,16 @@
     "監督": "湊未來",
     "シリーズ構成": "湊未來",
     "制作": "SILVER LINK."
-   }
+   },
+   "source": {
+    "kind": "漫画",
+    "venue": "週刊少年ジャンプ",
+    "publisher": "集英社",
+    "start": 2019,
+    "end": 2025,
+    "note": ""
+   },
+   "point_extra": "SILVER LINK.、MBS/TBS系 日17:00、10/11～"
   },
   {
    "id": 96,
@@ -2705,7 +3560,7 @@
    "tags": [
     "TOKYO MX"
    ],
-   "point": "寿門堂、全国23局、日23:30",
+   "point": "原作：Web小説『小説家になろう』（書籍：ビーズログ文庫（KADOKAWA）2020〜2024年）、2020年 完結（1年未満）。寿門堂、全国23局、日23:30",
    "links": {
     "site": "https://yowaki-max-anime.com/",
     "x": "https://x.com/yowaki_max"
@@ -2725,13 +3580,22 @@
     "監督": "中西伸彰",
     "シリーズ構成": "福田裕子",
     "制作": "寿門堂"
-   }
+   },
+   "source": {
+    "kind": "Web小説",
+    "venue": "小説家になろう",
+    "publisher": "書籍：ビーズログ文庫（KADOKAWA）2020〜2024年",
+    "start": 2020,
+    "end": 2020,
+    "note": ""
+   },
+   "point_extra": "寿門堂、全国23局、日23:30"
   },
   {
    "id": 97,
    "title": "楽楽飯店",
    "tags": [],
-   "point": "ショートアニメ。YouTube配信、9/18～",
+   "point": "原作なし（Plott制作のYouTubeアニメ）。ショートアニメ。YouTube配信、9/18～",
    "links": {
     "x": "https://x.com/rakuraku_hanten",
     "youtube": "https://www.youtube.com/@rakuraku_hanten"
@@ -2745,13 +3609,22 @@
     "木花藍",
     "関智一"
    ],
-   "staff": {}
+   "staff": {},
+   "source": {
+    "kind": "オリジナル",
+    "venue": "",
+    "publisher": "Plott制作のYouTubeアニメ",
+    "start": 2026,
+    "end": "single",
+    "note": ""
+   },
+   "point_extra": "ショートアニメ。YouTube配信、9/18～"
   },
   {
    "id": 98,
    "title": "ラブライブ！虹ヶ咲学園スクールアイドル同好会 第2期（再放送）",
    "tags": [],
-   "point": "再放送",
+   "point": "原作：企画『ラブライブ!シリーズ』（KADOKAWA・バンダイナムコ）、2017年〜継続中（9年）。アニメ第2期（2022年）の再放送",
    "links": {
     "site": "https://www.lovelive-anime.jp/nijigasaki/",
     "x": "https://x.com/LoveLive_staff"
@@ -2775,13 +3648,22 @@
     "監督": "河村智之",
     "シリーズ構成": "田中仁",
     "制作": "サンライズ"
-   }
+   },
+   "source": {
+    "kind": "企画",
+    "venue": "ラブライブ!シリーズ",
+    "publisher": "KADOKAWA・バンダイナムコ",
+    "start": 2017,
+    "end": null,
+    "note": "アニメ第2期（2022年）の再放送"
+   },
+   "point_extra": ""
   },
   {
    "id": 99,
    "title": "らんま1/2 第3期",
    "tags": [],
-   "point": "MAPPA、日テレ系 土24:55",
+   "point": "原作：漫画『週刊少年サンデー』（小学館）、1987〜1996年 完結（9年）。MAPPA、日テレ系 土24:55",
    "links": {
     "site": "https://ranma-pr.com/",
     "x": "https://x.com/ranma_pr"
@@ -2818,7 +3700,16 @@
     "監督": "宇田鋼之介",
     "シリーズ構成": "うえのきみこ",
     "制作": "MAPPA"
-   }
+   },
+   "source": {
+    "kind": "漫画",
+    "venue": "週刊少年サンデー",
+    "publisher": "小学館",
+    "start": 1987,
+    "end": 1996,
+    "note": ""
+   },
+   "point_extra": "MAPPA、日テレ系 土24:55"
   },
   {
    "id": 100,
@@ -2826,7 +3717,7 @@
    "tags": [
     "Netflix"
    ],
-   "point": "Netflix配信、9/29～",
+   "point": "原作：漫画『週刊少年ジャンプ』（集英社）、1997年〜継続中（29年）。Netflix配信、9/29～",
    "links": {},
    "cast": [
     "田中真弓",
@@ -2839,7 +3730,16 @@
     "東地宏樹",
     "渡辺美佐"
    ],
-   "staff": {}
+   "staff": {},
+   "source": {
+    "kind": "漫画",
+    "venue": "週刊少年ジャンプ",
+    "publisher": "集英社",
+    "start": 1997,
+    "end": null,
+    "note": ""
+   },
+   "point_extra": "Netflix配信、9/29～"
   },
   {
    "id": 101,
@@ -2847,7 +3747,7 @@
    "tags": [
     "TOKYO MX"
    ],
-   "point": "Atra、月23:30",
+   "point": "原作：Web小説『小説家になろう』（書籍：ガガガブックス（小学館）2020年〜）、2019年〜継続中（7年）。Atra、月23:30",
    "links": {
     "site": "http://romelia-senki.com/",
     "x": "https://x.com/romelia_senki"
@@ -2883,13 +3783,22 @@
     "監督": "白井宏旨",
     "シリーズ構成": "皐月彩",
     "制作": "Atra"
-   }
+   },
+   "source": {
+    "kind": "Web小説",
+    "venue": "小説家になろう",
+    "publisher": "書籍：ガガガブックス（小学館）2020年〜",
+    "start": 2019,
+    "end": null,
+    "note": ""
+   },
+   "point_extra": "Atra、月23:30"
   },
   {
    "id": 102,
    "title": "わたしの幸せな結婚 特別篇",
    "tags": [],
-   "point": "特別篇",
+   "point": "原作：小説『小説家になろう→富士見L文庫』（KADOKAWA）、2019年〜継続中（7年）。書籍刊行の開始年",
    "links": {
     "site": "https://watakon-anime.com/",
     "x": "https://x.com/watashino_info"
@@ -2911,7 +3820,16 @@
     "監督": "久保田雄大",
     "シリーズ構成": "久保田雄大",
     "制作": "キネマシトラス"
-   }
+   },
+   "source": {
+    "kind": "小説",
+    "venue": "小説家になろう→富士見L文庫",
+    "publisher": "KADOKAWA",
+    "start": 2019,
+    "end": null,
+    "note": "書籍刊行の開始年"
+   },
+   "point_extra": ""
   }
  ]
 }
