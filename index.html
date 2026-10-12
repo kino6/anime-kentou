@@ -89,6 +89,8 @@ mark.todo{background:var(--maybe-soft);color:var(--maybe);border-radius:3px;padd
 .ic .t{font-weight:700;font-size:.9rem;line-height:1;font-family:system-ui,sans-serif}
 .ic.search{color:var(--muted)}
 .ic.none{visibility:hidden}
+.ic.off{color:var(--line);cursor:default}
+.ic.off:hover{background:none}
 .sep{width:1px;height:16px;background:var(--line);margin:0 4px}
 
 .vote{display:flex;flex-direction:column;gap:5px;min-width:0}
@@ -157,7 +159,7 @@ footer{margin-top:22px;color:var(--muted);font-size:.78rem;display:grid;gap:4px}
   </div>
 
   <footer>
-    <span>リンクは左から 公式サイト／公式X／公式YouTube（あるもののみ）、区切りの右が PV検索／Wikipedia検索です。</span>
+    <span>リンクは左から 公式サイト／公式X／公式YouTube（あるもののみ）、区切りの右が PV検索／Wikipedia記事です（薄い W は記事がまだない作品）。</span>
     <span id="vote-note"></span>
     <span>作品リスト・公式リンク・キャストは <a id="src" href="#" target="_blank" rel="noopener">アニメイトタイムズの今期アニメ一覧</a> をもとに作成しています。</span>
     <span>投票は匿名です。このブラウザに保存したランダムなIDで1作品1票として数え、名前などの個人情報は集めていません。</span>
@@ -288,7 +290,8 @@ footer{margin-top:22px;color:var(--muted);font-size:.78rem;display:grid;gap:4px}
           link(L.youtube, "", "公式YouTube", IC.yt)+
           '<span class="sep" aria-hidden="true"></span>'+
           link("https://www.youtube.com/results?search_query="+e(s+" アニメ PV"), "search", "PVを検索", IC.pv)+
-          link("https://ja.wikipedia.org/w/index.php?go=Go&search="+e(s), "search", "Wikipediaを検索", IC.wiki)+
+          (L.wiki ? link(L.wiki, "", "Wikipedia"+({en:"（英語版）",fr:"（フランス語版）"}[L.wikiLang]||""), IC.wiki)
+                  : '<span class="ic off" title="Wikipediaの記事はまだありません" aria-label="Wikipediaの記事なし">'+IC.wiki+'</span>')+
         '</div>'+
         '<div class="vote"><div class="btns">'+
           ["watch","maybe","skip"].map(function(k){

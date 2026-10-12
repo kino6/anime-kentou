@@ -10,7 +10,9 @@
    "point": "原作：アーケードゲーム『データカードダス アイカツ!』（バンダイ）、2012〜2016年 完結（4年）。アニメ2012年版のアンコール放送、新OP/ED。サンライズ（BN Pictures）、テレ東系 金18:25",
    "links": {
     "site": "https://www.aikatsu.net/01/index.html",
-    "x": "https://x.com/aikatsu_anime"
+    "x": "https://x.com/aikatsu_anime",
+    "wiki": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%82%A4%E3%82%AB%E3%83%84%21",
+    "wikiLang": "ja"
    },
    "cast": [
     "諸星すみれ",
@@ -48,7 +50,9 @@
    "point": "原作：漫画『週刊ビッグコミックスピリッツ』（小学館）、2015〜2025年 完結（10年）。トムス・エンタテインメント、NHK Eテレ 日17:00、全24話",
    "links": {
     "site": "https://aoashi-pr.com/",
-    "x": "https://x.com/aoashi_pr"
+    "x": "https://x.com/aoashi_pr",
+    "wiki": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%82%AA%E3%82%A2%E3%82%B7",
+    "wikiLang": "ja"
    },
    "cast": [
     "大鈴功起",
@@ -99,7 +103,9 @@
    "point": "原作なし（Ankama（仏、MMORPG『DOFUS』の会社）のオリジナル企画、原作・脚本はTot）。スタジオマスケット、OP=影山ヒロノブ＆奥井雅美",
    "links": {
     "site": "https://welshandshedar-anime.com/",
-    "x": "https://x.com/WelshAndShedar"
+    "x": "https://x.com/WelshAndShedar",
+    "wiki": "https://en.wikipedia.org/wiki/Welsh_%26_Shedar",
+    "wikiLang": "en"
    },
    "cast": [
     "安田陸矢",
@@ -133,7 +139,9 @@
    "point": "原作：漫画『週刊少年ジャンプ』（集英社）、2021〜2026年 完結（5年）。エレクトリックサーカス、TBS系 日16:30、OP=aiko",
    "links": {
     "site": "https://aonohako-anime.com/",
-    "x": "https://x.com/aonohako_PR"
+    "x": "https://x.com/aonohako_PR",
+    "wiki": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%82%AA%E3%81%AE%E3%83%8F%E3%82%B3",
+    "wikiLang": "ja"
    },
    "cast": [
     "千葉翔也",
@@ -167,7 +175,9 @@
    "point": "原作：ゲーム『ウマ娘 プリティーダービー』（Cygames）、2016年〜継続中（10年）。企画発表2016年、アプリ配信2021年。配信（ぱかチューブっ！）、全26話、3分枠、AtoriE",
    "links": {
     "site": "https://umamusume.jp/contents/anime/umayuru-fullgate/",
-    "x": "https://x.com/uma_musu"
+    "x": "https://x.com/uma_musu",
+    "wiki": "https://ja.wikipedia.org/wiki/%E3%82%A6%E3%83%9E%E5%A8%98_%E3%83%97%E3%83%AA%E3%83%86%E3%82%A3%E3%83%BC%E3%83%80%E3%83%BC%E3%83%93%E3%83%BC",
+    "wikiLang": "ja"
    },
    "cast": [
     "和氣あず未",
@@ -202,7 +212,9 @@
    "point": "原作：漫画『コミックフラッパー』（KADOKAWA）、2021年〜継続中（5年）。新都社発のWeb漫画をリメイク。パッショーネ、FX題材",
    "links": {
     "site": "https://fxkurumi-info.com/",
-    "x": "https://x.com/fxkurumi_info"
+    "x": "https://x.com/fxkurumi_info",
+    "wiki": "https://ja.wikipedia.org/wiki/FX%E6%88%A6%E5%A3%AB%E3%81%8F%E3%82%8B%E3%81%BF%E3%81%A1%E3%82%83%E3%82%93",
+    "wikiLang": "ja"
    },
    "cast": [
     "鈴木愛奈",
@@ -234,7 +246,9 @@
    "point": "原作：Web漫画『COMICポラリス』（フレックスコミックス）、2017年〜継続中（9年）。ライデンフィルム、OP=八木勇征",
    "links": {
     "site": "https://ojikawa.com/",
-    "x": "https://x.com/ojikawa_comic"
+    "x": "https://x.com/ojikawa_comic",
+    "wiki": "https://ja.wikipedia.org/wiki/%E3%81%8A%E3%81%98%E3%81%95%E3%82%93%E3%81%AF%E3%82%AB%E3%83%AF%E3%82%A4%E3%82%A4%E3%82%82%E3%81%AE%E3%81%8C%E3%81%8A%E5%A5%BD%E3%81%8D%E3%80%82",
+    "wikiLang": "ja"
    },
    "cast": [
     "興津和幸",
@@ -272,7 +286,9 @@
    "tags": [],
    "point": "原作：ゲーム『IdentityV 第五人格』（NetEase Games）、2018年〜継続中（8年）。おはスタ内、全4話、11月末～、TypeZERO",
    "links": {
-    "x": "https://x.com/IdentityVJP"
+    "x": "https://x.com/IdentityVJP",
+    "wiki": "https://ja.wikipedia.org/wiki/IdentityV_%E7%AC%AC%E4%BA%94%E4%BA%BA%E6%A0%BC",
+    "wikiLang": "ja"
    },
    "cast": [
     "斎藤千和"
@@ -297,7 +313,9 @@
    "point": "原作：カードゲーム『カードファイト!! ヴァンガード』（ブシロード）、2011年〜継続中（15年）。アニメはオリジナル展開。全3話（11/7～、劇場先行10/2）、キネマシトラス他、主題歌=Kis-My-Ft2",
    "links": {
     "site": "https://anime.cf-vanguard.com/vgd/",
-    "x": "https://x.com/cfvanguard_PR"
+    "x": "https://x.com/cfvanguard_PR",
+    "wiki": "https://ja.wikipedia.org/wiki/%E3%82%AB%E3%83%BC%E3%83%89%E3%83%95%E3%82%A1%E3%82%A4%E3%83%88%21%21_%E3%83%B4%E3%82%A1%E3%83%B3%E3%82%AC%E3%83%BC%E3%83%89",
+    "wikiLang": "ja"
    },
    "cast": [
     "宮田俊哉",
@@ -329,7 +347,9 @@
    "point": "原作：漫画『月刊コミックアライブ』（KADOKAWA）、2013年〜継続中（13年）。元はオリジナルアニメ『ガールズ&パンツァー』（2012年）。作画：弐尉マルコ。P.A.WORKS×アクタス、監督=下田正美",
    "links": {
     "site": "https://gup-mottolovelove.jp/",
-    "x": "https://x.com/garupan_love2"
+    "x": "https://x.com/garupan_love2",
+    "wiki": "https://ja.wikipedia.org/wiki/%E3%82%AC%E3%83%BC%E3%83%AB%E3%82%BA%26%E3%83%91%E3%83%B3%E3%83%84%E3%82%A1%E3%83%BC",
+    "wikiLang": "ja"
    },
    "cast": [
     "渕上舞",
@@ -404,7 +424,9 @@
    "point": "原作：Web小説『小説家になろう・カクヨム』（漫画：COMICアーク（フレックスコミックス））、2021年〜継続中（5年）。SynergySP、テレ朝系 土25:30",
    "links": {
     "site": "https://revo-anime.com/",
-    "x": "https://x.com/revo_anime"
+    "x": "https://x.com/revo_anime",
+    "wiki": "https://ja.wikipedia.org/wiki/%E8%B2%B8%E3%81%97%E3%81%9F%E9%AD%94%E5%8A%9B%E3%81%AF%E3%80%90%E3%83%AA%E3%83%9C%E6%89%95%E3%81%84%E3%80%91%E3%81%A7%E5%BC%B7%E5%88%B6%E5%BE%B4%E5%8F%8E%E3%80%9C%E3%83%91%E3%83%BC%E3%83%86%E3%82%A3%E3%83%BC%E8%BF%BD%E6%94%BE%E3%81%95%E3%82%8C%E3%81%9F%E4%BF%BA%E3%81%AF%E3%80%81%E5%8F%AF%E6%84%9B%E3%81%84%E3%82%B5%E3%83%9D%E3%83%BC%E3%83%88%E5%A6%96%E7%B2%BE%E3%81%A8%E4%B8%80%E7%B7%92%E3%81%AB%E5%8F%96%E3%82%8A%E7%AB%8B%E3%81%A6%E3%81%9F%E9%AD%94%E5%8A%9B%E3%82%92%E9%81%8B%E7%94%A8%E3%81%97%E3%81%A6%E6%9C%80%E5%BC%B7%E3%82%92%E7%9B%AE%E6%8C%87%E3%81%99%E3%80%82%E9%99%90%E7%95%8C%E3%81%BE%E3%81%A7%E6%90%BE%E3%82%8A%E5%8F%96%E3%81%A3%E3%81%A6%E3%82%84%E3%82%8B%E3%81%8B%E3%82%89%E5%9C%B0%E7%8D%84%E3%82%92%E8%A6%8B%E3%82%84%E3%81%8C%E3%82%8C%E3%80%9C",
+    "wikiLang": "ja"
    },
    "cast": [
     "川島零士",
@@ -439,7 +461,9 @@
    "point": "原作：漫画『LaLa』（白泉社）、1991〜2002年 完結（11年）。スタジオディーン、OP=原因は自分にある",
    "links": {
     "site": "https://kanatakara-anime.com/",
-    "x": "https://x.com/kanatakara_anm"
+    "x": "https://x.com/kanatakara_anm",
+    "wiki": "https://ja.wikipedia.org/wiki/%E5%BD%BC%E6%96%B9%E3%81%8B%E3%82%89",
+    "wikiLang": "ja"
    },
    "cast": [
     "黒沢ともよ",
@@ -475,7 +499,9 @@
    "point": "原作：Web漫画『ヤンマガWeb』（講談社）、2021年〜継続中（5年）。Quad",
    "links": {
     "site": "https://kanojo-no-tomodachi.deregula.com/",
-    "x": "https://x.com/kanotomo_anime"
+    "x": "https://x.com/kanotomo_anime",
+    "wiki": "https://ja.wikipedia.org/wiki/%E5%BD%BC%E5%A5%B3%E3%81%AE%E5%8F%8B%E9%81%94",
+    "wikiLang": "ja"
    },
    "cast": [
     "永池瑠雅",
@@ -506,7 +532,9 @@
    "point": "原作：特撮『仮面ライダーシリーズ』（石ノ森章太郎・東映）、1971年〜継続中（55年）。アニメではなく特撮。テレ朝系、9/6～",
    "links": {
     "site": "https://www.tv-asahi.co.jp/my-th/",
-    "x": "https://x.com/my_th_toei"
+    "x": "https://x.com/my_th_toei",
+    "wiki": "https://ja.wikipedia.org/wiki/%E4%BB%AE%E9%9D%A2%E3%83%A9%E3%82%A4%E3%83%80%E3%83%BC%E3%83%9E%E3%82%A4%E3%82%B9",
+    "wikiLang": "ja"
    },
    "cast": [
     "秋谷郁甫",
@@ -544,7 +572,9 @@
    "point": "原作：Web小説『カカオページ（韓国）』（WEBTOON版2018年〜、日本はピッコマ）、2016〜2019年 完結（3年）。アルボアニメーション、フジテレビ＋Ultra 水24:45、OP=FLOW",
    "links": {
     "site": "https://returners-magic.com/",
-    "x": "https://x.com/returners_magic"
+    "x": "https://x.com/returners_magic",
+    "wiki": "https://ja.wikipedia.org/wiki/%E5%B8%B0%E9%82%84%E8%80%85%E3%81%AE%E9%AD%94%E6%B3%95%E3%81%AF%E7%89%B9%E5%88%A5%E3%81%A7%E3%81%99",
+    "wikiLang": "ja"
    },
    "cast": [
     "寺島拓篤",
@@ -574,7 +604,9 @@
    "point": "原作：Web漫画『SORAJIMA（縦読み漫画）』（原案：編乃肌）、開始年は要確認。Imagica Infos／Imageworks Studio、tvk 木24:00、OP=Juice=Juice",
    "links": {
     "site": "https://animationid.com/kizudarakeseijo2/",
-    "x": "https://x.com/animekizudarake"
+    "x": "https://x.com/animekizudarake",
+    "wiki": "https://ja.wikipedia.org/wiki/%E7%B7%A8%E4%B9%83%E8%82%8C",
+    "wikiLang": "ja"
    },
    "cast": [
     "瀬戸麻沙美",
@@ -608,7 +640,9 @@
    "point": "原作：児童書『角川つばさ文庫』（KADOKAWA）、2015年〜継続中（11年）。studioぱれっと、NHK総合 土23:45、全12話、OP=スガシカオ",
    "links": {
     "site": "https://www.nhk-character.com/chara/kyoufucollector/",
-    "x": "https://x.com/nep_horcol"
+    "x": "https://x.com/nep_horcol",
+    "wiki": "https://ja.wikipedia.org/wiki/%E6%81%90%E6%80%96%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%BF%E3%83%BC",
+    "wikiLang": "ja"
    },
    "cast": [
     "石橋陽彩",
@@ -643,7 +677,9 @@
    "point": "原作：Web小説『小説家になろう』（書籍：HJ文庫（ホビージャパン）2022年〜）、2019〜2021年 完結（2年）。KONAMI animation、OP=角巻わため",
    "links": {
     "site": "https://kyoranreijo-pr.com/",
-    "x": "https://x.com/kyoranreijo_pr"
+    "x": "https://x.com/kyoranreijo_pr",
+    "wiki": "https://ja.wikipedia.org/wiki/%E5%87%B6%E4%B9%B1%E4%BB%A4%E5%AC%A2%E3%83%8B%E3%82%A2%E3%83%BB%E3%83%AA%E3%82%B9%E3%83%88%E3%83%B3",
+    "wikiLang": "ja"
    },
    "cast": [
     "井上ほの花",
@@ -686,7 +722,9 @@
    "point": "原作：Web小説『小説家になろう』（書籍：ヒーロー文庫（イマジカインフォス）2014年〜）、2011年〜継続中（15年）。OLM、日テレ系 金23:00、第1クール10/2～・第2クール2027年4月、OP=ヨルシカ、ED=Eve",
    "links": {
     "site": "https://kusuriyanohitorigoto.jp/season3/",
-    "x": "https://x.com/kusuriya_PR"
+    "x": "https://x.com/kusuriya_PR",
+    "wiki": "https://ja.wikipedia.org/wiki/%E8%96%AC%E5%B1%8B%E3%81%AE%E3%81%B2%E3%81%A8%E3%82%8A%E3%81%94%E3%81%A8",
+    "wikiLang": "ja"
    },
    "cast": [
     "悠木碧",
@@ -758,7 +796,9 @@
    "point": "原作：漫画『月刊少年エース』（KADOKAWA）、1999年〜継続中（27年）。BN Pictures、テレ東系 土9:30、OP=あの",
    "links": {
     "site": "https://www.bn-pictures.co.jp/keroro-anime/tv/",
-    "x": "https://x.com/keroro_anime"
+    "x": "https://x.com/keroro_anime",
+    "wiki": "https://ja.wikipedia.org/wiki/%E3%82%B1%E3%83%AD%E3%83%AD%E8%BB%8D%E6%9B%B9%E2%98%86",
+    "wikiLang": "ja"
    },
    "cast": [
     "小市眞琴",
@@ -796,7 +836,9 @@
    "point": "原作：ゲーム『幻想水滸伝II（PlayStation）』（コナミ）、1998年発売・発表（28年前）。KONAMI animation、OP=amazarashi",
    "links": {
     "site": "https://www.suikoden-anime.com/",
-    "x": "https://x.com/Suikoden_anime"
+    "x": "https://x.com/Suikoden_anime",
+    "wiki": "https://ja.wikipedia.org/wiki/%E5%B9%BB%E6%83%B3%E6%B0%B4%E6%BB%B8%E4%BC%9DII",
+    "wikiLang": "ja"
    },
    "cast": [
     "熊谷俊輝",
@@ -845,7 +887,9 @@
    "tags": [],
    "point": "原作：カードゲーム『カードファイト!! ヴァンガード』（ブシロード）、2011年〜継続中（15年）。アニメはオリジナル展開。AtoriE、テレ東系",
    "links": {
-    "site": "https://cf-vanguard.com/anime-ghost_meets_gal/"
+    "site": "https://cf-vanguard.com/anime-ghost_meets_gal/",
+    "wiki": "https://ja.wikipedia.org/wiki/%E3%82%AB%E3%83%BC%E3%83%89%E3%83%95%E3%82%A1%E3%82%A4%E3%83%88%21%21_%E3%83%B4%E3%82%A1%E3%83%B3%E3%82%AC%E3%83%BC%E3%83%89_%28%E3%82%A2%E3%83%8B%E3%83%A1%29",
+    "wikiLang": "ja"
    },
    "cast": [
     "各務華梨",
@@ -873,7 +917,9 @@
    "point": "原作：Web漫画『LINEマンガ（XOYで連載開始）』（集英社）、2017〜2022年 完結（5年）。スタジオKAI、TBS系 木23:56、OP=THE BEAT GARDEN、ED=Superfly",
    "links": {
     "site": "https://korinojoheki-pr.com/",
-    "x": "https://x.com/korinojoheki_pr"
+    "x": "https://x.com/korinojoheki_pr",
+    "wiki": "https://ja.wikipedia.org/wiki/%E6%B0%B7%E3%81%AE%E5%9F%8E%E5%A3%81",
+    "wikiLang": "ja"
    },
    "cast": [
     "永瀬アンナ",
@@ -910,7 +956,9 @@
    "point": "原作：ゲーム『サイバーパンク2077』（CD PROJEKT RED）、2020年発売・発表（6年前）。TRIGGER、全10話、10/20～",
    "links": {
     "site": "https://www.cyberpunk.net/ja/edgerunners2",
-    "x": "https://x.com/CDPRJP"
+    "x": "https://x.com/CDPRJP",
+    "wiki": "https://ja.wikipedia.org/wiki/%E3%82%B5%E3%82%A4%E3%83%90%E3%83%BC%E3%83%91%E3%83%B3%E3%82%AF2077",
+    "wikiLang": "ja"
    },
    "cast": [
     "利根健太朗",
@@ -944,7 +992,9 @@
    "point": "原作：漫画『週刊少年ジャンプ』（集英社）、2008〜2010年 完結（2年）。サテライト、OP=CLAN QUEEN",
    "links": {
     "site": "https://psyren-anime.com/",
-    "x": "https://x.com/PSYREN_official"
+    "x": "https://x.com/PSYREN_official",
+    "wiki": "https://ja.wikipedia.org/wiki/PSYREN_-%E3%82%B5%E3%82%A4%E3%83%AC%E3%83%B3-",
+    "wikiLang": "ja"
    },
    "cast": [
     "安田陸矢",
@@ -979,7 +1029,9 @@
    "point": "原作：Web小説『カクヨム・小説家になろう』（書籍：MF文庫J（KADOKAWA）2021年〜）、2018年〜継続中（8年）。SILVER LINK.、水23:00",
    "links": {
     "site": "https://sasapi-anime.com/",
-    "x": "https://x.com/sasaki_pichan"
+    "x": "https://x.com/sasaki_pichan",
+    "wiki": "https://ja.wikipedia.org/wiki/%E4%BD%90%E3%80%85%E6%9C%A8%E3%81%A8%E3%83%94%E3%83%BC%E3%81%A1%E3%82%83%E3%82%93",
+    "wikiLang": "ja"
    },
    "cast": [
     "杉田智和",
@@ -1019,7 +1071,9 @@
    "point": "原作：Web小説『小説家になろう』（書籍：ガガガ文庫（小学館）2019年〜）、2019〜2021年 完結（2年）。手塚プロダクション、火22:00",
    "links": {
     "site": "https://shioama-anime.com/",
-    "x": "https://x.com/shioamaofficial"
+    "x": "https://x.com/shioamaofficial",
+    "wiki": "https://ja.wikipedia.org/wiki/%E5%A1%A9%E5%AF%BE%E5%BF%9C%E3%81%AE%E4%BD%90%E8%97%A4%E3%81%95%E3%82%93%E3%81%8C%E4%BF%BA%E3%81%AB%E3%81%A0%E3%81%91%E7%94%98%E3%81%84",
+    "wikiLang": "ja"
    },
    "cast": [
     "石橋陽彩",
@@ -1092,7 +1146,9 @@
    "point": "原作：ライトノベル『MF文庫J』（KADOKAWA）、2022年〜継続中（4年）",
    "links": {
     "site": "https://shiboyugi-anime.com/",
-    "x": "https://x.com/shibouyugi_"
+    "x": "https://x.com/shibouyugi_",
+    "wiki": "https://ja.wikipedia.org/wiki/%E6%AD%BB%E4%BA%A1%E9%81%8A%E6%88%AF%E3%81%A7%E9%A3%AF%E3%82%92%E9%A3%9F%E3%81%86%E3%80%82_%28%E3%82%A2%E3%83%8B%E3%83%A1%29",
+    "wikiLang": "ja"
    },
    "cast": [
     "三浦千幸",
@@ -1126,7 +1182,9 @@
    "point": "原作：漫画『ヤングキングアワーズ』（少年画報社）、2021年〜継続中（5年）。100studio、日テレ系 土17:30",
    "links": {
     "site": "https://the-vermilion-mask.com/",
-    "x": "https://x.com/vermilion_PR"
+    "x": "https://x.com/vermilion_PR",
+    "wiki": "https://ja.wikipedia.org/wiki/%E6%9C%B1%E8%89%B2%E3%81%AE%E4%BB%AE%E9%9D%A2",
+    "wikiLang": "ja"
    },
    "cast": [
     "木村太飛",
@@ -1168,7 +1226,9 @@
    "point": "原作なし（グッドスマイルカンパニー「合体神」シリーズ）。ライデンフィルム、カヤックアニメーション、水24:30",
    "links": {
     "site": "https://gattaishin.com/dandivine/",
-    "x": "https://x.com/gattaishin"
+    "x": "https://x.com/gattaishin",
+    "wiki": "https://ja.wikipedia.org/wiki/%E7%8D%A3%E7%8E%8B%E6%AD%A6%E7%A5%9E%E3%83%80%E3%83%B3%E3%83%87%E3%83%B4%E3%82%A1%E3%82%A4%E3%83%B3",
+    "wikiLang": "ja"
    },
    "cast": [
     "寺島拓篤",
@@ -1207,7 +1267,9 @@
    "point": "原作：玩具『シルバニアファミリー』（エポック社）、1985年〜継続中（41年）。木19:19～",
    "links": {
     "site": "https://www.sylvanianfamilies.com/ja-jp/special/tv/",
-    "x": "https://x.com/SylvanianJP"
+    "x": "https://x.com/SylvanianJP",
+    "wiki": "https://ja.wikipedia.org/wiki/%E3%82%B7%E3%83%AB%E3%83%90%E3%83%8B%E3%82%A2%E3%83%95%E3%82%A1%E3%83%9F%E3%83%AA%E3%83%BC",
+    "wikiLang": "ja"
    },
    "cast": [
     "山根綺",
@@ -1240,7 +1302,9 @@
    "point": "原作：キャラクター『しろたん』（クリエイティブ・ヨーコ）、1999年〜継続中（27年）。レスプリ、テレ朝系 土16:29",
    "links": {
     "site": "https://www.tv-asahi.co.jp/sirotan/",
-    "x": "https://x.com/anime_sirotan"
+    "x": "https://x.com/anime_sirotan",
+    "wiki": "https://ja.wikipedia.org/wiki/%E3%81%97%E3%82%8D%E3%81%9F%E3%82%93",
+    "wikiLang": "ja"
    },
    "cast": [
     "悠木碧",
@@ -1270,7 +1334,9 @@
    "point": "原作：Web小説『小説家になろう』（書籍：オーバーラップ文庫 2019年〜）、2018年〜継続中（8年）",
    "links": {
     "site": "https://zero-believers-anime.com/",
-    "x": "https://x.com/zero_believers"
+    "x": "https://x.com/zero_believers",
+    "wiki": "https://ja.wikipedia.org/wiki/%E4%BF%A1%E8%80%85%E3%82%BC%E3%83%AD%E3%81%AE%E5%A5%B3%E7%A5%9E%E3%82%B5%E3%83%9E%E3%81%A8%E5%A7%8B%E3%82%81%E3%82%8B%E7%95%B0%E4%B8%96%E7%95%8C%E6%94%BB%E7%95%A5",
+    "wikiLang": "ja"
    },
    "cast": [
     "堀金蒼平",
@@ -1305,7 +1371,9 @@
    "point": "原作：漫画『ジャンプSQ.』（集英社）、2009年〜継続中（17年）。前作『テニスの王子様』は週刊少年ジャンプ 1999〜2008年。M.S.C、テレ東系 水24:00、9/30～",
    "links": {
     "site": "http://tenipuri.jp/u17/selection-match/",
-    "x": "https://x.com/shintenianime"
+    "x": "https://x.com/shintenianime",
+    "wiki": "https://ja.wikipedia.org/wiki/%E3%83%86%E3%83%8B%E3%82%B9%E3%81%AE%E7%8E%8B%E5%AD%90%E6%A7%98_%28%E3%82%A2%E3%83%8B%E3%83%A1%29",
+    "wikiLang": "ja"
    },
    "cast": [
     "皆川純子",
@@ -1346,7 +1414,9 @@
    "point": "原作：漫画『週刊少年ジャンプ→ウルトラジャンプ』（集英社）、2004〜2011年 完結（7年）",
    "links": {
     "site": "https://jojo-portal-anime.com/sbr/",
-    "x": "https://x.com/anime_jojo"
+    "x": "https://x.com/anime_jojo",
+    "wiki": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%86%E3%82%A3%E3%83%BC%E3%83%AB%E3%83%BB%E3%83%9C%E3%83%BC%E3%83%AB%E3%83%BB%E3%83%A9%E3%83%B3",
+    "wikiLang": "ja"
    },
    "cast": [
     "坂田将吾",
@@ -1384,7 +1454,9 @@
    "point": "原作：漫画『週刊少年マガジン』（講談社）、2022年〜継続中（4年）。パッショーネ、土24:30",
    "links": {
     "site": "https://nama-anaru.com/",
-    "x": "https://x.com/nama_anaru"
+    "x": "https://x.com/nama_anaru",
+    "wiki": "https://ja.wikipedia.org/wiki/%E7%94%9F%E5%BE%92%E4%BC%9A%E3%81%AB%E3%82%82%E7%A9%B4%E3%81%AF%E3%81%82%E3%82%8B%21",
+    "wikiLang": "ja"
    },
    "cast": [
     "坂田将吾",
@@ -1418,7 +1490,9 @@
    "point": "原作：Web小説『小説家になろう・カクヨム』（書籍：SQEXノベル（スクウェア・エニックス）2022年〜）、2022〜2026年 完結（4年）。ブリッジ／アイル、水22:00",
    "links": {
     "site": "https://sekamajo-anime.com/",
-    "x": "https://x.com/sekamajo_anime"
+    "x": "https://x.com/sekamajo_anime",
+    "wiki": "https://ja.wikipedia.org/wiki/%E4%B8%96%E7%95%8C%E6%9C%80%E5%BC%B7%E3%81%AE%E9%AD%94%E5%A5%B3%E3%80%81%E5%A7%8B%E3%82%81%E3%81%BE%E3%81%97%E3%81%9F_%E3%80%9C%E7%A7%81%E3%81%A0%E3%81%91%E3%80%8E%E6%94%BB%E7%95%A5%E3%82%B5%E3%82%A4%E3%83%88%E3%80%8F%E3%82%92%E8%A6%8B%E3%82%8C%E3%82%8B%E4%B8%96%E7%95%8C%E3%81%A7%E8%87%AA%E7%94%B1%E3%81%AB%E7%94%9F%E3%81%8D%E3%81%BE%E3%81%99%E3%80%9C",
+    "wikiLang": "ja"
    },
    "cast": [
     "橘杏咲",
@@ -1450,7 +1524,9 @@
    "point": "原作：漫画『コミック電撃だいおうじ』（KADOKAWA）、2022〜2023年 完結（1年）。スタジオコメット、テレ朝系 土22:30",
    "links": {
     "site": "https://zommasu.com/",
-    "x": "https://x.com/zommasu_anime"
+    "x": "https://x.com/zommasu_anime",
+    "wiki": "https://ja.wikipedia.org/wiki/%EF%BC%83%E3%82%BE%E3%83%B3%E3%83%93%E3%81%95%E3%81%8C%E3%81%97%E3%81%A6%E3%81%BE%E3%81%99",
+    "wikiLang": "ja"
    },
    "cast": [
     "根本京里",
@@ -1488,7 +1564,9 @@
    "point": "原作：Web漫画『ドラドラしゃーぷ#』（KADOKAWA）、2021年〜継続中（5年）。AtoriE、日25:20",
    "links": {
     "site": "https://darksummoner.deregula.com/",
-    "x": "https://x.com/dksummon_anime"
+    "x": "https://x.com/dksummon_anime",
+    "wiki": "https://ja.wikipedia.org/wiki/%E3%83%80%E3%83%BC%E3%82%AF%E3%82%B5%E3%83%A2%E3%83%8A%E3%83%BC%E3%81%A8%E3%83%87%E3%82%AD%E3%81%A6%E3%81%84%E3%82%8B",
+    "wikiLang": "ja"
    },
    "cast": [
     "高野零",
@@ -1519,7 +1597,9 @@
    "point": "原作なし（Project Carbuncle（アニメ・ゲームのメディアミックス））。Production +h.、フジテレビ系 火25:45、10/13～",
    "links": {
     "site": "https://www.fujitv.co.jp/darkmachine_anime/",
-    "x": "https://x.com/dark__machine"
+    "x": "https://x.com/dark__machine",
+    "wiki": "https://ja.wikipedia.org/wiki/DARK_MACHINE",
+    "wikiLang": "ja"
    },
    "cast": [
     "小野賢章",
@@ -1562,7 +1642,9 @@
    "point": "原作：漫画『週刊少年マガジン』（講談社）、2015〜2022年 完結（7年）。actIIの期間。第1部は2006〜2015年",
    "links": {
     "site": "https://diaace.com/",
-    "x": "https://x.com/diaace_anime"
+    "x": "https://x.com/diaace_anime",
+    "wiki": "https://ja.wikipedia.org/wiki/%E3%83%80%E3%82%A4%E3%83%A4%E3%81%AEA",
+    "wikiLang": "ja"
    },
    "cast": [
     "逢坂良太",
@@ -1633,7 +1715,9 @@
    "point": "原作：Web漫画『Twitter』（書籍：リラクトコミックス（フロンティアワークス））、2016年〜継続中（10年）。アカツキメディアスタジオ、テレ東系 日7:00",
    "links": {
     "site": "https://tanukitsu-anime.jp/",
-    "x": "https://x.com/tanu_kitsu"
+    "x": "https://x.com/tanu_kitsu",
+    "wiki": "https://ja.wikipedia.org/wiki/%E3%82%BF%E3%83%8C%E3%82%AD%E3%81%A8%E3%82%AD%E3%83%84%E3%83%8D",
+    "wikiLang": "ja"
    },
    "cast": [
     "久野美咲",
@@ -1665,7 +1749,9 @@
    "point": "原作：漫画『マガジンポケット→月刊少年シリウス』（講談社）、2021年〜継続中（5年）。ポリゴン・ピクチュアズ、日23:00",
    "links": {
     "site": "https://www.tankchair-anime.com/",
-    "x": "https://x.com/anime_tankchair"
+    "x": "https://x.com/anime_tankchair",
+    "wiki": "https://ja.wikipedia.org/wiki/%E6%88%A6%E8%BB%8A%E6%A4%85%E5%AD%90-TANK_CHAIR-",
+    "wikiLang": "ja"
    },
    "cast": [
     "内山昂輝",
@@ -1702,7 +1788,9 @@
    "point": "原作：ライトノベル『MF文庫J』（KADOKAWA）、2019年〜継続中（7年）。ENGI、水22:30",
    "links": {
     "site": "https://tanmoshi-anime.jp/Season2/",
-    "x": "https://x.com/tanteiwamou_"
+    "x": "https://x.com/tanteiwamou_",
+    "wiki": "https://ja.wikipedia.org/wiki/%E6%8E%A2%E5%81%B5%E3%81%AF%E3%82%82%E3%81%86%E3%80%81%E6%AD%BB%E3%82%93%E3%81%A7%E3%81%84%E3%82%8B%E3%80%82",
+    "wikiLang": "ja"
    },
    "cast": [
     "長井新",
@@ -1741,7 +1829,9 @@
    "point": "原作：ライトノベル『ガガガ文庫』（小学館）、2019年〜継続中（7年）。feel.、火23:00、10/13～",
    "links": {
     "site": "https://chiramune.com/",
-    "x": "https://x.com/anime_chiramune"
+    "x": "https://x.com/anime_chiramune",
+    "wiki": "https://ja.wikipedia.org/wiki/%E5%8D%83%E6%AD%B3%E3%81%8F%E3%82%93%E3%81%AF%E3%83%A9%E3%83%A0%E3%83%8D%E7%93%B6%E3%81%AE%E3%81%AA%E3%81%8B",
+    "wikiLang": "ja"
    },
    "cast": [
     "坂田将吾",
@@ -1777,7 +1867,9 @@
    "point": "原作：漫画『週刊少年ジャンプ』（集英社）、2024〜2025年 完結（1年）。アルボアニメーション、フジテレビ系 火23:00",
    "links": {
     "site": "https://chojun-anime.com/",
-    "x": "https://x.com/Chojun_Anime"
+    "x": "https://x.com/Chojun_Anime",
+    "wiki": "https://ja.wikipedia.org/wiki/%E8%B6%85%E5%B7%A1%21%E8%B6%85%E6%9D%A1%E5%85%88%E8%BC%A9",
+    "wikiLang": "ja"
    },
    "cast": [
     "小林裕介",
@@ -1812,7 +1904,9 @@
    "links": {
     "site": "https://chocoyaba.com/",
     "x": "https://x.com/chocoyaba",
-    "youtube": "https://www.youtube.com/@maziyaba"
+    "youtube": "https://www.youtube.com/@maziyaba",
+    "wiki": "https://ja.wikipedia.org/wiki/%E3%81%BE%E3%81%98%E3%82%81%E3%81%AB%E3%83%A4%E3%83%90%E3%82%B7%E3%83%86%E3%82%A3",
+    "wikiLang": "ja"
    },
    "cast": [
     "木野日菜",
@@ -1844,7 +1938,9 @@
    "point": "原作：Web小説『小説投稿サイト』（書籍：Kラノベブックス（講談社）2022年〜／漫画：月マガ基地）、2021年〜継続中（5年）。P.A.WORKS、テレ東系 火23:30",
    "links": {
     "site": "https://sh-anime.shochiku.co.jp/chiifuyo-anime/",
-    "x": "https://x.com/chi_fuyo"
+    "x": "https://x.com/chi_fuyo",
+    "wiki": "https://ja.wikipedia.org/wiki/%E8%BF%BD%E6%94%BE%E3%81%95%E3%82%8C%E3%81%9F%E3%83%81%E3%83%BC%E3%83%88%E4%BB%98%E4%B8%8E%E9%AD%94%E8%A1%93%E5%B8%AB%E3%81%AF%E6%B0%97%E3%81%BE%E3%81%BE%E3%81%AA%E3%82%BB%E3%82%AB%E3%83%B3%E3%83%89%E3%83%A9%E3%82%A4%E3%83%95%E3%82%92%E8%AC%B3%E6%AD%8C%E3%81%99%E3%82%8B%E3%80%82",
+    "wikiLang": "ja"
    },
    "cast": [
     "山下大輝",
@@ -1884,7 +1980,9 @@
    "point": "原作：キャラクター『鉄道むすめ（フィギュア）』（トミーテック）、2005年〜継続中（21年）。イーストフィッシュスタジオ、木24:00",
    "links": {
     "site": "https://tetsuryo-anime.com/",
-    "x": "https://x.com/tetsuryo_anime"
+    "x": "https://x.com/tetsuryo_anime",
+    "wiki": "https://ja.wikipedia.org/wiki/%E9%89%84%E9%81%93%E3%82%80%E3%81%99%E3%82%81",
+    "wikiLang": "ja"
    },
    "cast": [
     "橘めい",
@@ -1935,7 +2033,9 @@
    "point": "原作：Web小説（韓国）『KakaoPage』（原作：Saenal、WEBTOON版2020年〜、日本はピッコマ）、2014〜2024年 完結（10年）。J.C.STAFF、金23:30",
    "links": {
     "site": "https://tempal-anime.net/",
-    "x": "https://x.com/tempal_anime"
+    "x": "https://x.com/tempal_anime",
+    "wiki": "https://en.wikipedia.org/wiki/Overgeared",
+    "wikiLang": "en"
    },
    "cast": [
     "橘龍丸",
@@ -1973,7 +2073,9 @@
    "point": "原作：ライトノベル『電撃文庫』（KADOKAWA）、2022年〜継続中（4年）。著者：川原礫。Production I.G、Prime Video配信、11/6～",
    "links": {
     "site": "https://demonscrest-anime.com/",
-    "x": "https://x.com/demonscrestPR"
+    "x": "https://x.com/demonscrestPR",
+    "wiki": "https://en.wikipedia.org/wiki/Demons%27_Crest",
+    "wikiLang": "en"
    },
    "cast": [
     "白石晴香",
@@ -2009,7 +2111,9 @@
    "point": "原作：漫画『月刊コロコロコミック』（小学館）、1999年〜継続中（27年）。同名カードゲームが題材。J.C.STAFF／SMDE、10/9～",
    "links": {
     "site": "https://www.shopro.co.jp/anime/duelmasters_lost/",
-    "x": "https://x.com/duema_anime"
+    "x": "https://x.com/duema_anime",
+    "wiki": "https://ja.wikipedia.org/wiki/%E3%83%87%E3%83%A5%E3%82%A8%E3%83%AB%E3%83%BB%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BA_%28%E3%82%A2%E3%83%8B%E3%83%A1%29",
+    "wikiLang": "ja"
    },
    "cast": [
     "鵜澤正太郎",
@@ -2042,7 +2146,9 @@
    "point": "原作：Web小説『小説家になろう』（書籍：Kラノベブックス（講談社）2020年〜）、2019年〜継続中（7年）。GeyeG Pictures、CBC/TBS系 日24:00（9/27～）",
    "links": {
     "site": "https://kanteiskill.com/",
-    "x": "https://x.com/kanteiskill"
+    "x": "https://x.com/kanteiskill",
+    "wiki": "https://ja.wikipedia.org/wiki/%E8%BB%A2%E7%94%9F%E8%B2%B4%E6%97%8F%E3%80%81%E9%91%91%E5%AE%9A%E3%82%B9%E3%82%AD%E3%83%AB%E3%81%A7%E6%88%90%E3%82%8A%E4%B8%8A%E3%81%8C%E3%82%8B_%E3%80%9C%E5%BC%B1%E5%B0%8F%E9%A0%98%E5%9C%B0%E3%82%92%E5%8F%97%E3%81%91%E7%B6%99%E3%81%84%E3%81%A0%E3%81%AE%E3%81%A7%E3%80%81%E5%84%AA%E7%A7%80%E3%81%AA%E4%BA%BA%E6%9D%90%E3%82%92%E5%A2%97%E3%82%84%E3%81%97%E3%81%A6%E3%81%84%E3%81%9F%E3%82%89%E3%80%81%E6%9C%80%E5%BC%B7%E9%A0%98%E5%9C%B0%E3%81%AB%E3%81%AA%E3%81%A3%E3%81%A6%E3%81%9F%E3%80%9C",
+    "wikiLang": "ja"
    },
    "cast": [
     "藤原夏海",
@@ -2081,7 +2187,9 @@
    "point": "原作：Web漫画『となりのヤングジャンプ』（集英社）、2020年〜継続中（6年）。BAKKKA、月22:00",
    "links": {
     "site": "https://tengobu-anime.com/",
-    "x": "https://x.com/tengobu_anime"
+    "x": "https://x.com/tengobu_anime",
+    "wiki": "https://ja.wikipedia.org/wiki/%E8%BB%A2%E7%94%9F%E3%82%B4%E3%83%96%E3%83%AA%E3%83%B3%E3%81%A0%E3%81%91%E3%81%A9%E8%B3%AA%E5%95%8F%E3%81%82%E3%82%8B%3F",
+    "wikiLang": "ja"
    },
    "cast": [
     "戸谷菊之介",
@@ -2133,7 +2241,9 @@
    "point": "原作：Web小説『小説家になろう』（書籍：アース・スターノベル 2019年〜）、2019年〜継続中（7年）。Felix Film、土22:00",
    "links": {
     "site": "https://daiseijo-anime.com/",
-    "x": "https://x.com/daiseijo_anime"
+    "x": "https://x.com/daiseijo_anime",
+    "wiki": "https://ja.wikipedia.org/wiki/%E8%BB%A2%E7%94%9F%E3%81%97%E3%81%9F%E5%A4%A7%E8%81%96%E5%A5%B3%E3%81%AF%E3%80%81%E8%81%96%E5%A5%B3%E3%81%A7%E3%81%82%E3%82%8B%E3%81%93%E3%81%A8%E3%82%92%E3%81%B2%E3%81%9F%E9%9A%A0%E3%81%99",
+    "wikiLang": "ja"
    },
    "cast": [
     "若山詩音",
@@ -2173,7 +2283,9 @@
    "point": "原作：Web小説『小説家になろう』（書籍：GCノベルズ（マイクロマガジン社）2016年〜）、2015年〜継続中（11年）。C2C、水24:00",
    "links": {
     "site": "https://tenken-anime.com/",
-    "x": "https://x.com/tenken_official"
+    "x": "https://x.com/tenken_official",
+    "wiki": "https://ja.wikipedia.org/wiki/%E8%BB%A2%E7%94%9F%E3%81%97%E3%81%9F%E3%82%89%E5%89%A3%E3%81%A7%E3%81%97%E3%81%9F",
+    "wikiLang": "ja"
    },
    "cast": [
     "三木眞一郎",
@@ -2207,7 +2319,9 @@
    "point": "原作：ライトノベル『電撃文庫』（KADOKAWA）、2023年〜継続中（3年）。『とある魔術の禁書目録』のスピンオフ。J.C.STAFF、金24:30",
    "links": {
     "site": "https://toaru-project.com/item/",
-    "x": "https://x.com/toaru_project"
+    "x": "https://x.com/toaru_project",
+    "wiki": "https://ja.wikipedia.org/wiki/%E3%81%A8%E3%81%82%E3%82%8B%E6%9A%97%E9%83%A8%E3%81%AE%E5%B0%91%E5%A5%B3%E5%85%B1%E6%A3%B2",
+    "wikiLang": "ja"
    },
    "cast": [
     "小清水亜美",
@@ -2238,7 +2352,9 @@
    "point": "原作：漫画『週刊少年マガジン』（講談社）、2017〜2022年 完結（5年）。ライデンフィルム、TBS系 金25:23",
    "links": {
     "site": "https://tokyo-revengers-anime.com/",
-    "x": "https://x.com/anime_toman"
+    "x": "https://x.com/anime_toman",
+    "wiki": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E4%BA%AC%E5%8D%8D%E3%83%AA%E3%83%99%E3%83%B3%E3%82%B8%E3%83%A3%E3%83%BC%E3%82%BA",
+    "wikiLang": "ja"
    },
    "cast": [
     "新祐樹",
@@ -2294,7 +2410,9 @@
    "point": "原作：漫画『週刊少年チャンピオン』（秋田書店）、2020年〜継続中（6年）。スタジオ雲雀、日テレ系 金23:30",
    "links": {
     "site": "https://tougenanki-anime.com/",
-    "x": "https://x.com/tougenanki_anm"
+    "x": "https://x.com/tougenanki_anm",
+    "wiki": "https://ja.wikipedia.org/wiki/%E6%A1%83%E6%BA%90%E6%9A%97%E9%AC%BC",
+    "wikiLang": "ja"
    },
    "cast": [
     "浦和希",
@@ -2344,7 +2462,9 @@
    "point": "原作：Web小説『小説家になろう』（書籍：Mノベルスf（双葉社）2019〜2020年）、2019〜2020年 完結（1年）。ディオメディア、AT-X・TOKYO MX、月21:30",
    "links": {
     "site": "https://horemajo-anime.com/",
-    "x": "https://x.com/horemajo_anime"
+    "x": "https://x.com/horemajo_anime",
+    "wiki": "https://ja.wikipedia.org/wiki/%E3%81%A9%E3%81%86%E3%82%82%E3%80%81%E5%A5%BD%E3%81%8D%E3%81%AA%E4%BA%BA%E3%81%AB%E6%83%9A%E3%82%8C%E8%96%AC%E3%82%92%E4%BE%9D%E9%A0%BC%E3%81%95%E3%82%8C%E3%81%9F%E9%AD%94%E5%A5%B3%E3%81%A7%E3%81%99%E3%80%82",
+    "wikiLang": "ja"
    },
    "cast": [
     "小松未可子",
@@ -2374,7 +2494,9 @@
    "point": "原作：漫画『Vジャンプ』（集英社）、2015年〜継続中（11年）",
    "links": {
     "site": "https://dragonball-super.com/",
-    "x": "https://x.com/DB_anime_info"
+    "x": "https://x.com/DB_anime_info",
+    "wiki": "https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E8%B6%85",
+    "wikiLang": "ja"
    },
    "cast": [
     "野沢雅子",
@@ -2398,7 +2520,9 @@
    "point": "原作：漫画（仏）『DreamLand』（Pika Édition、作：Reno Lemaire）、2006年〜継続中（20年）。Ellipse & La Chouette Compagnie、テレ朝系 10/17～",
    "links": {
     "site": "https://www.dreamland-anime.com/",
-    "x": "https://x.com/dreamland_anime"
+    "x": "https://x.com/dreamland_anime",
+    "wiki": "https://fr.wikipedia.org/wiki/Dreamland_%28manfra%29",
+    "wikiLang": "fr"
    },
    "cast": [
     "波多野翔",
@@ -2434,7 +2558,9 @@
    "point": "原作なし（『怪獣8号』（少年ジャンプ+ 2020〜2025年）のオリジナルショート）",
    "links": {
     "site": "https://kaiju-no8.net/",
-    "x": "https://x.com/KaijuNo8_O"
+    "x": "https://x.com/KaijuNo8_O",
+    "wiki": "https://ja.wikipedia.org/wiki/%E6%80%AA%E7%8D%A38%E5%8F%B7",
+    "wikiLang": "ja"
    },
    "cast": [
     "内山昂輝"
@@ -2460,7 +2586,9 @@
    "point": "原作：絵本『ねずみくんの絵本』（ポプラ社）、1974年〜継続中（52年）。NHK Eテレ 土9:30",
    "links": {
     "site": "https://www.poplar.co.jp/pr/anime-nezumikun/",
-    "x": "https://x.com/nezumikun_anime"
+    "x": "https://x.com/nezumikun_anime",
+    "wiki": "https://ja.wikipedia.org/wiki/%E3%81%AD%E3%81%9A%E3%81%BF%E3%81%8F%E3%82%93",
+    "wikiLang": "ja"
    },
    "cast": [
     "津田健次郎",
@@ -2488,7 +2616,9 @@
    "point": "原作なし（SMDE制作のオリジナルアニメ）。SMDE、土23:30",
    "links": {
     "site": "https://vertexforce.jp/",
-    "x": "https://x.com/vertexforce"
+    "x": "https://x.com/vertexforce",
+    "wiki": "https://ja.wikipedia.org/wiki/%E3%83%90%E3%83%BC%E3%83%86%E3%83%83%E3%82%AF%E3%82%B9%E3%83%95%E3%82%A9%E3%83%BC%E3%82%B9",
+    "wikiLang": "ja"
    },
    "cast": [
     "小市眞琴",
@@ -2544,7 +2674,9 @@
    "point": "原作：カードゲーム『バトルスピリッツ』（バンダイ）、2008年〜継続中（18年）。BN Pictures、火23:00",
    "links": {
     "site": "https://www.bn-pictures.co.jp/battlespirits/",
-    "x": "https://x.com/bs_animation"
+    "x": "https://x.com/bs_animation",
+    "wiki": "https://ja.wikipedia.org/wiki/Battle_Spirits_%5BRe%5D_%E7%B5%B6%E7%95%8C%E3%81%AE%E7%A9%BA",
+    "wikiLang": "ja"
    },
    "cast": [
     "草野太一",
@@ -2583,7 +2715,9 @@
    "links": {
     "site": "https://pandorobo-anime.com/",
     "x": "https://x.com/pandorobo_anime",
-    "youtube": "https://www.youtube.com/@pandorobo_info"
+    "youtube": "https://www.youtube.com/@pandorobo_info",
+    "wiki": "https://ja.wikipedia.org/wiki/%E3%83%91%E3%83%B3%E3%81%A9%E3%82%8D%E3%81%BC%E3%81%86",
+    "wikiLang": "ja"
    },
    "cast": [
     "朝井彩加",
@@ -2643,7 +2777,9 @@
    "point": "原作：小説（中国）『中国のWeb小説』（原作：沙羅双樹）、開始年は要確認。アニメはbilibiliで2020年〜。フジテレビ系 水25:15",
    "links": {
     "site": "https://b8station.tv/hyakuyoufu/",
-    "x": "https://x.com/b8station"
+    "x": "https://x.com/b8station",
+    "wiki": "https://ja.wikipedia.org/wiki/%E7%99%BE%E5%A6%96%E8%AD%9C",
+    "wikiLang": "ja"
    },
    "cast": [
     "東山奈央",
@@ -2673,7 +2809,9 @@
    "point": "原作：Web小説『小説家になろう』（書籍：講談社ラノベ文庫 2020年〜）、2019年〜継続中（7年）。ゼロジー、TBS系 木25:28",
    "links": {
     "site": "https://hyouken-anime.com/",
-    "x": "https://x.com/hyouken_pr"
+    "x": "https://x.com/hyouken_pr",
+    "wiki": "https://ja.wikipedia.org/wiki/%E5%86%B0%E5%89%A3%E3%81%AE%E9%AD%94%E8%A1%93%E5%B8%AB%E3%81%8C%E4%B8%96%E7%95%8C%E3%82%92%E7%B5%B1%E3%81%B9%E3%82%8B",
+    "wikiLang": "ja"
    },
    "cast": [
     "榎木淳弥",
@@ -2719,7 +2857,9 @@
    "point": "原作：漫画『ビッグコミックスペリオール』（小学館）、2020年〜継続中（6年）。11/26～配信。サンライズ×シャフト、主演=内山昂輝",
    "links": {
     "site": "https://www.foolnight.com/",
-    "x": "https://x.com/foolnight_anime"
+    "x": "https://x.com/foolnight_anime",
+    "wiki": "https://ja.wikipedia.org/wiki/%E3%83%95%E3%83%BC%E3%83%AB%E3%83%8A%E3%82%A4%E3%83%88",
+    "wikiLang": "ja"
    },
    "cast": [
     "内山昂輝",
@@ -2750,7 +2890,9 @@
    "point": "原作：玩具『ぷにるんず』（タカラトミー）、2021年〜継続中（5年）。テレ東系 日9:15",
    "links": {
     "site": "https://www.tv-tokyo.co.jp/anime/punirunes/",
-    "x": "https://x.com/punirunes"
+    "x": "https://x.com/punirunes",
+    "wiki": "https://ja.wikipedia.org/wiki/%E3%81%B7%E3%81%AB%E3%82%8B%E3%82%93%E3%81%9A",
+    "wikiLang": "ja"
    },
    "cast": [
     "潘めぐみ",
@@ -2784,7 +2926,9 @@
    "point": "原作：漫画『週刊少年ジャンプ→ジャンプGIGA』（集英社）、2015〜2026年 完結（11年）。スタジオぴえろ、テレ東系 土23:00",
    "links": {
     "site": "https://bclover.jp/",
-    "x": "https://x.com/bclover_PR"
+    "x": "https://x.com/bclover_PR",
+    "wiki": "https://ja.wikipedia.org/wiki/%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%E3%82%AF%E3%83%AD%E3%83%BC%E3%83%90%E3%83%BC",
+    "wikiLang": "ja"
    },
    "cast": [
     "梶原岳人",
@@ -2883,7 +3027,9 @@
    "point": "原作：漫画『月刊コロコロコミック』（小学館）、2023年〜継続中（3年）。タカラトミーの玩具が題材。オー・エル・エム、ベイチューブ・Prime Video配信、10/9～",
    "links": {
     "site": "https://beyblade.takaratomy.co.jp/anime/",
-    "x": "https://x.com/beyblade_info"
+    "x": "https://x.com/beyblade_info",
+    "wiki": "https://ja.wikipedia.org/wiki/BEYBLADE_X",
+    "wikiLang": "ja"
    },
    "cast": [
     "斉藤壮馬",
@@ -2925,7 +3071,9 @@
    "point": "原作：『デジモンアドベンチャー』（1999年放送）の選抜エピソード。東映アニメーション、フジテレビ系 日9:00",
    "links": {
     "site": "https://www.toei-anim.co.jp/tv/digimon_selection/",
-    "x": "https://x.com/Digimon_Anime"
+    "x": "https://x.com/Digimon_Anime",
+    "wiki": "https://ja.wikipedia.org/wiki/%E5%83%95%E3%82%89%E3%81%8C%E9%81%B8%E3%82%93%E3%81%A0%E3%83%99%E3%82%B9%E3%83%88%E3%82%A2%E3%83%89%E3%83%99%E3%83%B3%E3%83%81%E3%83%A3%E3%83%BC",
+    "wikiLang": "ja"
    },
    "cast": [
     "藤田淑子",
@@ -2966,7 +3114,9 @@
    "point": "原作：Web漫画『マンガワン』（小学館）、2023〜2026年 完結（3年）。david production、フジテレビ系 金23:30",
    "links": {
     "site": "https://hotaru-anime.com/",
-    "x": "https://x.com/hotaru_anime_pr"
+    "x": "https://x.com/hotaru_anime_pr",
+    "wiki": "https://ja.wikipedia.org/wiki/%E3%83%9B%E3%82%BF%E3%83%AB%E3%81%AE%E5%AB%81%E5%85%A5%E3%82%8A",
+    "wikiLang": "ja"
    },
    "cast": [
     "Lynn",
@@ -2996,7 +3146,9 @@
    "point": "原作なし（Mozuのコマ撮りアニメ）。シンエイ動画、テレ朝 日10:00",
    "links": {
     "site": "https://ppp-anime.jp/",
-    "x": "https://x.com/ppp_anime_PR"
+    "x": "https://x.com/ppp_anime_PR",
+    "wiki": "https://ja.wikipedia.org/wiki/%E3%83%9D%E3%83%83%E3%83%97%E3%83%91%E3%83%83%E3%83%97%E3%83%9D%E3%83%AB%E3%82%BF%E3%83%BC%E3%82%BA",
+    "wikiLang": "ja"
    },
    "cast": [
     "種﨑敦美",
@@ -3024,7 +3176,9 @@
    "point": "原作：Web漫画『サンデーうぇぶり』（小学館）、2021〜2025年 完結（4年）。ブリッジ／アイル、テレ東系 日23:45",
    "links": {
     "site": "https://hotel-inhumans.com/",
-    "x": "https://x.com/HIH_PR"
+    "x": "https://x.com/HIH_PR",
+    "wiki": "https://ja.wikipedia.org/wiki/%E3%83%9B%E3%83%86%E3%83%AB%E3%83%BB%E3%82%A4%E3%83%B3%E3%83%92%E3%83%A5%E3%83%BC%E3%83%9E%E3%83%B3%E3%82%BA",
+    "wikiLang": "ja"
    },
    "cast": [
     "小林裕介",
@@ -3087,7 +3241,9 @@
    "point": "原作：Web小説『小説家になろう』（書籍：角川スニーカー文庫 2019年〜）、2018〜2022年 完結（4年）。WHITE FOX、土24:00",
    "links": {
     "site": "https://majieku.com/",
-    "x": "https://x.com/Majieku_anime"
+    "x": "https://x.com/Majieku_anime",
+    "wiki": "https://ja.wikipedia.org/wiki/%E3%83%9E%E3%82%B8%E3%82%AB%E3%83%AB%E2%98%85%E3%82%A8%E3%82%AF%E3%82%B9%E3%83%97%E3%83%AD%E3%83%BC%E3%83%A9%E3%83%BC_%E3%82%A8%E3%83%AD%E3%82%B2%E3%81%AE%E5%8F%8B%E4%BA%BA%E3%82%AD%E3%83%A3%E3%83%A9%E3%81%AB%E8%BB%A2%E7%94%9F%E3%81%97%E3%81%9F%E3%81%91%E3%81%A9%E3%80%81%E3%82%B2%E3%83%BC%E3%83%A0%E7%9F%A5%E8%AD%98%E4%BD%BF%E3%81%A3%E3%81%A6%E8%87%AA%E7%94%B1%E3%81%AB%E7%94%9F%E3%81%8D%E3%82%8B",
+    "wikiLang": "ja"
    },
    "cast": [
     "島﨑信長",
@@ -3123,7 +3279,9 @@
    "point": "原作：漫画『なかよし』（講談社）、1993〜1995年 完結（2年）。第1部の期間。約30年ぶりの新アニメ化。E&H production、テレ朝系 水23:45",
    "links": {
     "site": "https://rayearth-anime.com/",
-    "x": "https://x.com/rayearth_info"
+    "x": "https://x.com/rayearth_info",
+    "wiki": "https://ja.wikipedia.org/wiki/%E9%AD%94%E6%B3%95%E9%A8%8E%E5%A3%AB%E3%83%AC%E3%82%A4%E3%82%A2%E3%83%BC%E3%82%B9",
+    "wikiLang": "ja"
    },
    "cast": [
     "佐倉綾音",
@@ -3158,7 +3316,9 @@
    "point": "原作：要確認（原作：エビ、関西テレビ「よ～いドン！」内のアニメ）",
    "links": {
     "site": "https://www.ktv.jp/mazenchu/",
-    "x": "https://x.com/_mazenchu"
+    "x": "https://x.com/_mazenchu",
+    "wiki": "https://ja.wikipedia.org/wiki/%E3%81%94%E3%81%8D%E3%81%92%E3%82%93%E3%83%A9%E3%82%A4%E3%83%95%E3%82%B9%E3%82%BF%E3%82%A4%E3%83%AB_%E3%82%88%E3%80%9C%E3%81%84%E3%83%89%E3%83%B3%21",
+    "wikiLang": "ja"
    },
    "cast": [
     "小原羚愛",
@@ -3188,7 +3348,9 @@
    "point": "原作：ライトノベル『このライトノベルがすごい!文庫』（宝島社）、2012年〜継続中（14年）。SynergySP、テレ東ほか 月26:00",
    "links": {
     "site": "https://mahoiku.com/anime/restart",
-    "x": "https://x.com/MGRP_PrjRestart"
+    "x": "https://x.com/MGRP_PrjRestart",
+    "wiki": "https://ja.wikipedia.org/wiki/%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E8%82%B2%E6%88%90%E8%A8%88%E7%94%BB",
+    "wikiLang": "ja"
    },
    "cast": [
     "井上ほの花",
@@ -3235,7 +3397,9 @@
    "point": "原作なし（ぴえろ魔法少女シリーズ）。スタジオぴえろ、日22:30",
    "links": {
     "site": "https://www.luluttolilly.com/",
-    "x": "https://x.com/luluttolilly"
+    "x": "https://x.com/luluttolilly",
+    "wiki": "https://ja.wikipedia.org/wiki/%E9%AD%94%E6%B3%95%E3%81%AE%E5%A7%89%E5%A6%B9%E3%83%AB%E3%83%AB%E3%83%83%E3%83%88%E3%83%AA%E3%83%AA%E3%82%A3",
+    "wikiLang": "ja"
    },
    "cast": [
     "橘めい",
@@ -3277,7 +3441,9 @@
    "point": "原作：漫画『月刊フラワーズ』（小学館）、2016年〜継続中（10年）。J.C.STAFF、NHK Eテレ 土18:25",
    "links": {
     "site": "https://www.nhk-character.com/chara/marronnier/",
-    "x": "https://x.com/MarronnierAnime"
+    "x": "https://x.com/MarronnierAnime",
+    "wiki": "https://ja.wikipedia.org/wiki/%E3%83%9E%E3%83%AD%E3%83%8B%E3%82%A8%E7%8E%8B%E5%9B%BD%E3%81%AE%E4%B8%83%E4%BA%BA%E3%81%AE%E9%A8%8E%E5%A3%AB",
+    "wikiLang": "ja"
    },
    "cast": [
     "高梨謙吾",
@@ -3325,7 +3491,9 @@
    "point": "原作：Web小説『小説家になろう』（書籍：カドカワBOOKS 2019年〜）、2019年〜継続中（7年）。studio A-CAT、日21:30",
    "links": {
     "site": "https://saikyosoubi.com/",
-    "x": "https://x.com/saikyosoubi"
+    "x": "https://x.com/saikyosoubi",
+    "wiki": "https://ja.wikipedia.org/wiki/%E7%9B%AE%E8%A6%9A%E3%82%81%E3%81%9F%E3%82%89%E6%9C%80%E5%BC%B7%E8%A3%85%E5%82%99%E3%81%A8%E5%AE%87%E5%AE%99%E8%88%B9%E6%8C%81%E3%81%A1%E3%81%A0%E3%81%A3%E3%81%9F%E3%81%AE%E3%81%A7%E3%80%81%E4%B8%80%E6%88%B8%E5%BB%BA%E3%81%A6%E7%9B%AE%E6%8C%87%E3%81%97%E3%81%A6%E5%82%AD%E5%85%B5%E3%81%A8%E3%81%97%E3%81%A6%E8%87%AA%E7%94%B1%E3%81%AB%E7%94%9F%E3%81%8D%E3%81%9F%E3%81%84",
+    "wikiLang": "ja"
    },
    "cast": [
     "古川慎",
@@ -3357,7 +3525,9 @@
    "point": "原作：漫画『月刊アフタヌーン』（講談社）、2020年〜継続中（6年）",
    "links": {
     "site": "https://medalist-pr.com/tv/",
-    "x": "https://x.com/medalist_PR"
+    "x": "https://x.com/medalist_PR",
+    "wiki": "https://ja.wikipedia.org/wiki/%E3%83%A1%E3%83%80%E3%83%AA%E3%82%B9%E3%83%88_%28%E6%BC%AB%E7%94%BB%29",
+    "wikiLang": "ja"
    },
    "cast": [
     "春瀬なつみ",
@@ -3399,7 +3569,9 @@
    "point": "原作：Web小説『小説家になろう』（書籍：アース・スターノベル 2016〜2019年）、2015〜2017年 完結（2年）。ワオワールド、土22:30",
    "links": {
     "site": "https://www.lastboss-anime.com/",
-    "x": "https://x.com/lastboss_anime"
+    "x": "https://x.com/lastboss_anime",
+    "wiki": "https://ja.wikipedia.org/wiki/%E9%87%8E%E7%94%9F%E3%81%AE%E3%83%A9%E3%82%B9%E3%83%9C%E3%82%B9%E3%81%8C%E7%8F%BE%E3%82%8C%E3%81%9F%21",
+    "wikiLang": "ja"
    },
    "cast": [
     "小清水亜美",
@@ -3450,7 +3622,9 @@
    "point": "原作：SNS漫画『X（旧Twitter）など』（遊ハち）、2021年〜継続中（5年）。ファンワークス、フジテレビ系 月11:00",
    "links": {
     "site": "https://yusanchi-anime.jp/",
-    "x": "https://x.com/yusanchi_anime"
+    "x": "https://x.com/yusanchi_anime",
+    "wiki": "https://ja.wikipedia.org/wiki/%E9%81%8A%E3%83%8F%E3%81%A1",
+    "wikiLang": "ja"
    },
    "cast": [
     "千秋",
@@ -3512,7 +3686,9 @@
    "point": "原作：漫画『週刊少年ジャンプ』（集英社）、2019〜2025年 完結（6年）。SILVER LINK.、MBS/TBS系 日17:00、10/11～",
    "links": {
     "site": "https://mission-yozakura-family.com/",
-    "x": "https://x.com/OfficialHitsuji"
+    "x": "https://x.com/OfficialHitsuji",
+    "wiki": "https://ja.wikipedia.org/wiki/%E5%A4%9C%E6%A1%9C%E3%81%95%E3%82%93%E3%81%A1%E3%81%AE%E5%A4%A7%E4%BD%9C%E6%88%A6",
+    "wikiLang": "ja"
    },
    "cast": [
     "川島零士",
@@ -3563,7 +3739,9 @@
    "point": "原作：Web小説『小説家になろう』（書籍：ビーズログ文庫（KADOKAWA）2020〜2024年）、2020年 完結（1年未満）。寿門堂、全国23局、日23:30",
    "links": {
     "site": "https://yowaki-max-anime.com/",
-    "x": "https://x.com/yowaki_max"
+    "x": "https://x.com/yowaki_max",
+    "wiki": "https://ja.wikipedia.org/wiki/%E5%BC%B1%E6%B0%97MAX%E4%BB%A4%E5%AC%A2%E3%81%AA%E3%81%AE%E3%81%AB%E3%80%81%E8%BE%A3%E8%85%95%E5%A9%9A%E7%B4%84%E8%80%85%E6%A7%98%E3%81%AE%E8%B3%AD%E3%81%91%E3%81%AB%E4%B9%97%E3%81%A3%E3%81%A6%E3%81%97%E3%81%BE%E3%81%A3%E3%81%9F",
+    "wikiLang": "ja"
    },
    "cast": [
     "伊藤美来",
@@ -3627,7 +3805,9 @@
    "point": "原作：企画『ラブライブ!シリーズ』（KADOKAWA・バンダイナムコ）、2017年〜継続中（9年）。アニメ第2期（2022年）の再放送",
    "links": {
     "site": "https://www.lovelive-anime.jp/nijigasaki/",
-    "x": "https://x.com/LoveLive_staff"
+    "x": "https://x.com/LoveLive_staff",
+    "wiki": "https://ja.wikipedia.org/wiki/%E3%83%A9%E3%83%96%E3%83%A9%E3%82%A4%E3%83%96%21%E8%99%B9%E3%83%B6%E5%92%B2%E5%AD%A6%E5%9C%92%E3%82%B9%E3%82%AF%E3%83%BC%E3%83%AB%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%E5%90%8C%E5%A5%BD%E4%BC%9A",
+    "wikiLang": "ja"
    },
    "cast": [
     "矢野妃菜喜",
@@ -3666,7 +3846,9 @@
    "point": "原作：漫画『週刊少年サンデー』（小学館）、1987〜1996年 完結（9年）。MAPPA、日テレ系 土24:55",
    "links": {
     "site": "https://ranma-pr.com/",
-    "x": "https://x.com/ranma_pr"
+    "x": "https://x.com/ranma_pr",
+    "wiki": "https://ja.wikipedia.org/wiki/%E3%82%89%E3%82%93%E3%81%BE1/2",
+    "wikiLang": "ja"
    },
    "cast": [
     "山口勝平",
@@ -3718,7 +3900,10 @@
     "Netflix"
    ],
    "point": "原作：漫画『週刊少年ジャンプ』（集英社）、1997年〜継続中（29年）。Netflix配信、9/29～",
-   "links": {},
+   "links": {
+    "wiki": "https://ja.wikipedia.org/wiki/ONE_PIECE",
+    "wikiLang": "ja"
+   },
    "cast": [
     "田中真弓",
     "中井和哉",
@@ -3750,7 +3935,9 @@
    "point": "原作：Web小説『小説家になろう』（書籍：ガガガブックス（小学館）2020年〜）、2019年〜継続中（7年）。Atra、月23:30",
    "links": {
     "site": "http://romelia-senki.com/",
-    "x": "https://x.com/romelia_senki"
+    "x": "https://x.com/romelia_senki",
+    "wiki": "https://ja.wikipedia.org/wiki/%E3%83%AD%E3%83%A1%E3%83%AA%E3%82%A2%E6%88%A6%E8%A8%98_%E3%80%9C%E9%AD%94%E7%8E%8B%E3%82%92%E5%80%92%E3%81%97%E3%81%9F%E5%BE%8C%E3%82%82%E4%BA%BA%E9%A1%9E%E3%82%84%E3%81%B0%E3%81%9D%E3%81%86%E3%81%A0%E3%81%8B%E3%82%89%E8%BB%8D%E9%9A%8A%E7%B5%84%E7%B9%94%E3%81%97%E3%81%9F%E3%80%9C",
+    "wikiLang": "ja"
    },
    "cast": [
     "根本優奈",
@@ -3801,7 +3988,9 @@
    "point": "原作：小説『小説家になろう→富士見L文庫』（KADOKAWA）、2019年〜継続中（7年）。書籍刊行の開始年",
    "links": {
     "site": "https://watakon-anime.com/",
-    "x": "https://x.com/watashino_info"
+    "x": "https://x.com/watashino_info",
+    "wiki": "https://ja.wikipedia.org/wiki/%E3%82%8F%E3%81%9F%E3%81%97%E3%81%AE%E5%B9%B8%E3%81%9B%E3%81%AA%E7%B5%90%E5%A9%9A",
+    "wikiLang": "ja"
    },
    "cast": [
     "上田麗奈",
